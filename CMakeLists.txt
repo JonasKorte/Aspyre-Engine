@@ -2,6 +2,6 @@ cmake_minimum_required(VERSION 3.16)
 
 project("Aspyre Engine")
 
-add_executable(aspyre main.cpp)
+include_directories(include)
 
-install(TARGETS aspyre DESTINATION "${CMAKE_SOURCE_DIR}/out/bin/win64/")
+add_executable(aspyre source/main.cxx)
