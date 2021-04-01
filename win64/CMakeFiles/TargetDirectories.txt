@@ -1,0 +1,3 @@
+Q:/Aspyre-Engine/win64/CMakeFiles/aspyre.dir
+Q:/Aspyre-Engine/win64/CMakeFiles/ALL_BUILD.dir
+Q:/Aspyre-Engine/win64/CMakeFiles/ZERO_CHECK.dir
