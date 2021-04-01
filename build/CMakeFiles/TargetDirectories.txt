@@ -1,3 +1,0 @@
-/home/jonas/Aspyre-Engine/build/CMakeFiles/rebuild_cache.dir
-/home/jonas/Aspyre-Engine/build/CMakeFiles/edit_cache.dir
-/home/jonas/Aspyre-Engine/build/CMakeFiles/aspyre.dir

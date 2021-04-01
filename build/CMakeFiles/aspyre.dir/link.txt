@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/aspyre.dir/source/main.cxx.o  -o aspyre 
