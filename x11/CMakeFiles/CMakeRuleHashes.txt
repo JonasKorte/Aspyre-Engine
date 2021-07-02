@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+cbfda6b936f394ffdbae9ac718a72af8 CMakeFiles/aspyre_autogen
+97d6576e51d4bf108387efc0e50b672c CMakeFiles/vulkanplugin_autogen

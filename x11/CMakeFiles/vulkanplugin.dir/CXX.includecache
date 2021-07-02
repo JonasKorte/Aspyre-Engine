@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../core/log.hxx
+iostream
+-
+
+../core/vulkaninstance.hxx
+QVulkanInstance
+-
+log.hxx
+-
+
+/home/jonas/Aspyre-Engine/core/vulkaninstance.cxx
+vulkaninstance.hxx
+-
+

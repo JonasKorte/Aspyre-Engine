@@ -13,10 +13,14 @@ if(CMAKE_VERSION VERSION_LESS "3.7.0")
     set(CMAKE_INCLUDE_CURRENT_DIR ON)
 endif()
 
+set(CMAKE_PREFIX_PATH "/home/jonas/Qt/6.1.2/gcc_64")
+
 find_package(Qt6 COMPONENTS Widgets Gui REQUIRED)
 
-include_directories(include)
+include_directories(core)
 
-add_executable(aspyre source/main.cxx)
+add_executable(aspyre main/main.cxx)
 
-target_link_libraries(aspyre PRIVATE Qt6::Widgets Qt6::Gui)
+add_library(vulkanplugin STATIC core/vulkaninstance.cxx core/vulkaninstance.hxx)
+
+target_link_libraries(aspyre PRIVATE vulkanplugin Qt6::Widgets Qt6::Gui)
