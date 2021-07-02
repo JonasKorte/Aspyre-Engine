@@ -19,4 +19,4 @@ include_directories(include)
 
 add_executable(aspyre source/main.cxx)
 
-target_link_libraries(aspyre Qt6::Widgets Qt6::Gui)
+target_link_libraries(aspyre PRIVATE Qt6::Widgets Qt6::Gui)
