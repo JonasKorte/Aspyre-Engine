@@ -1,6 +1,6 @@
 #pragma once
 #include <QVulkanInstance>
-#include <log.hxx>
+#include <logging/log.hxx>
 
 class VulkanInstance 
 {

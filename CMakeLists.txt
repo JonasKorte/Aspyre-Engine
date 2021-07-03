@@ -15,9 +15,11 @@ endif()
 
 set(CMAKE_PREFIX_PATH "/home/jonas/Qt/6.1.2/gcc_64")
 
-find_package(Qt6 COMPONENTS Widgets Gui REQUIRED)
+find_package(Qt6 COMPONENTS Widgets REQUIRED)
+find_package(Qt6 COMPONENTS Gui REQUIRED)
 
 include_directories(core)
+include_directories(editor)
 
 add_executable(aspyre main/main.cxx)
 

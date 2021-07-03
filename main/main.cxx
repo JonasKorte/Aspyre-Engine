@@ -1,6 +1,6 @@
 #include <iostream>
 #include <QGuiApplication>
-#include <vulkaninstance.hxx>
+#include <rendering/vulkaninstance.hxx>
 
 int main(int argc, char *argv[]) {
   QGuiApplication app(argc, argv);
