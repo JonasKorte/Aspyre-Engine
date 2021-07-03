@@ -10,12 +10,14 @@
 iostream
 -
 
+../core/rendering/graphics/vulkanmainrenderer.hxx
+
 ../core/rendering/vulkaninstance.hxx
+logging/log.hxx
+-
 QVulkanInstance
 -
 QByteArrayList
--
-logging/log.hxx
 -
 
 ../core/rendering/vulkanwindow.hxx
@@ -41,6 +43,8 @@ rendering/vulkaninstance.hxx
 -
 rendering/vulkanwindow.hxx
 -
+rendering/graphics/vulkanmainrenderer.hxx
+-
 QWidget
 -
 QApplication
@@ -51,11 +55,9 @@ QTabWidget
 -
 
 /home/jonas/Aspyre-Engine/main/main.cxx
-iostream
+mainwindow.hxx
 -
 QApplication
--
-mainwindow.hxx
 -
 
 /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QByteArrayList

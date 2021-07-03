@@ -10,12 +10,14 @@
 iostream
 -
 
+../core/rendering/graphics/vulkanmainrenderer.hxx
+
 ../core/rendering/vulkaninstance.hxx
+logging/log.hxx
+-
 QVulkanInstance
 -
 QByteArrayList
--
-logging/log.hxx
 -
 
 ../core/rendering/vulkanwindow.hxx
@@ -34,12 +36,36 @@ QVulkanDeviceFunctions
 QVulkanWindow
 -
 
+../editor/mainwindow.hxx
+logging/log.hxx
+-
+rendering/vulkaninstance.hxx
+-
+rendering/vulkanwindow.hxx
+-
+rendering/graphics/vulkanmainrenderer.hxx
+-
+QWidget
+-
+QApplication
+-
+QVBoxLayout
+-
+QTabWidget
+-
+
+/home/jonas/Aspyre-Engine/editor/mainwindow.cxx
+mainwindow.hxx
+-
+
 /home/jonas/Aspyre-Engine/editor/mainwindow.hxx
 logging/log.hxx
 -
 rendering/vulkaninstance.hxx
 -
 rendering/vulkanwindow.hxx
+-
+rendering/graphics/vulkanmainrenderer.hxx
 -
 QWidget
 -

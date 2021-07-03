@@ -1,7 +1,8 @@
 #pragma once
+#include <logging/log.hxx>
+
 #include <QVulkanInstance>
 #include <QByteArrayList>
-#include <logging/log.hxx>
 
 class VulkanInstance 
 {

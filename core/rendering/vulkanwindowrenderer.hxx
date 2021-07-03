@@ -1,5 +1,6 @@
 #pragma once
 #include <logging/log.hxx>
+
 #include <QVulkanWindowRenderer>
 #include <QVulkanDeviceFunctions>
 #include <QVulkanWindow>

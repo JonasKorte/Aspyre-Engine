@@ -31,9 +31,11 @@ add_library(vulkanplugin STATIC
     core/rendering/vulkanwindow.cxx core/rendering/vulkanwindow.hxx
     core/rendering/vulkanwindowrenderer.cxx core/rendering/vulkanwindowrenderer.hxx)
 
+add_library(graphicsplugin STATIC core/rendering/graphics/vulkanmainrenderer.cxx core/rendering/graphics/vulkanmainrenderer.hxx)
+
 add_library(editorplugin STATIC editor/mainwindow.cxx editor/mainwindow.hxx)
 
 target_link_libraries(vulkanplugin PRIVATE Qt5::Gui)
-target_link_libraries(editorplugin PRIVATE vulkanplugin Qt5::Gui Qt5::Widgets qtadvanceddocking)
+target_link_libraries(editorplugin PRIVATE vulkanplugin graphicsplugin Qt5::Gui Qt5::Widgets qtadvanceddocking)
 
-target_link_libraries(aspyre PRIVATE vulkanplugin editorplugin Qt5::Gui Qt5::Widgets)
+target_link_libraries(aspyre PRIVATE vulkanplugin editorplugin graphicsplugin Qt5::Gui Qt5::Widgets)

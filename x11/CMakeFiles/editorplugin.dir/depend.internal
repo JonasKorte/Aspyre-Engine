@@ -3,6 +3,7 @@
 
 CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o
  ../core/logging/log.hxx
+ ../core/rendering/graphics/vulkanmainrenderer.hxx
  ../core/rendering/vulkaninstance.hxx
  ../core/rendering/vulkanwindow.hxx
  ../core/rendering/vulkanwindowrenderer.hxx
@@ -149,6 +150,7 @@ CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o
  /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets/qwidget.h
 CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.o
  ../core/logging/log.hxx
+ ../core/rendering/graphics/vulkanmainrenderer.hxx
  ../core/rendering/vulkaninstance.hxx
  ../core/rendering/vulkanwindow.hxx
  ../core/rendering/vulkanwindowrenderer.hxx

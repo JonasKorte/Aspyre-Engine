@@ -15,6 +15,7 @@ MainWindow::MainWindow()
     this->m_window = new VulkanWindow();
 
     this->m_window->setVulkanInstance(this->m_instance->GetInstance());
+    this->m_windowRenderer = (VulkanWindowRenderer*)this->m_window->createRenderer();
 
     this->m_window->resize(640, 480);
 
@@ -32,10 +33,15 @@ MainWindow::MainWindow()
     this->m_vboxLayout->addWidget(this->m_viewportTab);
 
     setLayout(this->m_vboxLayout);
+
+    this->m_mainRenderer = new VulkanMainRenderer();
 }
 
 MainWindow::~MainWindow()
 {
+    delete (this->m_mainRenderer);
+
+    delete (this->m_windowRenderer);
 
     delete (this->m_window);
 
@@ -51,4 +57,9 @@ MainWindow::~MainWindow()
 bool MainWindow::IsSuccessful()
 {
     return this->m_success;
+}
+
+void MainWindow::draw()
+{
+    this->m_mainRenderer->draw();
 }

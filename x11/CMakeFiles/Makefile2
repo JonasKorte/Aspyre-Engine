@@ -74,6 +74,7 @@ CMAKE_BINARY_DIR = /home/jonas/Aspyre-Engine/x11
 # The main recursive "all" target.
 all: CMakeFiles/vulkanplugin.dir/all
 all: CMakeFiles/editorplugin.dir/all
+all: CMakeFiles/graphicsplugin.dir/all
 all: CMakeFiles/aspyre.dir/all
 all: external/Qt-Advanced-Docking-System/all
 
@@ -87,9 +88,11 @@ preinstall: external/Qt-Advanced-Docking-System/preinstall
 # The main recursive "clean" target.
 clean: CMakeFiles/vulkanplugin.dir/clean
 clean: CMakeFiles/editorplugin.dir/clean
+clean: CMakeFiles/graphicsplugin.dir/clean
 clean: CMakeFiles/aspyre.dir/clean
 clean: CMakeFiles/vulkanplugin_autogen.dir/clean
 clean: CMakeFiles/editorplugin_autogen.dir/clean
+clean: CMakeFiles/graphicsplugin_autogen.dir/clean
 clean: CMakeFiles/aspyre_autogen.dir/clean
 clean: external/Qt-Advanced-Docking-System/clean
 
@@ -311,7 +314,7 @@ external/Qt-Advanced-Docking-System/src/clean: external/Qt-Advanced-Docking-Syst
 CMakeFiles/vulkanplugin.dir/all: CMakeFiles/vulkanplugin_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=73,74,75,76,77 "Built target vulkanplugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=77,78,79,80,81 "Built target vulkanplugin"
 .PHONY : CMakeFiles/vulkanplugin.dir/all
 
 # Build rule for subdir invocation for target.
@@ -336,6 +339,7 @@ CMakeFiles/vulkanplugin.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/editorplugin.dir/all: CMakeFiles/vulkanplugin.dir/all
+CMakeFiles/editorplugin.dir/all: CMakeFiles/graphicsplugin.dir/all
 CMakeFiles/editorplugin.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
 CMakeFiles/editorplugin.dir/all: CMakeFiles/editorplugin_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin.dir/build.make CMakeFiles/editorplugin.dir/depend
@@ -345,7 +349,7 @@ CMakeFiles/editorplugin.dir/all: CMakeFiles/editorplugin_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/editorplugin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 37
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/editorplugin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
 .PHONY : CMakeFiles/editorplugin.dir/rule
@@ -361,11 +365,39 @@ CMakeFiles/editorplugin.dir/clean:
 .PHONY : CMakeFiles/editorplugin.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/graphicsplugin.dir
+
+# All Build rule for target.
+CMakeFiles/graphicsplugin.dir/all: CMakeFiles/graphicsplugin_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphicsplugin.dir/build.make CMakeFiles/graphicsplugin.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphicsplugin.dir/build.make CMakeFiles/graphicsplugin.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=50,51,52 "Built target graphicsplugin"
+.PHONY : CMakeFiles/graphicsplugin.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/graphicsplugin.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/graphicsplugin.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
+.PHONY : CMakeFiles/graphicsplugin.dir/rule
+
+# Convenience name for target.
+graphicsplugin: CMakeFiles/graphicsplugin.dir/rule
+
+.PHONY : graphicsplugin
+
+# clean rule for target.
+CMakeFiles/graphicsplugin.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphicsplugin.dir/build.make CMakeFiles/graphicsplugin.dir/clean
+.PHONY : CMakeFiles/graphicsplugin.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/aspyre.dir
 
 # All Build rule for target.
 CMakeFiles/aspyre.dir/all: CMakeFiles/vulkanplugin.dir/all
 CMakeFiles/aspyre.dir/all: CMakeFiles/editorplugin.dir/all
+CMakeFiles/aspyre.dir/all: CMakeFiles/graphicsplugin.dir/all
 CMakeFiles/aspyre.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
 CMakeFiles/aspyre.dir/all: CMakeFiles/aspyre_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aspyre.dir/build.make CMakeFiles/aspyre.dir/depend
@@ -375,7 +407,7 @@ CMakeFiles/aspyre.dir/all: CMakeFiles/aspyre_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/aspyre.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 41
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/aspyre.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
 .PHONY : CMakeFiles/aspyre.dir/rule
@@ -397,7 +429,7 @@ CMakeFiles/aspyre.dir/clean:
 CMakeFiles/vulkanplugin_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin_autogen.dir/build.make CMakeFiles/vulkanplugin_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin_autogen.dir/build.make CMakeFiles/vulkanplugin_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=78 "Built target vulkanplugin_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=82 "Built target vulkanplugin_autogen"
 .PHONY : CMakeFiles/vulkanplugin_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -422,6 +454,7 @@ CMakeFiles/vulkanplugin_autogen.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/editorplugin_autogen.dir/all: CMakeFiles/vulkanplugin.dir/all
+CMakeFiles/editorplugin_autogen.dir/all: CMakeFiles/graphicsplugin.dir/all
 CMakeFiles/editorplugin_autogen.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin_autogen.dir/build.make CMakeFiles/editorplugin_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin_autogen.dir/build.make CMakeFiles/editorplugin_autogen.dir/build
@@ -430,7 +463,7 @@ CMakeFiles/editorplugin_autogen.dir/all: external/Qt-Advanced-Docking-System/src
 
 # Build rule for subdir invocation for target.
 CMakeFiles/editorplugin_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 34
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/editorplugin_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
 .PHONY : CMakeFiles/editorplugin_autogen.dir/rule
@@ -446,11 +479,39 @@ CMakeFiles/editorplugin_autogen.dir/clean:
 .PHONY : CMakeFiles/editorplugin_autogen.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/graphicsplugin_autogen.dir
+
+# All Build rule for target.
+CMakeFiles/graphicsplugin_autogen.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphicsplugin_autogen.dir/build.make CMakeFiles/graphicsplugin_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphicsplugin_autogen.dir/build.make CMakeFiles/graphicsplugin_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=53 "Built target graphicsplugin_autogen"
+.PHONY : CMakeFiles/graphicsplugin_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/graphicsplugin_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/graphicsplugin_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
+.PHONY : CMakeFiles/graphicsplugin_autogen.dir/rule
+
+# Convenience name for target.
+graphicsplugin_autogen: CMakeFiles/graphicsplugin_autogen.dir/rule
+
+.PHONY : graphicsplugin_autogen
+
+# clean rule for target.
+CMakeFiles/graphicsplugin_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphicsplugin_autogen.dir/build.make CMakeFiles/graphicsplugin_autogen.dir/clean
+.PHONY : CMakeFiles/graphicsplugin_autogen.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/aspyre_autogen.dir
 
 # All Build rule for target.
 CMakeFiles/aspyre_autogen.dir/all: CMakeFiles/vulkanplugin.dir/all
 CMakeFiles/aspyre_autogen.dir/all: CMakeFiles/editorplugin.dir/all
+CMakeFiles/aspyre_autogen.dir/all: CMakeFiles/graphicsplugin.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aspyre_autogen.dir/build.make CMakeFiles/aspyre_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aspyre_autogen.dir/build.make CMakeFiles/aspyre_autogen.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=45 "Built target aspyre_autogen"
@@ -458,7 +519,7 @@ CMakeFiles/aspyre_autogen.dir/all: CMakeFiles/editorplugin.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/aspyre_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 38
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/aspyre_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
 .PHONY : CMakeFiles/aspyre_autogen.dir/rule
@@ -480,7 +541,7 @@ CMakeFiles/aspyre_autogen.dir/clean:
 external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/build.make external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/build.make external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71 "Built target qtadvanceddocking"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75 "Built target qtadvanceddocking"
 .PHONY : external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
 
 # Build rule for subdir invocation for target.
@@ -507,7 +568,7 @@ external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/clean:
 external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/build.make external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/build.make external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=72 "Built target qtadvanceddocking_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=76 "Built target qtadvanceddocking_autogen"
 .PHONY : external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/all
 
 # Build rule for subdir invocation for target.

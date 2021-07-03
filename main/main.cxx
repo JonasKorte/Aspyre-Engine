@@ -1,6 +1,6 @@
-#include <iostream>
-#include <QApplication>
 #include <mainwindow.hxx>
+
+#include <QApplication>
 
 int main(int argc, char *argv[])
 {
@@ -22,7 +22,12 @@ int main(int argc, char *argv[])
 
     window->show();
 
-    exitCode = app.exec();
+    while (window->isVisible())
+    {
+        app.processEvents();
+        window->draw();
+        window->update();
+    }
 
     LOGINFO("Quitting...");
 

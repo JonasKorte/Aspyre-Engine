@@ -35,6 +35,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/jonas/Aspyre-Engine/x11/CMakeFiles/vulkanplugin.dir/DependInfo.cmake"
+  "/home/jonas/Aspyre-Engine/x11/CMakeFiles/graphicsplugin.dir/DependInfo.cmake"
   "/home/jonas/Aspyre-Engine/x11/external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/DependInfo.cmake"
   )
 

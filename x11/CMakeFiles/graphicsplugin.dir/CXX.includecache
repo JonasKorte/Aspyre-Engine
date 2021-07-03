@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../core/rendering/graphics/vulkanmainrenderer.hxx
+
+/home/jonas/Aspyre-Engine/core/rendering/graphics/vulkanmainrenderer.cxx
+rendering/graphics/vulkanmainrenderer.hxx
+-
+
+/home/jonas/Aspyre-Engine/x11/graphicsplugin_autogen/mocs_compilation.cpp
+

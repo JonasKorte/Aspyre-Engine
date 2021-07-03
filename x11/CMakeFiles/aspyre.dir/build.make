@@ -115,6 +115,7 @@ aspyre: CMakeFiles/aspyre.dir/main/main.cxx.o
 aspyre: CMakeFiles/aspyre.dir/build.make
 aspyre: libvulkanplugin.a
 aspyre: libeditorplugin.a
+aspyre: libgraphicsplugin.a
 aspyre: libvulkanplugin.a
 aspyre: x64/lib/libqtadvanceddocking.so.3.7.1
 aspyre: /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Widgets.so.5.12.11

@@ -202,6 +202,19 @@ editorplugin/fast:
 .PHONY : editorplugin/fast
 
 #=============================================================================
+# Target rules for targets named graphicsplugin
+
+# Build rule for target.
+graphicsplugin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 graphicsplugin
+.PHONY : graphicsplugin
+
+# fast build rule for target.
+graphicsplugin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphicsplugin.dir/build.make CMakeFiles/graphicsplugin.dir/build
+.PHONY : graphicsplugin/fast
+
+#=============================================================================
 # Target rules for targets named aspyre
 
 # Build rule for target.
@@ -239,6 +252,19 @@ editorplugin_autogen: cmake_check_build_system
 editorplugin_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin_autogen.dir/build.make CMakeFiles/editorplugin_autogen.dir/build
 .PHONY : editorplugin_autogen/fast
+
+#=============================================================================
+# Target rules for targets named graphicsplugin_autogen
+
+# Build rule for target.
+graphicsplugin_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 graphicsplugin_autogen
+.PHONY : graphicsplugin_autogen
+
+# fast build rule for target.
+graphicsplugin_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphicsplugin_autogen.dir/build.make CMakeFiles/graphicsplugin_autogen.dir/build
+.PHONY : graphicsplugin_autogen/fast
 
 #=============================================================================
 # Target rules for targets named aspyre_autogen
@@ -488,6 +514,33 @@ aspyre_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aspyre.dir/build.make CMakeFiles/aspyre.dir/aspyre_autogen/mocs_compilation.cpp.s
 .PHONY : aspyre_autogen/mocs_compilation.cpp.s
 
+core/rendering/graphics/vulkanmainrenderer.o: core/rendering/graphics/vulkanmainrenderer.cxx.o
+
+.PHONY : core/rendering/graphics/vulkanmainrenderer.o
+
+# target to build an object file
+core/rendering/graphics/vulkanmainrenderer.cxx.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphicsplugin.dir/build.make CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.o
+.PHONY : core/rendering/graphics/vulkanmainrenderer.cxx.o
+
+core/rendering/graphics/vulkanmainrenderer.i: core/rendering/graphics/vulkanmainrenderer.cxx.i
+
+.PHONY : core/rendering/graphics/vulkanmainrenderer.i
+
+# target to preprocess a source file
+core/rendering/graphics/vulkanmainrenderer.cxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphicsplugin.dir/build.make CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.i
+.PHONY : core/rendering/graphics/vulkanmainrenderer.cxx.i
+
+core/rendering/graphics/vulkanmainrenderer.s: core/rendering/graphics/vulkanmainrenderer.cxx.s
+
+.PHONY : core/rendering/graphics/vulkanmainrenderer.s
+
+# target to generate assembly for a file
+core/rendering/graphics/vulkanmainrenderer.cxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphicsplugin.dir/build.make CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.s
+.PHONY : core/rendering/graphics/vulkanmainrenderer.cxx.s
+
 core/rendering/vulkaninstance.o: core/rendering/vulkaninstance.cxx.o
 
 .PHONY : core/rendering/vulkaninstance.o
@@ -623,6 +676,33 @@ editorplugin_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin.dir/build.make CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.s
 .PHONY : editorplugin_autogen/mocs_compilation.cpp.s
 
+graphicsplugin_autogen/mocs_compilation.o: graphicsplugin_autogen/mocs_compilation.cpp.o
+
+.PHONY : graphicsplugin_autogen/mocs_compilation.o
+
+# target to build an object file
+graphicsplugin_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphicsplugin.dir/build.make CMakeFiles/graphicsplugin.dir/graphicsplugin_autogen/mocs_compilation.cpp.o
+.PHONY : graphicsplugin_autogen/mocs_compilation.cpp.o
+
+graphicsplugin_autogen/mocs_compilation.i: graphicsplugin_autogen/mocs_compilation.cpp.i
+
+.PHONY : graphicsplugin_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+graphicsplugin_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphicsplugin.dir/build.make CMakeFiles/graphicsplugin.dir/graphicsplugin_autogen/mocs_compilation.cpp.i
+.PHONY : graphicsplugin_autogen/mocs_compilation.cpp.i
+
+graphicsplugin_autogen/mocs_compilation.s: graphicsplugin_autogen/mocs_compilation.cpp.s
+
+.PHONY : graphicsplugin_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+graphicsplugin_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphicsplugin.dir/build.make CMakeFiles/graphicsplugin.dir/graphicsplugin_autogen/mocs_compilation.cpp.s
+.PHONY : graphicsplugin_autogen/mocs_compilation.cpp.s
+
 main/main.o: main/main.cxx.o
 
 .PHONY : main/main.o
@@ -698,6 +778,7 @@ help:
 	@echo "... SimpleExample_autogen"
 	@echo "... aspyre_autogen"
 	@echo "... editorplugin_autogen"
+	@echo "... graphicsplugin_autogen"
 	@echo "... qtadvanceddocking_autogen"
 	@echo "... vulkanplugin_autogen"
 	@echo "... AdvancedDockingSystemDemo"
@@ -709,11 +790,15 @@ help:
 	@echo "... SimpleExample"
 	@echo "... aspyre"
 	@echo "... editorplugin"
+	@echo "... graphicsplugin"
 	@echo "... qtadvanceddocking"
 	@echo "... vulkanplugin"
 	@echo "... aspyre_autogen/mocs_compilation.o"
 	@echo "... aspyre_autogen/mocs_compilation.i"
 	@echo "... aspyre_autogen/mocs_compilation.s"
+	@echo "... core/rendering/graphics/vulkanmainrenderer.o"
+	@echo "... core/rendering/graphics/vulkanmainrenderer.i"
+	@echo "... core/rendering/graphics/vulkanmainrenderer.s"
 	@echo "... core/rendering/vulkaninstance.o"
 	@echo "... core/rendering/vulkaninstance.i"
 	@echo "... core/rendering/vulkaninstance.s"
@@ -729,6 +814,9 @@ help:
 	@echo "... editorplugin_autogen/mocs_compilation.o"
 	@echo "... editorplugin_autogen/mocs_compilation.i"
 	@echo "... editorplugin_autogen/mocs_compilation.s"
+	@echo "... graphicsplugin_autogen/mocs_compilation.o"
+	@echo "... graphicsplugin_autogen/mocs_compilation.i"
+	@echo "... graphicsplugin_autogen/mocs_compilation.s"
 	@echo "... main/main.o"
 	@echo "... main/main.i"
 	@echo "... main/main.s"

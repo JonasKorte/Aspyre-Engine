@@ -1,7 +1,10 @@
 #pragma once
 #include <logging/log.hxx>
+
 #include <rendering/vulkaninstance.hxx>
 #include <rendering/vulkanwindow.hxx>
+#include <rendering/graphics/vulkanmainrenderer.hxx>
+
 #include <QWidget>
 #include <QApplication>
 #include <QVBoxLayout>
@@ -19,6 +22,8 @@ public:
     explicit MainWindow();
     ~MainWindow();
     bool IsSuccessful();
+
+    void draw();
 private:
     QTabWidget* m_viewportTab;
     QVBoxLayout* m_vboxLayout;
@@ -26,6 +31,8 @@ private:
 
     VulkanInstance* m_instance;
     VulkanWindow* m_window;
-    bool m_success;
+    VulkanWindowRenderer* m_windowRenderer;
+    VulkanMainRenderer* m_mainRenderer;
 
+    bool m_success;
 };

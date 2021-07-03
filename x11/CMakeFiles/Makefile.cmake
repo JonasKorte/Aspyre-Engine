@@ -118,6 +118,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/vulkanplugin_autogen.dir/AutogenInfo.json"
   "CMakeFiles/editorplugin_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/graphicsplugin_autogen.dir/AutogenInfo.json"
   "CMakeFiles/aspyre_autogen.dir/AutogenInfo.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "external/Qt-Advanced-Docking-System/CMakeFiles/git-data/HEAD"
@@ -150,9 +151,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/vulkanplugin.dir/DependInfo.cmake"
   "CMakeFiles/editorplugin.dir/DependInfo.cmake"
+  "CMakeFiles/graphicsplugin.dir/DependInfo.cmake"
   "CMakeFiles/aspyre.dir/DependInfo.cmake"
   "CMakeFiles/vulkanplugin_autogen.dir/DependInfo.cmake"
   "CMakeFiles/editorplugin_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/graphicsplugin_autogen.dir/DependInfo.cmake"
   "CMakeFiles/aspyre_autogen.dir/DependInfo.cmake"
   "external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/DependInfo.cmake"
   "external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/DependInfo.cmake"

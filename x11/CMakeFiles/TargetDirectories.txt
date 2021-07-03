@@ -6,9 +6,11 @@
 /home/jonas/Aspyre-Engine/x11/CMakeFiles/install/local.dir
 /home/jonas/Aspyre-Engine/x11/CMakeFiles/vulkanplugin.dir
 /home/jonas/Aspyre-Engine/x11/CMakeFiles/editorplugin.dir
+/home/jonas/Aspyre-Engine/x11/CMakeFiles/graphicsplugin.dir
 /home/jonas/Aspyre-Engine/x11/CMakeFiles/aspyre.dir
 /home/jonas/Aspyre-Engine/x11/CMakeFiles/vulkanplugin_autogen.dir
 /home/jonas/Aspyre-Engine/x11/CMakeFiles/editorplugin_autogen.dir
+/home/jonas/Aspyre-Engine/x11/CMakeFiles/graphicsplugin_autogen.dir
 /home/jonas/Aspyre-Engine/x11/CMakeFiles/aspyre_autogen.dir
 /home/jonas/Aspyre-Engine/x11/external/Qt-Advanced-Docking-System/CMakeFiles/install/strip.dir
 /home/jonas/Aspyre-Engine/x11/external/Qt-Advanced-Docking-System/CMakeFiles/install/local.dir

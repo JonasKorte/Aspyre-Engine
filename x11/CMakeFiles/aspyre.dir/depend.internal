@@ -5,6 +5,7 @@ CMakeFiles/aspyre.dir/aspyre_autogen/mocs_compilation.cpp.o
  /home/jonas/Aspyre-Engine/x11/aspyre_autogen/mocs_compilation.cpp
 CMakeFiles/aspyre.dir/main/main.cxx.o
  ../core/logging/log.hxx
+ ../core/rendering/graphics/vulkanmainrenderer.hxx
  ../core/rendering/vulkaninstance.hxx
  ../core/rendering/vulkanwindow.hxx
  ../core/rendering/vulkanwindowrenderer.hxx
