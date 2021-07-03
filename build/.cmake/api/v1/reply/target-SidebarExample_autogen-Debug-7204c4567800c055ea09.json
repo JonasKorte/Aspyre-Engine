@@ -1,0 +1,65 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"external/Qt-Advanced-Docking-System/examples/sidebar/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "qtadvanceddocking::@f54dfd0a9faa334335fe"
+		}
+	],
+	"id" : "SidebarExample_autogen::@96e7673dc50aeb36aab7",
+	"isGeneratorProvided" : true,
+	"name" : "SidebarExample_autogen",
+	"paths" : 
+	{
+		"build" : "external/Qt-Advanced-Docking-System/examples/sidebar",
+		"source" : "external/Qt-Advanced-Docking-System/examples/sidebar"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

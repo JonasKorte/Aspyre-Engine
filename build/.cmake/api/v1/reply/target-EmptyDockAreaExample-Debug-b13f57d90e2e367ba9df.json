@@ -1,0 +1,256 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "x64/bin/EmptyDockAreaExample"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-std=c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_X11EXTRAS_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/jonas/Aspyre-Engine/build/external/Qt-Advanced-Docking-System/examples/emptydockarea"
+				},
+				{
+					"path" : "/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/examples/emptydockarea"
+				},
+				{
+					"backtrace" : 0,
+					"path" : "/home/jonas/Aspyre-Engine/build/external/Qt-Advanced-Docking-System/examples/emptydockarea/EmptyDockAreaExample_autogen/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/examples/emptydockarea/../../src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/jonas/Qt/5.12.11/gcc_64/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/jonas/Qt/5.12.11/gcc_64/include/QtCore"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/jonas/Qt/5.12.11/gcc_64/include/QtGui"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/jonas/Qt/5.12.11/gcc_64/include/QtX11Extras"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "qtadvanceddocking::@f54dfd0a9faa334335fe"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "EmptyDockAreaExample_autogen::@55f8d8105f92fe525b57"
+		}
+	],
+	"id" : "EmptyDockAreaExample::@55f8d8105f92fe525b57",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/jonas/Aspyre-Engine/build/x64/lib:/home/jonas/Qt/5.12.11/gcc_64/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../../../x64/lib/libqtadvanceddocking.so.3.7.1",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Widgets.so.5.12.11",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/jonas/Qt/5.12.11/gcc_64/lib/libQt5X11Extras.so.5.12.11",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Gui.so.5.12.11",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Core.so.5.12.11",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "EmptyDockAreaExample",
+	"nameOnDisk" : "EmptyDockAreaExample",
+	"paths" : 
+	{
+		"build" : "external/Qt-Advanced-Docking-System/examples/emptydockarea",
+		"source" : "external/Qt-Advanced-Docking-System/examples/emptydockarea"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/external/Qt-Advanced-Docking-System/examples/emptydockarea/EmptyDockAreaExample_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/Qt-Advanced-Docking-System/examples/emptydockarea/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/Qt-Advanced-Docking-System/examples/emptydockarea/mainwindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/Qt-Advanced-Docking-System/examples/emptydockarea/mainwindow.ui",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

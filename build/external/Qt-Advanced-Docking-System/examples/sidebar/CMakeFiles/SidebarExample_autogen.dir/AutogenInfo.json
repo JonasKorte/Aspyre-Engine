@@ -1,0 +1,110 @@
+{
+	"BUILD_DIR" : "/home/jonas/Aspyre-Engine/build/external/Qt-Advanced-Docking-System/examples/sidebar/SidebarExample_autogen",
+	"CMAKE_BINARY_DIR" : "/home/jonas/Aspyre-Engine/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/jonas/Aspyre-Engine/build/external/Qt-Advanced-Docking-System/examples/sidebar",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/examples/sidebar",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/examples/sidebar/CMakeLists.txt",
+		"/home/jonas/Aspyre-Engine/build/CMakeFiles/3.18.4/CMakeCCompiler.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeCInformation.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/GNU-C.cmake",
+		"/usr/share/cmake-3.18/Modules/Compiler/GNU.cmake",
+		"/usr/share/cmake-3.18/Modules/Platform/Linux-GNU-C.cmake",
+		"/usr/share/cmake-3.18/Modules/Platform/Linux-GNU.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/jonas/Aspyre-Engine",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/examples/sidebar/MainWindow.h",
+			"MU",
+			"EWIEGA46WW/moc_MainWindow.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/jonas/Aspyre-Engine/build/external/Qt-Advanced-Docking-System/examples/sidebar/SidebarExample_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/jonas/Aspyre-Engine/build/external/Qt-Advanced-Docking-System/examples/sidebar/SidebarExample_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB", "QT_X11EXTRAS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/jonas/Aspyre-Engine/build/external/Qt-Advanced-Docking-System/examples/sidebar",
+		"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/examples/sidebar",
+		"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src",
+		"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src",
+		"/home/jonas/Qt/5.12.11/gcc_64/include",
+		"/home/jonas/Qt/5.12.11/gcc_64/include/QtCore",
+		"/home/jonas/Qt/5.12.11/gcc_64/mkspecs/linux-g++",
+		"/home/jonas/Qt/5.12.11/gcc_64/include/QtGui",
+		"/home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets",
+		"/home/jonas/Qt/5.12.11/gcc_64/include/QtX11Extras",
+		"/usr/include",
+		"/usr/include/c++/10",
+		"/usr/include/x86_64-linux-gnu/c++/10",
+		"/usr/include/c++/10/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/10/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/jonas/Aspyre-Engine/build/external/Qt-Advanced-Docking-System/examples/sidebar/SidebarExample_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/jonas/Aspyre-Engine/build/external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/jonas/Qt/5.12.11/gcc_64/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/home/jonas/Qt/5.12.11/gcc_64/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 12,
+	"SETTINGS_FILE" : "/home/jonas/Aspyre-Engine/build/external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/examples/sidebar/MainWindow.cpp",
+			"MU"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/examples/sidebar/main.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

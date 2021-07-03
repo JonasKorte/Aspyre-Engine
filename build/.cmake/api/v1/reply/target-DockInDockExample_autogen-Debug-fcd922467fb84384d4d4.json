@@ -1,0 +1,65 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"external/Qt-Advanced-Docking-System/examples/dockindock/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "qtadvanceddocking::@f54dfd0a9faa334335fe"
+		}
+	],
+	"id" : "DockInDockExample_autogen::@c4a53a1697c1b8d7f6d0",
+	"isGeneratorProvided" : true,
+	"name" : "DockInDockExample_autogen",
+	"paths" : 
+	{
+		"build" : "external/Qt-Advanced-Docking-System/examples/dockindock",
+		"source" : "external/Qt-Advanced-Docking-System/examples/dockindock"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

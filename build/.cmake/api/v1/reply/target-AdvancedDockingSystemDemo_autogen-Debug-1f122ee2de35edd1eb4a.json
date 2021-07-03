@@ -1,0 +1,65 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"external/Qt-Advanced-Docking-System/demo/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "qtadvanceddocking::@f54dfd0a9faa334335fe"
+		}
+	],
+	"id" : "AdvancedDockingSystemDemo_autogen::@8dafcdd7ec444fc79b12",
+	"isGeneratorProvided" : true,
+	"name" : "AdvancedDockingSystemDemo_autogen",
+	"paths" : 
+	{
+		"build" : "external/Qt-Advanced-Docking-System/demo",
+		"source" : "external/Qt-Advanced-Docking-System/demo"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

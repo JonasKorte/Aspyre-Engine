@@ -1,0 +1,517 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						14,
+						15,
+						16,
+						17,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "external/Qt-Advanced-Docking-System",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						10
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/Qt-Advanced-Docking-System"
+				},
+				{
+					"build" : "external/Qt-Advanced-Docking-System/src",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "external/Qt-Advanced-Docking-System/src",
+					"targetIndexes" : 
+					[
+						18,
+						19
+					]
+				},
+				{
+					"build" : "external/Qt-Advanced-Docking-System/examples",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "external/Qt-Advanced-Docking-System/examples"
+				},
+				{
+					"build" : "external/Qt-Advanced-Docking-System/examples/simple",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "external/Qt-Advanced-Docking-System/examples/simple",
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"build" : "external/Qt-Advanced-Docking-System/examples/sidebar",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 5,
+					"source" : "external/Qt-Advanced-Docking-System/examples/sidebar",
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				},
+				{
+					"build" : "external/Qt-Advanced-Docking-System/examples/deleteonclose",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 6,
+					"source" : "external/Qt-Advanced-Docking-System/examples/deleteonclose",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "external/Qt-Advanced-Docking-System/examples/centralwidget",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 7,
+					"source" : "external/Qt-Advanced-Docking-System/examples/centralwidget",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "external/Qt-Advanced-Docking-System/examples/emptydockarea",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 8,
+					"source" : "external/Qt-Advanced-Docking-System/examples/emptydockarea",
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				},
+				{
+					"build" : "external/Qt-Advanced-Docking-System/examples/dockindock",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 9,
+					"source" : "external/Qt-Advanced-Docking-System/examples/dockindock",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "external/Qt-Advanced-Docking-System/demo",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 10,
+					"source" : "external/Qt-Advanced-Docking-System/demo",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Aspyre Engine",
+					"targetIndexes" : 
+					[
+						14,
+						15,
+						16,
+						17,
+						20,
+						21
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						10
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "QtADS",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "QtAdvancedDockingSystem",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						18,
+						19
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "QtADSExamples",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "ads_example_simple",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "ads_example_sidebar",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "ads_example_deleteonclose",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "ads_example_centralwidget",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "ads_example_centralwidget",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "ads_example_dockindock",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "ads_demo",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 10,
+					"id" : "AdvancedDockingSystemDemo::@8dafcdd7ec444fc79b12",
+					"jsonFile" : "target-AdvancedDockingSystemDemo-Debug-e4a7873eac892db4bcb9.json",
+					"name" : "AdvancedDockingSystemDemo",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "AdvancedDockingSystemDemo_autogen::@8dafcdd7ec444fc79b12",
+					"jsonFile" : "target-AdvancedDockingSystemDemo_autogen-Debug-1f122ee2de35edd1eb4a.json",
+					"name" : "AdvancedDockingSystemDemo_autogen",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "CentralWidgetExample::@313a0a1169727d7d65d4",
+					"jsonFile" : "target-CentralWidgetExample-Debug-4a924469b071725e58cc.json",
+					"name" : "CentralWidgetExample",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "CentralWidgetExample_autogen::@313a0a1169727d7d65d4",
+					"jsonFile" : "target-CentralWidgetExample_autogen-Debug-22dbf24dccb7eb8534ff.json",
+					"name" : "CentralWidgetExample_autogen",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "DeleteOnCloseTest::@edcd4ae41c09936aac6d",
+					"jsonFile" : "target-DeleteOnCloseTest-Debug-4f6b0b0f477c08451110.json",
+					"name" : "DeleteOnCloseTest",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "DeleteOnCloseTest_autogen::@edcd4ae41c09936aac6d",
+					"jsonFile" : "target-DeleteOnCloseTest_autogen-Debug-9eb2fd63d8b6e7b5cd0d.json",
+					"name" : "DeleteOnCloseTest_autogen",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "DockInDockExample::@c4a53a1697c1b8d7f6d0",
+					"jsonFile" : "target-DockInDockExample-Debug-2fe3ac15ae7e2f26e523.json",
+					"name" : "DockInDockExample",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "DockInDockExample_autogen::@c4a53a1697c1b8d7f6d0",
+					"jsonFile" : "target-DockInDockExample_autogen-Debug-fcd922467fb84384d4d4.json",
+					"name" : "DockInDockExample_autogen",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "EmptyDockAreaExample::@55f8d8105f92fe525b57",
+					"jsonFile" : "target-EmptyDockAreaExample-Debug-b13f57d90e2e367ba9df.json",
+					"name" : "EmptyDockAreaExample",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "EmptyDockAreaExample_autogen::@55f8d8105f92fe525b57",
+					"jsonFile" : "target-EmptyDockAreaExample_autogen-Debug-4849dfcaf35ae007334f.json",
+					"name" : "EmptyDockAreaExample_autogen",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SidebarExample::@96e7673dc50aeb36aab7",
+					"jsonFile" : "target-SidebarExample-Debug-d922acd46d6b598c40ff.json",
+					"name" : "SidebarExample",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SidebarExample_autogen::@96e7673dc50aeb36aab7",
+					"jsonFile" : "target-SidebarExample_autogen-Debug-7204c4567800c055ea09.json",
+					"name" : "SidebarExample_autogen",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "SimpleExample::@a82fdc3c51116916dddc",
+					"jsonFile" : "target-SimpleExample-Debug-4682547650c5caed86bd.json",
+					"name" : "SimpleExample",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "SimpleExample_autogen::@a82fdc3c51116916dddc",
+					"jsonFile" : "target-SimpleExample_autogen-Debug-980f50d24936f18e9661.json",
+					"name" : "SimpleExample_autogen",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aspyre::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aspyre-Debug-a3b7b4a75b6e7bda992f.json",
+					"name" : "aspyre",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aspyre_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aspyre_autogen-Debug-b82ecdf583c7d8ef22f7.json",
+					"name" : "aspyre_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "editorplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-editorplugin-Debug-b86da42f9cec93b3ea5d.json",
+					"name" : "editorplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "editorplugin_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-editorplugin_autogen-Debug-b0b8d1dd11344fc2308d.json",
+					"name" : "editorplugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "qtadvanceddocking::@f54dfd0a9faa334335fe",
+					"jsonFile" : "target-qtadvanceddocking-Debug-411293b7a122ac88572c.json",
+					"name" : "qtadvanceddocking",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "qtadvanceddocking_autogen::@f54dfd0a9faa334335fe",
+					"jsonFile" : "target-qtadvanceddocking_autogen-Debug-f883ff8a75e5d6b19108.json",
+					"name" : "qtadvanceddocking_autogen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vulkanplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vulkanplugin-Debug-ebe3560e2ad0b5ada9dd.json",
+					"name" : "vulkanplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vulkanplugin_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vulkanplugin_autogen-Debug-2e19f8f86b701bfaa7a3.json",
+					"name" : "vulkanplugin_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jonas/Aspyre-Engine/build",
+		"source" : "/home/jonas/Aspyre-Engine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}
