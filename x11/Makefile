@@ -235,6 +235,60 @@ core/rendering/vulkaninstance.cxx.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.s
 .PHONY : core/rendering/vulkaninstance.cxx.s
 
+core/rendering/vulkanwindow.o: core/rendering/vulkanwindow.cxx.o
+
+.PHONY : core/rendering/vulkanwindow.o
+
+# target to build an object file
+core/rendering/vulkanwindow.cxx.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.o
+.PHONY : core/rendering/vulkanwindow.cxx.o
+
+core/rendering/vulkanwindow.i: core/rendering/vulkanwindow.cxx.i
+
+.PHONY : core/rendering/vulkanwindow.i
+
+# target to preprocess a source file
+core/rendering/vulkanwindow.cxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.i
+.PHONY : core/rendering/vulkanwindow.cxx.i
+
+core/rendering/vulkanwindow.s: core/rendering/vulkanwindow.cxx.s
+
+.PHONY : core/rendering/vulkanwindow.s
+
+# target to generate assembly for a file
+core/rendering/vulkanwindow.cxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.s
+.PHONY : core/rendering/vulkanwindow.cxx.s
+
+core/rendering/vulkanwindowrenderer.o: core/rendering/vulkanwindowrenderer.cxx.o
+
+.PHONY : core/rendering/vulkanwindowrenderer.o
+
+# target to build an object file
+core/rendering/vulkanwindowrenderer.cxx.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.o
+.PHONY : core/rendering/vulkanwindowrenderer.cxx.o
+
+core/rendering/vulkanwindowrenderer.i: core/rendering/vulkanwindowrenderer.cxx.i
+
+.PHONY : core/rendering/vulkanwindowrenderer.i
+
+# target to preprocess a source file
+core/rendering/vulkanwindowrenderer.cxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.i
+.PHONY : core/rendering/vulkanwindowrenderer.cxx.i
+
+core/rendering/vulkanwindowrenderer.s: core/rendering/vulkanwindowrenderer.cxx.s
+
+.PHONY : core/rendering/vulkanwindowrenderer.s
+
+# target to generate assembly for a file
+core/rendering/vulkanwindowrenderer.cxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.s
+.PHONY : core/rendering/vulkanwindowrenderer.cxx.s
+
 main/main.o: main/main.cxx.o
 
 .PHONY : main/main.o
@@ -307,6 +361,12 @@ help:
 	@echo "... core/rendering/vulkaninstance.o"
 	@echo "... core/rendering/vulkaninstance.i"
 	@echo "... core/rendering/vulkaninstance.s"
+	@echo "... core/rendering/vulkanwindow.o"
+	@echo "... core/rendering/vulkanwindow.i"
+	@echo "... core/rendering/vulkanwindow.s"
+	@echo "... core/rendering/vulkanwindowrenderer.o"
+	@echo "... core/rendering/vulkanwindowrenderer.i"
+	@echo "... core/rendering/vulkanwindowrenderer.s"
 	@echo "... main/main.o"
 	@echo "... main/main.i"
 	@echo "... main/main.s"

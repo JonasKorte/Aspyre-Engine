@@ -13,16 +13,21 @@ if(CMAKE_VERSION VERSION_LESS "3.7.0")
     set(CMAKE_INCLUDE_CURRENT_DIR ON)
 endif()
 
-set(CMAKE_PREFIX_PATH "/home/jonas/Qt/6.1.2/gcc_64")
+set(CMAKE_PREFIX_PATH "/home/jonas/Qt/5.12.11/gcc_64")
 
-find_package(Qt6 COMPONENTS Widgets REQUIRED)
-find_package(Qt6 COMPONENTS Gui REQUIRED)
+find_package(Qt5 COMPONENTS Widgets REQUIRED)
+find_package(Qt5 COMPONENTS Gui REQUIRED)
 
 include_directories(core)
 include_directories(editor)
 
 add_executable(aspyre main/main.cxx)
 
-add_library(vulkanplugin STATIC core/rendering/vulkaninstance.cxx core/rendering/vulkaninstance.hxx)
+add_library(vulkanplugin STATIC 
+    core/rendering/vulkaninstance.cxx core/rendering/vulkaninstance.hxx
+    core/rendering/vulkanwindow.cxx core/rendering/vulkanwindow.hxx
+    core/rendering/vulkanwindowrenderer.cxx core/rendering/vulkanwindowrenderer.hxx)
 
-target_link_libraries(aspyre PRIVATE vulkanplugin Qt6::Widgets Qt6::Gui)
+target_link_libraries(vulkanplugin PRIVATE Qt5::Gui)
+
+target_link_libraries(aspyre PRIVATE vulkanplugin Qt5::Gui Qt5::Widgets)

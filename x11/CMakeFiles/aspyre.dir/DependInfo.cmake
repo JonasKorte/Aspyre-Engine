@@ -22,11 +22,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "aspyre_autogen/include"
   "../core"
   "../editor"
-  "/home/jonas/Qt/6.1.2/gcc_64/include/QtWidgets"
-  "/home/jonas/Qt/6.1.2/gcc_64/include"
-  "/home/jonas/Qt/6.1.2/gcc_64/include/QtCore"
-  "/home/jonas/Qt/6.1.2/gcc_64/mkspecs/linux-g++"
-  "/home/jonas/Qt/6.1.2/gcc_64/include/QtGui"
+  "/home/jonas/Qt/5.12.11/gcc_64/include"
+  "/home/jonas/Qt/5.12.11/gcc_64/include/QtGui"
+  "/home/jonas/Qt/5.12.11/gcc_64/include/QtCore"
+  "/home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++"
+  "/home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets"
   )
 
 # Targets to which this target links.

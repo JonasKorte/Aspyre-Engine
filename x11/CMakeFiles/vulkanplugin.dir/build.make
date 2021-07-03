@@ -102,19 +102,49 @@ CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonas/Aspyre-Engine/core/rendering/vulkaninstance.cxx -o CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.s
 
+CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.o: CMakeFiles/vulkanplugin.dir/flags.make
+CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.o: ../core/rendering/vulkanwindow.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.o -c /home/jonas/Aspyre-Engine/core/rendering/vulkanwindow.cxx
+
+CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonas/Aspyre-Engine/core/rendering/vulkanwindow.cxx > CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.i
+
+CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonas/Aspyre-Engine/core/rendering/vulkanwindow.cxx -o CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.s
+
+CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.o: CMakeFiles/vulkanplugin.dir/flags.make
+CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.o: ../core/rendering/vulkanwindowrenderer.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.o -c /home/jonas/Aspyre-Engine/core/rendering/vulkanwindowrenderer.cxx
+
+CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonas/Aspyre-Engine/core/rendering/vulkanwindowrenderer.cxx > CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.i
+
+CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonas/Aspyre-Engine/core/rendering/vulkanwindowrenderer.cxx -o CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.s
+
 # Object files for target vulkanplugin
 vulkanplugin_OBJECTS = \
 "CMakeFiles/vulkanplugin.dir/vulkanplugin_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.o"
+"CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.o" \
+"CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.o" \
+"CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.o"
 
 # External object files for target vulkanplugin
 vulkanplugin_EXTERNAL_OBJECTS =
 
 libvulkanplugin.a: CMakeFiles/vulkanplugin.dir/vulkanplugin_autogen/mocs_compilation.cpp.o
 libvulkanplugin.a: CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.o
+libvulkanplugin.a: CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.o
+libvulkanplugin.a: CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.o
 libvulkanplugin.a: CMakeFiles/vulkanplugin.dir/build.make
 libvulkanplugin.a: CMakeFiles/vulkanplugin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libvulkanplugin.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libvulkanplugin.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/vulkanplugin.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vulkanplugin.dir/link.txt --verbose=$(VERBOSE)
 

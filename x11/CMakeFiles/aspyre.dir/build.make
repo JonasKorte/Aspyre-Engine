@@ -114,11 +114,9 @@ aspyre: CMakeFiles/aspyre.dir/aspyre_autogen/mocs_compilation.cpp.o
 aspyre: CMakeFiles/aspyre.dir/main/main.cxx.o
 aspyre: CMakeFiles/aspyre.dir/build.make
 aspyre: libvulkanplugin.a
-aspyre: /home/jonas/Qt/6.1.2/gcc_64/lib/libQt6Widgets.so.6.1.2
-aspyre: /home/jonas/Qt/6.1.2/gcc_64/lib/libQt6Gui.so.6.1.2
-aspyre: /usr/lib/x86_64-linux-gnu/libGLX.so
-aspyre: /usr/lib/x86_64-linux-gnu/libOpenGL.so
-aspyre: /home/jonas/Qt/6.1.2/gcc_64/lib/libQt6Core.so.6.1.2
+aspyre: /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Widgets.so.5.12.11
+aspyre: /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Gui.so.5.12.11
+aspyre: /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Core.so.5.12.11
 aspyre: CMakeFiles/aspyre.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable aspyre"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aspyre.dir/link.txt --verbose=$(VERBOSE)
