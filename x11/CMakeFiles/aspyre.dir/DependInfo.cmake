@@ -21,6 +21,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "aspyre_autogen/include"
   "../core"
+  "../editor"
   "/home/jonas/Qt/6.1.2/gcc_64/include/QtWidgets"
   "/home/jonas/Qt/6.1.2/gcc_64/include"
   "/home/jonas/Qt/6.1.2/gcc_64/include/QtCore"

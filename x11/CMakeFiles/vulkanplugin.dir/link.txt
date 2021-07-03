@@ -1,2 +1,2 @@
-/usr/bin/ar qc libvulkanplugin.a CMakeFiles/vulkanplugin.dir/vulkanplugin_autogen/mocs_compilation.cpp.o CMakeFiles/vulkanplugin.dir/core/vulkaninstance.cxx.o
+/usr/bin/ar qc libvulkanplugin.a CMakeFiles/vulkanplugin.dir/vulkanplugin_autogen/mocs_compilation.cpp.o CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.o
 /usr/bin/ranlib libvulkanplugin.a

@@ -208,32 +208,32 @@ aspyre_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aspyre.dir/build.make CMakeFiles/aspyre.dir/aspyre_autogen/mocs_compilation.cpp.s
 .PHONY : aspyre_autogen/mocs_compilation.cpp.s
 
-core/vulkaninstance.o: core/vulkaninstance.cxx.o
+core/rendering/vulkaninstance.o: core/rendering/vulkaninstance.cxx.o
 
-.PHONY : core/vulkaninstance.o
+.PHONY : core/rendering/vulkaninstance.o
 
 # target to build an object file
-core/vulkaninstance.cxx.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/core/vulkaninstance.cxx.o
-.PHONY : core/vulkaninstance.cxx.o
+core/rendering/vulkaninstance.cxx.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.o
+.PHONY : core/rendering/vulkaninstance.cxx.o
 
-core/vulkaninstance.i: core/vulkaninstance.cxx.i
+core/rendering/vulkaninstance.i: core/rendering/vulkaninstance.cxx.i
 
-.PHONY : core/vulkaninstance.i
+.PHONY : core/rendering/vulkaninstance.i
 
 # target to preprocess a source file
-core/vulkaninstance.cxx.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/core/vulkaninstance.cxx.i
-.PHONY : core/vulkaninstance.cxx.i
+core/rendering/vulkaninstance.cxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.i
+.PHONY : core/rendering/vulkaninstance.cxx.i
 
-core/vulkaninstance.s: core/vulkaninstance.cxx.s
+core/rendering/vulkaninstance.s: core/rendering/vulkaninstance.cxx.s
 
-.PHONY : core/vulkaninstance.s
+.PHONY : core/rendering/vulkaninstance.s
 
 # target to generate assembly for a file
-core/vulkaninstance.cxx.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/core/vulkaninstance.cxx.s
-.PHONY : core/vulkaninstance.cxx.s
+core/rendering/vulkaninstance.cxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.s
+.PHONY : core/rendering/vulkaninstance.cxx.s
 
 main/main.o: main/main.cxx.o
 
@@ -304,9 +304,9 @@ help:
 	@echo "... aspyre_autogen/mocs_compilation.o"
 	@echo "... aspyre_autogen/mocs_compilation.i"
 	@echo "... aspyre_autogen/mocs_compilation.s"
-	@echo "... core/vulkaninstance.o"
-	@echo "... core/vulkaninstance.i"
-	@echo "... core/vulkaninstance.s"
+	@echo "... core/rendering/vulkaninstance.o"
+	@echo "... core/rendering/vulkaninstance.i"
+	@echo "... core/rendering/vulkaninstance.s"
 	@echo "... main/main.o"
 	@echo "... main/main.i"
 	@echo "... main/main.s"

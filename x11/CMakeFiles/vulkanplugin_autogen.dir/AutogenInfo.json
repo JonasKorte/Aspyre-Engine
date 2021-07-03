@@ -171,6 +171,18 @@
 		"/home/jonas/Qt/6.1.2/gcc_64/lib/cmake/Qt6/QtFeature.cmake",
 		"/home/jonas/Qt/6.1.2/gcc_64/lib/cmake/Qt6/QtFeatureCommon.cmake",
 		"/usr/share/cmake-3.18/Modules/CheckCXXCompilerFlag.cmake",
+		"/home/jonas/Qt/6.1.2/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
+		"/home/jonas/Qt/6.1.2/gcc_64/lib/cmake/Qt6/Qt6Config.cmake",
+		"/home/jonas/Qt/6.1.2/gcc_64/lib/cmake/Qt6/Qt6Targets.cmake",
+		"/home/jonas/Qt/6.1.2/gcc_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/jonas/Qt/6.1.2/gcc_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
+		"/usr/share/cmake-3.18/Modules/FindThreads.cmake",
+		"/usr/share/cmake-3.18/Modules/CheckLibraryExists.cmake",
+		"/usr/share/cmake-3.18/Modules/CheckIncludeFileCXX.cmake",
+		"/usr/share/cmake-3.18/Modules/CheckCXXSourceCompiles.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPackageMessage.cmake",
 		"/home/jonas/Qt/6.1.2/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake",
 		"/home/jonas/Qt/6.1.2/gcc_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
 		"/usr/share/cmake-3.18/Modules/CMakeFindDependencyMacro.cmake",
@@ -218,9 +230,9 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/jonas/Aspyre-Engine/core/vulkaninstance.hxx",
+			"/home/jonas/Aspyre-Engine/core/rendering/vulkaninstance.hxx",
 			"MU",
-			"TAC5DWH4SE/moc_vulkaninstance.cpp"
+			"2PH3VHICNL/moc_vulkaninstance.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -237,6 +249,7 @@
 	"MOC_INCLUDES" : 
 	[
 		"/home/jonas/Aspyre-Engine/core",
+		"/home/jonas/Aspyre-Engine/editor",
 		"/usr/include/c++/10",
 		"/usr/include/x86_64-linux-gnu/c++/10",
 		"/usr/include/c++/10/backward",
@@ -269,7 +282,7 @@
 	"SETTINGS_FILE" : "/home/jonas/Aspyre-Engine/x11/CMakeFiles/vulkanplugin_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/jonas/Aspyre-Engine/core/vulkaninstance.cxx", "MU" ]
+		[ "/home/jonas/Aspyre-Engine/core/rendering/vulkaninstance.cxx", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

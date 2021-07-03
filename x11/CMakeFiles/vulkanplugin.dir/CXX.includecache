@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-../core/log.hxx
+../core/logging/log.hxx
 iostream
 -
 
-../core/vulkaninstance.hxx
+../core/rendering/vulkaninstance.hxx
 QVulkanInstance
 -
-log.hxx
+logging/log.hxx
 -
 
-/home/jonas/Aspyre-Engine/core/vulkaninstance.cxx
-vulkaninstance.hxx
+/home/jonas/Aspyre-Engine/core/rendering/vulkaninstance.cxx
+rendering/vulkaninstance.hxx
 -
 

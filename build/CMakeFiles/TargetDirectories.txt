@@ -1,0 +1,8 @@
+/home/jonas/Aspyre-Engine/build/CMakeFiles/rebuild_cache.dir
+/home/jonas/Aspyre-Engine/build/CMakeFiles/edit_cache.dir
+/home/jonas/Aspyre-Engine/build/CMakeFiles/vulkanplugin.dir
+/home/jonas/Aspyre-Engine/build/CMakeFiles/aspyre.dir
+/home/jonas/Aspyre-Engine/build/CMakeFiles/vulkanplugin_autogen_timestamp_deps.dir
+/home/jonas/Aspyre-Engine/build/CMakeFiles/vulkanplugin_autogen.dir
+/home/jonas/Aspyre-Engine/build/CMakeFiles/aspyre_autogen_timestamp_deps.dir
+/home/jonas/Aspyre-Engine/build/CMakeFiles/aspyre_autogen.dir

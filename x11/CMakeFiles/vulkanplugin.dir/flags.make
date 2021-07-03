@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jonas/Aspyre-Engine/x11/vulkanplugin_autogen/include -I/home/jonas/Aspyre-Engine/core
+CXX_INCLUDES = -I/home/jonas/Aspyre-Engine/x11/vulkanplugin_autogen/include -I/home/jonas/Aspyre-Engine/core -I/home/jonas/Aspyre-Engine/editor
 
 CXX_FLAGS = -std=gnu++2a
 

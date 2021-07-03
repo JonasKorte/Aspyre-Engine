@@ -23,6 +23,6 @@ include_directories(editor)
 
 add_executable(aspyre main/main.cxx)
 
-add_library(vulkanplugin STATIC core/vulkaninstance.cxx core/vulkaninstance.hxx)
+add_library(vulkanplugin STATIC core/rendering/vulkaninstance.cxx core/rendering/vulkaninstance.hxx)
 
 target_link_libraries(aspyre PRIVATE vulkanplugin Qt6::Widgets Qt6::Gui)

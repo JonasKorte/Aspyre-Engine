@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jonas/Aspyre-Engine/core/vulkaninstance.cxx" "/home/jonas/Aspyre-Engine/x11/CMakeFiles/vulkanplugin.dir/core/vulkaninstance.cxx.o"
+  "/home/jonas/Aspyre-Engine/core/rendering/vulkaninstance.cxx" "/home/jonas/Aspyre-Engine/x11/CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.o"
   "/home/jonas/Aspyre-Engine/x11/vulkanplugin_autogen/mocs_compilation.cpp" "/home/jonas/Aspyre-Engine/x11/CMakeFiles/vulkanplugin.dir/vulkanplugin_autogen/mocs_compilation.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
@@ -13,6 +13,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "vulkanplugin_autogen/include"
   "../core"
+  "../editor"
   )
 
 # Targets to which this target links.

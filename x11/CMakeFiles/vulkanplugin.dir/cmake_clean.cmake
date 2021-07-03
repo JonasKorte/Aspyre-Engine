@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/vulkanplugin_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/vulkanplugin_autogen.dir/ParseCache.txt"
   "vulkanplugin_autogen"
-  "CMakeFiles/vulkanplugin.dir/core/vulkaninstance.cxx.o"
+  "CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.o"
   "CMakeFiles/vulkanplugin.dir/vulkanplugin_autogen/mocs_compilation.cpp.o"
   "libvulkanplugin.a"
   "libvulkanplugin.pdb"
