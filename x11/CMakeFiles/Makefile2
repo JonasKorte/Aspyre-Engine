@@ -75,11 +75,12 @@ CMAKE_BINARY_DIR = /home/jonas/Aspyre-Engine/x11
 all: CMakeFiles/vulkanplugin.dir/all
 all: CMakeFiles/editorplugin.dir/all
 all: CMakeFiles/aspyre.dir/all
+all: external/Qt-Advanced-Docking-System/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: external/Qt-Advanced-Docking-System/preinstall
 
 .PHONY : preinstall
 
@@ -90,8 +91,218 @@ clean: CMakeFiles/aspyre.dir/clean
 clean: CMakeFiles/vulkanplugin_autogen.dir/clean
 clean: CMakeFiles/editorplugin_autogen.dir/clean
 clean: CMakeFiles/aspyre_autogen.dir/clean
+clean: external/Qt-Advanced-Docking-System/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory external/Qt-Advanced-Docking-System
+
+# Recursive "all" directory target.
+external/Qt-Advanced-Docking-System/all: external/Qt-Advanced-Docking-System/src/all
+external/Qt-Advanced-Docking-System/all: external/Qt-Advanced-Docking-System/examples/all
+external/Qt-Advanced-Docking-System/all: external/Qt-Advanced-Docking-System/demo/all
+
+.PHONY : external/Qt-Advanced-Docking-System/all
+
+# Recursive "preinstall" directory target.
+external/Qt-Advanced-Docking-System/preinstall: external/Qt-Advanced-Docking-System/src/preinstall
+external/Qt-Advanced-Docking-System/preinstall: external/Qt-Advanced-Docking-System/examples/preinstall
+external/Qt-Advanced-Docking-System/preinstall: external/Qt-Advanced-Docking-System/demo/preinstall
+
+.PHONY : external/Qt-Advanced-Docking-System/preinstall
+
+# Recursive "clean" directory target.
+external/Qt-Advanced-Docking-System/clean: external/Qt-Advanced-Docking-System/src/clean
+external/Qt-Advanced-Docking-System/clean: external/Qt-Advanced-Docking-System/examples/clean
+external/Qt-Advanced-Docking-System/clean: external/Qt-Advanced-Docking-System/demo/clean
+
+.PHONY : external/Qt-Advanced-Docking-System/clean
+
+#=============================================================================
+# Directory level rules for directory external/Qt-Advanced-Docking-System/demo
+
+# Recursive "all" directory target.
+external/Qt-Advanced-Docking-System/demo/all: external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo.dir/all
+
+.PHONY : external/Qt-Advanced-Docking-System/demo/all
+
+# Recursive "preinstall" directory target.
+external/Qt-Advanced-Docking-System/demo/preinstall:
+
+.PHONY : external/Qt-Advanced-Docking-System/demo/preinstall
+
+# Recursive "clean" directory target.
+external/Qt-Advanced-Docking-System/demo/clean: external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo.dir/clean
+external/Qt-Advanced-Docking-System/demo/clean: external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/clean
+
+.PHONY : external/Qt-Advanced-Docking-System/demo/clean
+
+#=============================================================================
+# Directory level rules for directory external/Qt-Advanced-Docking-System/examples
+
+# Recursive "all" directory target.
+external/Qt-Advanced-Docking-System/examples/all: external/Qt-Advanced-Docking-System/examples/simple/all
+external/Qt-Advanced-Docking-System/examples/all: external/Qt-Advanced-Docking-System/examples/sidebar/all
+external/Qt-Advanced-Docking-System/examples/all: external/Qt-Advanced-Docking-System/examples/deleteonclose/all
+external/Qt-Advanced-Docking-System/examples/all: external/Qt-Advanced-Docking-System/examples/centralwidget/all
+external/Qt-Advanced-Docking-System/examples/all: external/Qt-Advanced-Docking-System/examples/emptydockarea/all
+external/Qt-Advanced-Docking-System/examples/all: external/Qt-Advanced-Docking-System/examples/dockindock/all
+
+.PHONY : external/Qt-Advanced-Docking-System/examples/all
+
+# Recursive "preinstall" directory target.
+external/Qt-Advanced-Docking-System/examples/preinstall: external/Qt-Advanced-Docking-System/examples/simple/preinstall
+external/Qt-Advanced-Docking-System/examples/preinstall: external/Qt-Advanced-Docking-System/examples/sidebar/preinstall
+external/Qt-Advanced-Docking-System/examples/preinstall: external/Qt-Advanced-Docking-System/examples/deleteonclose/preinstall
+external/Qt-Advanced-Docking-System/examples/preinstall: external/Qt-Advanced-Docking-System/examples/centralwidget/preinstall
+external/Qt-Advanced-Docking-System/examples/preinstall: external/Qt-Advanced-Docking-System/examples/emptydockarea/preinstall
+external/Qt-Advanced-Docking-System/examples/preinstall: external/Qt-Advanced-Docking-System/examples/dockindock/preinstall
+
+.PHONY : external/Qt-Advanced-Docking-System/examples/preinstall
+
+# Recursive "clean" directory target.
+external/Qt-Advanced-Docking-System/examples/clean: external/Qt-Advanced-Docking-System/examples/simple/clean
+external/Qt-Advanced-Docking-System/examples/clean: external/Qt-Advanced-Docking-System/examples/sidebar/clean
+external/Qt-Advanced-Docking-System/examples/clean: external/Qt-Advanced-Docking-System/examples/deleteonclose/clean
+external/Qt-Advanced-Docking-System/examples/clean: external/Qt-Advanced-Docking-System/examples/centralwidget/clean
+external/Qt-Advanced-Docking-System/examples/clean: external/Qt-Advanced-Docking-System/examples/emptydockarea/clean
+external/Qt-Advanced-Docking-System/examples/clean: external/Qt-Advanced-Docking-System/examples/dockindock/clean
+
+.PHONY : external/Qt-Advanced-Docking-System/examples/clean
+
+#=============================================================================
+# Directory level rules for directory external/Qt-Advanced-Docking-System/examples/centralwidget
+
+# Recursive "all" directory target.
+external/Qt-Advanced-Docking-System/examples/centralwidget/all: external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample.dir/all
+
+.PHONY : external/Qt-Advanced-Docking-System/examples/centralwidget/all
+
+# Recursive "preinstall" directory target.
+external/Qt-Advanced-Docking-System/examples/centralwidget/preinstall:
+
+.PHONY : external/Qt-Advanced-Docking-System/examples/centralwidget/preinstall
+
+# Recursive "clean" directory target.
+external/Qt-Advanced-Docking-System/examples/centralwidget/clean: external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample.dir/clean
+external/Qt-Advanced-Docking-System/examples/centralwidget/clean: external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample_autogen.dir/clean
+
+.PHONY : external/Qt-Advanced-Docking-System/examples/centralwidget/clean
+
+#=============================================================================
+# Directory level rules for directory external/Qt-Advanced-Docking-System/examples/deleteonclose
+
+# Recursive "all" directory target.
+external/Qt-Advanced-Docking-System/examples/deleteonclose/all: external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest.dir/all
+
+.PHONY : external/Qt-Advanced-Docking-System/examples/deleteonclose/all
+
+# Recursive "preinstall" directory target.
+external/Qt-Advanced-Docking-System/examples/deleteonclose/preinstall:
+
+.PHONY : external/Qt-Advanced-Docking-System/examples/deleteonclose/preinstall
+
+# Recursive "clean" directory target.
+external/Qt-Advanced-Docking-System/examples/deleteonclose/clean: external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest.dir/clean
+external/Qt-Advanced-Docking-System/examples/deleteonclose/clean: external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest_autogen.dir/clean
+
+.PHONY : external/Qt-Advanced-Docking-System/examples/deleteonclose/clean
+
+#=============================================================================
+# Directory level rules for directory external/Qt-Advanced-Docking-System/examples/dockindock
+
+# Recursive "all" directory target.
+external/Qt-Advanced-Docking-System/examples/dockindock/all: external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample.dir/all
+
+.PHONY : external/Qt-Advanced-Docking-System/examples/dockindock/all
+
+# Recursive "preinstall" directory target.
+external/Qt-Advanced-Docking-System/examples/dockindock/preinstall:
+
+.PHONY : external/Qt-Advanced-Docking-System/examples/dockindock/preinstall
+
+# Recursive "clean" directory target.
+external/Qt-Advanced-Docking-System/examples/dockindock/clean: external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample.dir/clean
+external/Qt-Advanced-Docking-System/examples/dockindock/clean: external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample_autogen.dir/clean
+
+.PHONY : external/Qt-Advanced-Docking-System/examples/dockindock/clean
+
+#=============================================================================
+# Directory level rules for directory external/Qt-Advanced-Docking-System/examples/emptydockarea
+
+# Recursive "all" directory target.
+external/Qt-Advanced-Docking-System/examples/emptydockarea/all: external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample.dir/all
+
+.PHONY : external/Qt-Advanced-Docking-System/examples/emptydockarea/all
+
+# Recursive "preinstall" directory target.
+external/Qt-Advanced-Docking-System/examples/emptydockarea/preinstall:
+
+.PHONY : external/Qt-Advanced-Docking-System/examples/emptydockarea/preinstall
+
+# Recursive "clean" directory target.
+external/Qt-Advanced-Docking-System/examples/emptydockarea/clean: external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample.dir/clean
+external/Qt-Advanced-Docking-System/examples/emptydockarea/clean: external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample_autogen.dir/clean
+
+.PHONY : external/Qt-Advanced-Docking-System/examples/emptydockarea/clean
+
+#=============================================================================
+# Directory level rules for directory external/Qt-Advanced-Docking-System/examples/sidebar
+
+# Recursive "all" directory target.
+external/Qt-Advanced-Docking-System/examples/sidebar/all: external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample.dir/all
+
+.PHONY : external/Qt-Advanced-Docking-System/examples/sidebar/all
+
+# Recursive "preinstall" directory target.
+external/Qt-Advanced-Docking-System/examples/sidebar/preinstall:
+
+.PHONY : external/Qt-Advanced-Docking-System/examples/sidebar/preinstall
+
+# Recursive "clean" directory target.
+external/Qt-Advanced-Docking-System/examples/sidebar/clean: external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample.dir/clean
+external/Qt-Advanced-Docking-System/examples/sidebar/clean: external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.dir/clean
+
+.PHONY : external/Qt-Advanced-Docking-System/examples/sidebar/clean
+
+#=============================================================================
+# Directory level rules for directory external/Qt-Advanced-Docking-System/examples/simple
+
+# Recursive "all" directory target.
+external/Qt-Advanced-Docking-System/examples/simple/all: external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample.dir/all
+
+.PHONY : external/Qt-Advanced-Docking-System/examples/simple/all
+
+# Recursive "preinstall" directory target.
+external/Qt-Advanced-Docking-System/examples/simple/preinstall:
+
+.PHONY : external/Qt-Advanced-Docking-System/examples/simple/preinstall
+
+# Recursive "clean" directory target.
+external/Qt-Advanced-Docking-System/examples/simple/clean: external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample.dir/clean
+external/Qt-Advanced-Docking-System/examples/simple/clean: external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample_autogen.dir/clean
+
+.PHONY : external/Qt-Advanced-Docking-System/examples/simple/clean
+
+#=============================================================================
+# Directory level rules for directory external/Qt-Advanced-Docking-System/src
+
+# Recursive "all" directory target.
+external/Qt-Advanced-Docking-System/src/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
+
+.PHONY : external/Qt-Advanced-Docking-System/src/all
+
+# Recursive "preinstall" directory target.
+external/Qt-Advanced-Docking-System/src/preinstall:
+
+.PHONY : external/Qt-Advanced-Docking-System/src/preinstall
+
+# Recursive "clean" directory target.
+external/Qt-Advanced-Docking-System/src/clean: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/clean
+external/Qt-Advanced-Docking-System/src/clean: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/clean
+
+.PHONY : external/Qt-Advanced-Docking-System/src/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/vulkanplugin.dir
@@ -100,7 +311,7 @@ clean: CMakeFiles/aspyre_autogen.dir/clean
 CMakeFiles/vulkanplugin.dir/all: CMakeFiles/vulkanplugin_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=9,10,11,12,13 "Built target vulkanplugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=73,74,75,76,77 "Built target vulkanplugin"
 .PHONY : CMakeFiles/vulkanplugin.dir/all
 
 # Build rule for subdir invocation for target.
@@ -125,15 +336,16 @@ CMakeFiles/vulkanplugin.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/editorplugin.dir/all: CMakeFiles/vulkanplugin.dir/all
+CMakeFiles/editorplugin.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
 CMakeFiles/editorplugin.dir/all: CMakeFiles/editorplugin_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin.dir/build.make CMakeFiles/editorplugin.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin.dir/build.make CMakeFiles/editorplugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=5,6,7 "Built target editorplugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=46,47,48 "Built target editorplugin"
 .PHONY : CMakeFiles/editorplugin.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/editorplugin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 33
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/editorplugin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
 .PHONY : CMakeFiles/editorplugin.dir/rule
@@ -154,15 +366,16 @@ CMakeFiles/editorplugin.dir/clean:
 # All Build rule for target.
 CMakeFiles/aspyre.dir/all: CMakeFiles/vulkanplugin.dir/all
 CMakeFiles/aspyre.dir/all: CMakeFiles/editorplugin.dir/all
+CMakeFiles/aspyre.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
 CMakeFiles/aspyre.dir/all: CMakeFiles/aspyre_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aspyre.dir/build.make CMakeFiles/aspyre.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aspyre.dir/build.make CMakeFiles/aspyre.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=1,2,3 "Built target aspyre"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=42,43,44 "Built target aspyre"
 .PHONY : CMakeFiles/aspyre.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/aspyre.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 37
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/aspyre.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
 .PHONY : CMakeFiles/aspyre.dir/rule
@@ -184,7 +397,7 @@ CMakeFiles/aspyre.dir/clean:
 CMakeFiles/vulkanplugin_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin_autogen.dir/build.make CMakeFiles/vulkanplugin_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin_autogen.dir/build.make CMakeFiles/vulkanplugin_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=14 "Built target vulkanplugin_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=78 "Built target vulkanplugin_autogen"
 .PHONY : CMakeFiles/vulkanplugin_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -209,14 +422,15 @@ CMakeFiles/vulkanplugin_autogen.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/editorplugin_autogen.dir/all: CMakeFiles/vulkanplugin.dir/all
+CMakeFiles/editorplugin_autogen.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin_autogen.dir/build.make CMakeFiles/editorplugin_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin_autogen.dir/build.make CMakeFiles/editorplugin_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=8 "Built target editorplugin_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=49 "Built target editorplugin_autogen"
 .PHONY : CMakeFiles/editorplugin_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/editorplugin_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 30
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/editorplugin_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
 .PHONY : CMakeFiles/editorplugin_autogen.dir/rule
@@ -239,12 +453,12 @@ CMakeFiles/aspyre_autogen.dir/all: CMakeFiles/vulkanplugin.dir/all
 CMakeFiles/aspyre_autogen.dir/all: CMakeFiles/editorplugin.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aspyre_autogen.dir/build.make CMakeFiles/aspyre_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aspyre_autogen.dir/build.make CMakeFiles/aspyre_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=4 "Built target aspyre_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=45 "Built target aspyre_autogen"
 .PHONY : CMakeFiles/aspyre_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/aspyre_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 34
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/aspyre_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
 .PHONY : CMakeFiles/aspyre_autogen.dir/rule
@@ -258,6 +472,445 @@ aspyre_autogen: CMakeFiles/aspyre_autogen.dir/rule
 CMakeFiles/aspyre_autogen.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aspyre_autogen.dir/build.make CMakeFiles/aspyre_autogen.dir/clean
 .PHONY : CMakeFiles/aspyre_autogen.dir/clean
+
+#=============================================================================
+# Target rules for target external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir
+
+# All Build rule for target.
+external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/build.make external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/depend
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/build.make external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71 "Built target qtadvanceddocking"
+.PHONY : external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
+
+# Build rule for subdir invocation for target.
+external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 23
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
+.PHONY : external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/rule
+
+# Convenience name for target.
+qtadvanceddocking: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/rule
+
+.PHONY : qtadvanceddocking
+
+# clean rule for target.
+external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/build.make external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/clean
+.PHONY : external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/clean
+
+#=============================================================================
+# Target rules for target external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir
+
+# All Build rule for target.
+external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/all:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/build.make external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/build.make external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=72 "Built target qtadvanceddocking_autogen"
+.PHONY : external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
+.PHONY : external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/rule
+
+# Convenience name for target.
+qtadvanceddocking_autogen: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/rule
+
+.PHONY : qtadvanceddocking_autogen
+
+# clean rule for target.
+external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/build.make external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/clean
+.PHONY : external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/clean
+
+#=============================================================================
+# Target rules for target external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample.dir
+
+# All Build rule for target.
+external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
+external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample.dir/all: external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample.dir/build.make external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample.dir/depend
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample.dir/build.make external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=37,38,39,40 "Built target SimpleExample"
+.PHONY : external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample.dir/all
+
+# Build rule for subdir invocation for target.
+external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 28
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
+.PHONY : external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample.dir/rule
+
+# Convenience name for target.
+SimpleExample: external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample.dir/rule
+
+.PHONY : SimpleExample
+
+# clean rule for target.
+external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample.dir/build.make external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample.dir/clean
+.PHONY : external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample.dir/clean
+
+#=============================================================================
+# Target rules for target external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample_autogen.dir
+
+# All Build rule for target.
+external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample_autogen.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=41 "Built target SimpleExample_autogen"
+.PHONY : external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 24
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
+.PHONY : external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample_autogen.dir/rule
+
+# Convenience name for target.
+SimpleExample_autogen: external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample_autogen.dir/rule
+
+.PHONY : SimpleExample_autogen
+
+# clean rule for target.
+external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample_autogen.dir/clean
+.PHONY : external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample_autogen.dir/clean
+
+#=============================================================================
+# Target rules for target external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample.dir
+
+# All Build rule for target.
+external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
+external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample.dir/all: external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample.dir/build.make external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample.dir/depend
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample.dir/build.make external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=32,33,34,35 "Built target SidebarExample"
+.PHONY : external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample.dir/all
+
+# Build rule for subdir invocation for target.
+external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 28
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
+.PHONY : external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample.dir/rule
+
+# Convenience name for target.
+SidebarExample: external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample.dir/rule
+
+.PHONY : SidebarExample
+
+# clean rule for target.
+external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample.dir/build.make external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample.dir/clean
+.PHONY : external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample.dir/clean
+
+#=============================================================================
+# Target rules for target external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.dir
+
+# All Build rule for target.
+external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=36 "Built target SidebarExample_autogen"
+.PHONY : external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 24
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
+.PHONY : external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.dir/rule
+
+# Convenience name for target.
+SidebarExample_autogen: external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.dir/rule
+
+.PHONY : SidebarExample_autogen
+
+# clean rule for target.
+external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.dir/clean
+.PHONY : external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.dir/clean
+
+#=============================================================================
+# Target rules for target external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest.dir
+
+# All Build rule for target.
+external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
+external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest.dir/all: external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest.dir/build.make external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest.dir/build.make external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=14,15,16 "Built target DeleteOnCloseTest"
+.PHONY : external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest.dir/all
+
+# Build rule for subdir invocation for target.
+external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 27
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
+.PHONY : external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest.dir/rule
+
+# Convenience name for target.
+DeleteOnCloseTest: external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest.dir/rule
+
+.PHONY : DeleteOnCloseTest
+
+# clean rule for target.
+external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest.dir/build.make external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest.dir/clean
+.PHONY : external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest.dir/clean
+
+#=============================================================================
+# Target rules for target external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest_autogen.dir
+
+# All Build rule for target.
+external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest_autogen.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=17 "Built target DeleteOnCloseTest_autogen"
+.PHONY : external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 24
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
+.PHONY : external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest_autogen.dir/rule
+
+# Convenience name for target.
+DeleteOnCloseTest_autogen: external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest_autogen.dir/rule
+
+.PHONY : DeleteOnCloseTest_autogen
+
+# clean rule for target.
+external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest_autogen.dir/clean
+.PHONY : external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest_autogen.dir/clean
+
+#=============================================================================
+# Target rules for target external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample.dir
+
+# All Build rule for target.
+external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
+external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample.dir/all: external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample.dir/build.make external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample.dir/depend
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample.dir/build.make external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=9,10,11,12 "Built target CentralWidgetExample"
+.PHONY : external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample.dir/all
+
+# Build rule for subdir invocation for target.
+external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 28
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
+.PHONY : external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample.dir/rule
+
+# Convenience name for target.
+CentralWidgetExample: external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample.dir/rule
+
+.PHONY : CentralWidgetExample
+
+# clean rule for target.
+external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample.dir/build.make external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample.dir/clean
+.PHONY : external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample.dir/clean
+
+#=============================================================================
+# Target rules for target external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample_autogen.dir
+
+# All Build rule for target.
+external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample_autogen.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=13 "Built target CentralWidgetExample_autogen"
+.PHONY : external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 24
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
+.PHONY : external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample_autogen.dir/rule
+
+# Convenience name for target.
+CentralWidgetExample_autogen: external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample_autogen.dir/rule
+
+.PHONY : CentralWidgetExample_autogen
+
+# clean rule for target.
+external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample_autogen.dir/clean
+.PHONY : external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample_autogen.dir/clean
+
+#=============================================================================
+# Target rules for target external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample.dir
+
+# All Build rule for target.
+external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
+external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample.dir/all: external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample.dir/build.make external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample.dir/depend
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample.dir/build.make external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=27,28,29,30 "Built target EmptyDockAreaExample"
+.PHONY : external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample.dir/all
+
+# Build rule for subdir invocation for target.
+external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 28
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
+.PHONY : external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample.dir/rule
+
+# Convenience name for target.
+EmptyDockAreaExample: external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample.dir/rule
+
+.PHONY : EmptyDockAreaExample
+
+# clean rule for target.
+external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample.dir/build.make external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample.dir/clean
+.PHONY : external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample.dir/clean
+
+#=============================================================================
+# Target rules for target external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample_autogen.dir
+
+# All Build rule for target.
+external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample_autogen.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=31 "Built target EmptyDockAreaExample_autogen"
+.PHONY : external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 24
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
+.PHONY : external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample_autogen.dir/rule
+
+# Convenience name for target.
+EmptyDockAreaExample_autogen: external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample_autogen.dir/rule
+
+.PHONY : EmptyDockAreaExample_autogen
+
+# clean rule for target.
+external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample_autogen.dir/clean
+.PHONY : external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample_autogen.dir/clean
+
+#=============================================================================
+# Target rules for target external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample.dir
+
+# All Build rule for target.
+external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
+external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample.dir/all: external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample.dir/build.make external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample.dir/depend
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample.dir/build.make external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=18,19,20,21,22,23,24,25 "Built target DockInDockExample"
+.PHONY : external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample.dir/all
+
+# Build rule for subdir invocation for target.
+external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 32
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
+.PHONY : external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample.dir/rule
+
+# Convenience name for target.
+DockInDockExample: external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample.dir/rule
+
+.PHONY : DockInDockExample
+
+# clean rule for target.
+external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample.dir/build.make external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample.dir/clean
+.PHONY : external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample.dir/clean
+
+#=============================================================================
+# Target rules for target external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample_autogen.dir
+
+# All Build rule for target.
+external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample_autogen.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=26 "Built target DockInDockExample_autogen"
+.PHONY : external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 24
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
+.PHONY : external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample_autogen.dir/rule
+
+# Convenience name for target.
+DockInDockExample_autogen: external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample_autogen.dir/rule
+
+.PHONY : DockInDockExample_autogen
+
+# clean rule for target.
+external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample_autogen.dir/clean
+.PHONY : external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample_autogen.dir/clean
+
+#=============================================================================
+# Target rules for target external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo.dir
+
+# All Build rule for target.
+external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
+external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo.dir/all: external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo.dir/build.make external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo.dir/depend
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo.dir/build.make external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target AdvancedDockingSystemDemo"
+.PHONY : external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo.dir/all
+
+# Build rule for subdir invocation for target.
+external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 31
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
+.PHONY : external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo.dir/rule
+
+# Convenience name for target.
+AdvancedDockingSystemDemo: external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo.dir/rule
+
+.PHONY : AdvancedDockingSystemDemo
+
+# clean rule for target.
+external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo.dir/build.make external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo.dir/clean
+.PHONY : external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo.dir/clean
+
+#=============================================================================
+# Target rules for target external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir
+
+# All Build rule for target.
+external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/all: external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/all
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/build.make external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/build.make external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=8 "Built target AdvancedDockingSystemDemo_autogen"
+.PHONY : external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 24
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
+.PHONY : external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/rule
+
+# Convenience name for target.
+AdvancedDockingSystemDemo_autogen: external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/rule
+
+.PHONY : AdvancedDockingSystemDemo_autogen
+
+# clean rule for target.
+external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/build.make external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/clean
+.PHONY : external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

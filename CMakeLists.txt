@@ -18,8 +18,11 @@ set(CMAKE_PREFIX_PATH "/home/jonas/Qt/5.12.11/gcc_64")
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 find_package(Qt5 COMPONENTS Gui REQUIRED)
 
+add_subdirectory(external/Qt-Advanced-Docking-System)
+
 include_directories(core)
 include_directories(editor)
+include_directories(external/Qt-Advanced-Docking-System/src)
 
 add_executable(aspyre main/main.cxx)
 
@@ -31,6 +34,6 @@ add_library(vulkanplugin STATIC
 add_library(editorplugin STATIC editor/mainwindow.cxx editor/mainwindow.hxx)
 
 target_link_libraries(vulkanplugin PRIVATE Qt5::Gui)
-target_link_libraries(editorplugin PRIVATE vulkanplugin Qt5::Gui Qt5::Widgets)
+target_link_libraries(editorplugin PRIVATE vulkanplugin Qt5::Gui Qt5::Widgets qtadvanceddocking)
 
 target_link_libraries(aspyre PRIVATE vulkanplugin editorplugin Qt5::Gui Qt5::Widgets)

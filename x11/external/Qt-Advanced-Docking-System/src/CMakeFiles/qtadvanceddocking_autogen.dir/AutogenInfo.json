@@ -1,0 +1,272 @@
+{
+	"BUILD_DIR" : "/home/jonas/Aspyre-Engine/x11/external/Qt-Advanced-Docking-System/src/qtadvanceddocking_autogen",
+	"CMAKE_BINARY_DIR" : "/home/jonas/Aspyre-Engine/x11",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/jonas/Aspyre-Engine/x11/external/Qt-Advanced-Docking-System/src",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/CMakeLists.txt",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5X11Extras/Qt5X11ExtrasConfigVersion.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5X11Extras/Qt5X11ExtrasConfig.cmake",
+		"/usr/share/cmake-3.18/Modules/CMakePackageConfigHelpers.cmake",
+		"/usr/share/cmake-3.18/Modules/WriteBasicConfigVersionFile.cmake",
+		"/usr/share/cmake-3.18/Modules/BasicConfigVersion-SameMajorVersion.cmake.in",
+		"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/ads.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/jonas/Aspyre-Engine",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockAreaTabBar.h",
+			"MU",
+			"EWIEGA46WW/moc_DockAreaTabBar.cpp"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockAreaTitleBar.h",
+			"MU",
+			"EWIEGA46WW/moc_DockAreaTitleBar.cpp"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockAreaTitleBar_p.h",
+			"MU",
+			"EWIEGA46WW/moc_DockAreaTitleBar_p.cpp"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockAreaWidget.h",
+			"MU",
+			"EWIEGA46WW/moc_DockAreaWidget.cpp"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockComponentsFactory.h",
+			"MU",
+			"EWIEGA46WW/moc_DockComponentsFactory.cpp"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockContainerWidget.h",
+			"MU",
+			"EWIEGA46WW/moc_DockContainerWidget.cpp"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockFocusController.h",
+			"MU",
+			"EWIEGA46WW/moc_DockFocusController.cpp"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockManager.h",
+			"MU",
+			"EWIEGA46WW/moc_DockManager.cpp"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockOverlay.h",
+			"MU",
+			"EWIEGA46WW/moc_DockOverlay.cpp"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockSplitter.h",
+			"MU",
+			"EWIEGA46WW/moc_DockSplitter.cpp"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockWidget.h",
+			"MU",
+			"EWIEGA46WW/moc_DockWidget.cpp"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockWidgetTab.h",
+			"MU",
+			"EWIEGA46WW/moc_DockWidgetTab.cpp"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockingStateReader.h",
+			"MU",
+			"EWIEGA46WW/moc_DockingStateReader.cpp"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/ElidingLabel.h",
+			"MU",
+			"EWIEGA46WW/moc_ElidingLabel.cpp"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/FloatingDockContainer.h",
+			"MU",
+			"EWIEGA46WW/moc_FloatingDockContainer.cpp"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/FloatingDragPreview.h",
+			"MU",
+			"EWIEGA46WW/moc_FloatingDragPreview.cpp"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/IconProvider.h",
+			"MU",
+			"EWIEGA46WW/moc_IconProvider.cpp"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/ads_globals.h",
+			"MU",
+			"EWIEGA46WW/moc_ads_globals.cpp"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/linux/FloatingWidgetTitleBar.h",
+			"MU",
+			"YCY4FPCVH5/moc_FloatingWidgetTitleBar.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/jonas/Aspyre-Engine/x11/external/Qt-Advanced-Docking-System/src/qtadvanceddocking_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/jonas/Aspyre-Engine/x11/external/Qt-Advanced-Docking-System/src/qtadvanceddocking_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"ADS_SHARED_EXPORT",
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB",
+		"QT_X11EXTRAS_LIB",
+		"qtadvanceddocking_EXPORTS"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/jonas/Aspyre-Engine/x11/external/Qt-Advanced-Docking-System/src",
+		"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src",
+		"/home/jonas/Qt/5.12.11/gcc_64/include",
+		"/home/jonas/Qt/5.12.11/gcc_64/include/QtCore",
+		"/home/jonas/Qt/5.12.11/gcc_64/mkspecs/linux-g++",
+		"/home/jonas/Qt/5.12.11/gcc_64/include/QtGui",
+		"/home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets",
+		"/home/jonas/Qt/5.12.11/gcc_64/include/QtX11Extras",
+		"/usr/include",
+		"/usr/include/c++/10",
+		"/usr/include/x86_64-linux-gnu/c++/10",
+		"/usr/include/c++/10/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/10/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/jonas/Aspyre-Engine/x11/external/Qt-Advanced-Docking-System/src/qtadvanceddocking_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/jonas/Aspyre-Engine/x11/external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/home/jonas/Qt/5.12.11/gcc_64/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/home/jonas/Qt/5.12.11/gcc_64/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 12,
+	"SETTINGS_FILE" : "/home/jonas/Aspyre-Engine/x11/external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockAreaTabBar.cpp",
+			"MU"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockAreaTitleBar.cpp",
+			"MU"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockAreaWidget.cpp",
+			"MU"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockComponentsFactory.cpp",
+			"MU"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockContainerWidget.cpp",
+			"MU"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockFocusController.cpp",
+			"MU"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockManager.cpp",
+			"MU"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockOverlay.cpp",
+			"MU"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockSplitter.cpp",
+			"MU"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockWidget.cpp",
+			"MU"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockWidgetTab.cpp",
+			"MU"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/DockingStateReader.cpp",
+			"MU"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/ElidingLabel.cpp",
+			"MU"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/FloatingDockContainer.cpp",
+			"MU"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/FloatingDragPreview.cpp",
+			"MU"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/IconProvider.cpp",
+			"MU"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/ads_globals.cpp",
+			"MU"
+		],
+		[
+			"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src/linux/FloatingWidgetTitleBar.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

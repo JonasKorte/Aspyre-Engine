@@ -119,6 +119,7 @@
 	[
 		"/home/jonas/Aspyre-Engine/core",
 		"/home/jonas/Aspyre-Engine/editor",
+		"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src",
 		"/home/jonas/Qt/5.12.11/gcc_64/include",
 		"/home/jonas/Qt/5.12.11/gcc_64/include/QtGui",
 		"/home/jonas/Qt/5.12.11/gcc_64/include/QtCore",

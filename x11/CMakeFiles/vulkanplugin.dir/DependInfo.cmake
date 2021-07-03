@@ -23,6 +23,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "vulkanplugin_autogen/include"
   "../core"
   "../editor"
+  "../external/Qt-Advanced-Docking-System/src"
   "/home/jonas/Qt/5.12.11/gcc_64/include"
   "/home/jonas/Qt/5.12.11/gcc_64/include/QtGui"
   "/home/jonas/Qt/5.12.11/gcc_64/include/QtCore"

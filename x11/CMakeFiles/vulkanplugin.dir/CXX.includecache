@@ -10,20 +10,6 @@
 iostream
 -
 
-../core/rendering/vulkaninstance.hxx
-QVulkanInstance
--
-QByteArrayList
--
-logging/log.hxx
--
-
-../core/rendering/vulkanwindow.hxx
-QVulkanWindow
--
-rendering/vulkanwindowrenderer.hxx
--
-
 ../core/rendering/vulkanwindowrenderer.hxx
 logging/log.hxx
 -
@@ -34,17 +20,9 @@ QVulkanDeviceFunctions
 QVulkanWindow
 -
 
-/home/jonas/Aspyre-Engine/core/rendering/vulkaninstance.cxx
-rendering/vulkaninstance.hxx
+/home/jonas/Aspyre-Engine/core/rendering/vulkanwindowrenderer.cxx
+rendering/vulkanwindowrenderer.hxx
 -
-
-/home/jonas/Aspyre-Engine/core/rendering/vulkanwindow.cxx
-rendering/vulkanwindow.hxx
--
-
-/home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QByteArrayList
-qbytearraylist.h
-/home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qbytearraylist.h
 
 /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QEvent
 qcoreevent.h
@@ -723,10 +701,6 @@ QtCore/qglobal.h
 /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/QVulkanDeviceFunctions
 qvulkanfunctions.h
 /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qvulkanfunctions.h
-
-/home/jonas/Qt/5.12.11/gcc_64/include/QtGui/QVulkanInstance
-qvulkaninstance.h
-/home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qvulkaninstance.h
 
 /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/QVulkanWindow
 qvulkanwindow.h

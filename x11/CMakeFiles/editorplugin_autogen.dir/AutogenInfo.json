@@ -97,7 +97,14 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/jonas/Aspyre-Engine/x11/editorplugin_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/jonas/Aspyre-Engine/x11/editorplugin_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB",
+		"QT_X11EXTRAS_LIB"
+	],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -109,11 +116,13 @@
 	[
 		"/home/jonas/Aspyre-Engine/core",
 		"/home/jonas/Aspyre-Engine/editor",
+		"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src",
 		"/home/jonas/Qt/5.12.11/gcc_64/include",
 		"/home/jonas/Qt/5.12.11/gcc_64/include/QtGui",
 		"/home/jonas/Qt/5.12.11/gcc_64/include/QtCore",
 		"/home/jonas/Qt/5.12.11/gcc_64/mkspecs/linux-g++",
 		"/home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets",
+		"/home/jonas/Qt/5.12.11/gcc_64/include/QtX11Extras",
 		"/usr/include",
 		"/usr/include/c++/10",
 		"/usr/include/x86_64-linux-gnu/c++/10",

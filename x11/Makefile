@@ -75,6 +75,40 @@ CMAKE_BINARY_DIR = /home/jonas/Aspyre-Engine/x11
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"headers\" \"license\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -96,6 +130,18 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -206,6 +252,214 @@ aspyre_autogen: cmake_check_build_system
 aspyre_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aspyre_autogen.dir/build.make CMakeFiles/aspyre_autogen.dir/build
 .PHONY : aspyre_autogen/fast
+
+#=============================================================================
+# Target rules for targets named qtadvanceddocking
+
+# Build rule for target.
+qtadvanceddocking: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qtadvanceddocking
+.PHONY : qtadvanceddocking
+
+# fast build rule for target.
+qtadvanceddocking/fast:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/build.make external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/build
+.PHONY : qtadvanceddocking/fast
+
+#=============================================================================
+# Target rules for targets named qtadvanceddocking_autogen
+
+# Build rule for target.
+qtadvanceddocking_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qtadvanceddocking_autogen
+.PHONY : qtadvanceddocking_autogen
+
+# fast build rule for target.
+qtadvanceddocking_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/build.make external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/build
+.PHONY : qtadvanceddocking_autogen/fast
+
+#=============================================================================
+# Target rules for targets named SimpleExample
+
+# Build rule for target.
+SimpleExample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SimpleExample
+.PHONY : SimpleExample
+
+# fast build rule for target.
+SimpleExample/fast:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample.dir/build.make external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample.dir/build
+.PHONY : SimpleExample/fast
+
+#=============================================================================
+# Target rules for targets named SimpleExample_autogen
+
+# Build rule for target.
+SimpleExample_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SimpleExample_autogen
+.PHONY : SimpleExample_autogen
+
+# fast build rule for target.
+SimpleExample_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/simple/CMakeFiles/SimpleExample_autogen.dir/build
+.PHONY : SimpleExample_autogen/fast
+
+#=============================================================================
+# Target rules for targets named SidebarExample
+
+# Build rule for target.
+SidebarExample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SidebarExample
+.PHONY : SidebarExample
+
+# fast build rule for target.
+SidebarExample/fast:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample.dir/build.make external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample.dir/build
+.PHONY : SidebarExample/fast
+
+#=============================================================================
+# Target rules for targets named SidebarExample_autogen
+
+# Build rule for target.
+SidebarExample_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SidebarExample_autogen
+.PHONY : SidebarExample_autogen
+
+# fast build rule for target.
+SidebarExample_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/sidebar/CMakeFiles/SidebarExample_autogen.dir/build
+.PHONY : SidebarExample_autogen/fast
+
+#=============================================================================
+# Target rules for targets named DeleteOnCloseTest
+
+# Build rule for target.
+DeleteOnCloseTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DeleteOnCloseTest
+.PHONY : DeleteOnCloseTest
+
+# fast build rule for target.
+DeleteOnCloseTest/fast:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest.dir/build.make external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest.dir/build
+.PHONY : DeleteOnCloseTest/fast
+
+#=============================================================================
+# Target rules for targets named DeleteOnCloseTest_autogen
+
+# Build rule for target.
+DeleteOnCloseTest_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DeleteOnCloseTest_autogen
+.PHONY : DeleteOnCloseTest_autogen
+
+# fast build rule for target.
+DeleteOnCloseTest_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/deleteonclose/CMakeFiles/DeleteOnCloseTest_autogen.dir/build
+.PHONY : DeleteOnCloseTest_autogen/fast
+
+#=============================================================================
+# Target rules for targets named CentralWidgetExample
+
+# Build rule for target.
+CentralWidgetExample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CentralWidgetExample
+.PHONY : CentralWidgetExample
+
+# fast build rule for target.
+CentralWidgetExample/fast:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample.dir/build.make external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample.dir/build
+.PHONY : CentralWidgetExample/fast
+
+#=============================================================================
+# Target rules for targets named CentralWidgetExample_autogen
+
+# Build rule for target.
+CentralWidgetExample_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CentralWidgetExample_autogen
+.PHONY : CentralWidgetExample_autogen
+
+# fast build rule for target.
+CentralWidgetExample_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/centralwidget/CMakeFiles/CentralWidgetExample_autogen.dir/build
+.PHONY : CentralWidgetExample_autogen/fast
+
+#=============================================================================
+# Target rules for targets named EmptyDockAreaExample
+
+# Build rule for target.
+EmptyDockAreaExample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EmptyDockAreaExample
+.PHONY : EmptyDockAreaExample
+
+# fast build rule for target.
+EmptyDockAreaExample/fast:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample.dir/build.make external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample.dir/build
+.PHONY : EmptyDockAreaExample/fast
+
+#=============================================================================
+# Target rules for targets named EmptyDockAreaExample_autogen
+
+# Build rule for target.
+EmptyDockAreaExample_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EmptyDockAreaExample_autogen
+.PHONY : EmptyDockAreaExample_autogen
+
+# fast build rule for target.
+EmptyDockAreaExample_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/emptydockarea/CMakeFiles/EmptyDockAreaExample_autogen.dir/build
+.PHONY : EmptyDockAreaExample_autogen/fast
+
+#=============================================================================
+# Target rules for targets named DockInDockExample
+
+# Build rule for target.
+DockInDockExample: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DockInDockExample
+.PHONY : DockInDockExample
+
+# fast build rule for target.
+DockInDockExample/fast:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample.dir/build.make external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample.dir/build
+.PHONY : DockInDockExample/fast
+
+#=============================================================================
+# Target rules for targets named DockInDockExample_autogen
+
+# Build rule for target.
+DockInDockExample_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DockInDockExample_autogen
+.PHONY : DockInDockExample_autogen
+
+# fast build rule for target.
+DockInDockExample_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample_autogen.dir/build.make external/Qt-Advanced-Docking-System/examples/dockindock/CMakeFiles/DockInDockExample_autogen.dir/build
+.PHONY : DockInDockExample_autogen/fast
+
+#=============================================================================
+# Target rules for targets named AdvancedDockingSystemDemo
+
+# Build rule for target.
+AdvancedDockingSystemDemo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AdvancedDockingSystemDemo
+.PHONY : AdvancedDockingSystemDemo
+
+# fast build rule for target.
+AdvancedDockingSystemDemo/fast:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo.dir/build.make external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo.dir/build
+.PHONY : AdvancedDockingSystemDemo/fast
+
+#=============================================================================
+# Target rules for targets named AdvancedDockingSystemDemo_autogen
+
+# Build rule for target.
+AdvancedDockingSystemDemo_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AdvancedDockingSystemDemo_autogen
+.PHONY : AdvancedDockingSystemDemo_autogen
+
+# fast build rule for target.
+AdvancedDockingSystemDemo_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/build.make external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/build
+.PHONY : AdvancedDockingSystemDemo_autogen/fast
 
 aspyre_autogen/mocs_compilation.o: aspyre_autogen/mocs_compilation.cpp.o
 
@@ -430,12 +684,32 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... AdvancedDockingSystemDemo_autogen"
+	@echo "... CentralWidgetExample_autogen"
+	@echo "... DeleteOnCloseTest_autogen"
+	@echo "... DockInDockExample_autogen"
+	@echo "... EmptyDockAreaExample_autogen"
+	@echo "... SidebarExample_autogen"
+	@echo "... SimpleExample_autogen"
 	@echo "... aspyre_autogen"
 	@echo "... editorplugin_autogen"
+	@echo "... qtadvanceddocking_autogen"
 	@echo "... vulkanplugin_autogen"
+	@echo "... AdvancedDockingSystemDemo"
+	@echo "... CentralWidgetExample"
+	@echo "... DeleteOnCloseTest"
+	@echo "... DockInDockExample"
+	@echo "... EmptyDockAreaExample"
+	@echo "... SidebarExample"
+	@echo "... SimpleExample"
 	@echo "... aspyre"
 	@echo "... editorplugin"
+	@echo "... qtadvanceddocking"
 	@echo "... vulkanplugin"
 	@echo "... aspyre_autogen/mocs_compilation.o"
 	@echo "... aspyre_autogen/mocs_compilation.i"
