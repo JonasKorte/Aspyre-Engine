@@ -143,6 +143,19 @@ vulkanplugin/fast:
 .PHONY : vulkanplugin/fast
 
 #=============================================================================
+# Target rules for targets named editorplugin
+
+# Build rule for target.
+editorplugin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 editorplugin
+.PHONY : editorplugin
+
+# fast build rule for target.
+editorplugin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin.dir/build.make CMakeFiles/editorplugin.dir/build
+.PHONY : editorplugin/fast
+
+#=============================================================================
 # Target rules for targets named aspyre
 
 # Build rule for target.
@@ -167,6 +180,19 @@ vulkanplugin_autogen: cmake_check_build_system
 vulkanplugin_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin_autogen.dir/build.make CMakeFiles/vulkanplugin_autogen.dir/build
 .PHONY : vulkanplugin_autogen/fast
+
+#=============================================================================
+# Target rules for targets named editorplugin_autogen
+
+# Build rule for target.
+editorplugin_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 editorplugin_autogen
+.PHONY : editorplugin_autogen
+
+# fast build rule for target.
+editorplugin_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin_autogen.dir/build.make CMakeFiles/editorplugin_autogen.dir/build
+.PHONY : editorplugin_autogen/fast
 
 #=============================================================================
 # Target rules for targets named aspyre_autogen
@@ -289,6 +315,60 @@ core/rendering/vulkanwindowrenderer.cxx.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.s
 .PHONY : core/rendering/vulkanwindowrenderer.cxx.s
 
+editor/mainwindow.o: editor/mainwindow.cxx.o
+
+.PHONY : editor/mainwindow.o
+
+# target to build an object file
+editor/mainwindow.cxx.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin.dir/build.make CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o
+.PHONY : editor/mainwindow.cxx.o
+
+editor/mainwindow.i: editor/mainwindow.cxx.i
+
+.PHONY : editor/mainwindow.i
+
+# target to preprocess a source file
+editor/mainwindow.cxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin.dir/build.make CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.i
+.PHONY : editor/mainwindow.cxx.i
+
+editor/mainwindow.s: editor/mainwindow.cxx.s
+
+.PHONY : editor/mainwindow.s
+
+# target to generate assembly for a file
+editor/mainwindow.cxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin.dir/build.make CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.s
+.PHONY : editor/mainwindow.cxx.s
+
+editorplugin_autogen/mocs_compilation.o: editorplugin_autogen/mocs_compilation.cpp.o
+
+.PHONY : editorplugin_autogen/mocs_compilation.o
+
+# target to build an object file
+editorplugin_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin.dir/build.make CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.o
+.PHONY : editorplugin_autogen/mocs_compilation.cpp.o
+
+editorplugin_autogen/mocs_compilation.i: editorplugin_autogen/mocs_compilation.cpp.i
+
+.PHONY : editorplugin_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+editorplugin_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin.dir/build.make CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.i
+.PHONY : editorplugin_autogen/mocs_compilation.cpp.i
+
+editorplugin_autogen/mocs_compilation.s: editorplugin_autogen/mocs_compilation.cpp.s
+
+.PHONY : editorplugin_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+editorplugin_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin.dir/build.make CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.s
+.PHONY : editorplugin_autogen/mocs_compilation.cpp.s
+
 main/main.o: main/main.cxx.o
 
 .PHONY : main/main.o
@@ -352,8 +432,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... aspyre_autogen"
+	@echo "... editorplugin_autogen"
 	@echo "... vulkanplugin_autogen"
 	@echo "... aspyre"
+	@echo "... editorplugin"
 	@echo "... vulkanplugin"
 	@echo "... aspyre_autogen/mocs_compilation.o"
 	@echo "... aspyre_autogen/mocs_compilation.i"
@@ -367,6 +449,12 @@ help:
 	@echo "... core/rendering/vulkanwindowrenderer.o"
 	@echo "... core/rendering/vulkanwindowrenderer.i"
 	@echo "... core/rendering/vulkanwindowrenderer.s"
+	@echo "... editor/mainwindow.o"
+	@echo "... editor/mainwindow.i"
+	@echo "... editor/mainwindow.s"
+	@echo "... editorplugin_autogen/mocs_compilation.o"
+	@echo "... editorplugin_autogen/mocs_compilation.i"
+	@echo "... editorplugin_autogen/mocs_compilation.s"
 	@echo "... main/main.o"
 	@echo "... main/main.i"
 	@echo "... main/main.s"

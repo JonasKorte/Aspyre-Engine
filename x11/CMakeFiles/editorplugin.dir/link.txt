@@ -1,0 +1,2 @@
+/usr/bin/ar qc libeditorplugin.a CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.o CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o
+/usr/bin/ranlib libeditorplugin.a

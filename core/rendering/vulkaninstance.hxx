@@ -9,7 +9,7 @@ public:
     VulkanInstance();
     ~VulkanInstance();
     QVulkanInstance* GetInstance();
-    bool IsSuccessfull();
+    bool IsSuccessful();
 private:
     QVulkanInstance* m_instance;
 

@@ -8,6 +8,7 @@ CMakeFiles/aspyre.dir/main/main.cxx.o
  ../core/rendering/vulkaninstance.hxx
  ../core/rendering/vulkanwindow.hxx
  ../core/rendering/vulkanwindowrenderer.hxx
+ ../editor/mainwindow.hxx
  /home/jonas/Aspyre-Engine/main/main.cxx
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QByteArrayList
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QEvent
@@ -34,6 +35,8 @@ CMakeFiles/aspyre.dir/main/main.cxx.o
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qdatastream.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qdebug.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qeventloop.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qfile.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qfiledevice.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qflags.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qgenericatomic.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qglobal.h
@@ -80,27 +83,35 @@ CMakeFiles/aspyre.dir/main/main.cxx.o
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qtcore-config.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qtextstream.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qtypeinfo.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qurl.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qurlquery.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qvariant.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qvarlengtharray.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qvector.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qversionnumber.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qversiontagging.h
- /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/QGuiApplication
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/QVulkanDeviceFunctions
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/QVulkanInstance
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/QVulkanWindow
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/QVulkanWindowRenderer
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qbrush.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qcolor.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qcursor.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qevent.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qfont.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qfontinfo.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qfontmetrics.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qgenericmatrix.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qguiapplication.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qicon.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qimage.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qinputmethod.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qkeysequence.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qmatrix.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qmatrix4x4.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qpaintdevice.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qpainterpath.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qpalette.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qpixelformat.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qpixmap.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qpolygon.h
@@ -112,7 +123,9 @@ CMakeFiles/aspyre.dir/main/main.cxx.o
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qsurfaceformat.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qtgui-config.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qtguiglobal.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qtouchdevice.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qtransform.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qvector2d.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qvector3d.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qvector4d.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qvulkanfunctions.h
@@ -121,3 +134,18 @@ CMakeFiles/aspyre.dir/main/main.cxx.o
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qwindow.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qwindowdefs.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/qwindowdefs_win.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets/QApplication
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets/QTabWidget
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets/QVBoxLayout
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets/QWidget
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets/qapplication.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets/qboxlayout.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets/qdesktopwidget.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets/qgridlayout.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets/qlayout.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets/qlayoutitem.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets/qsizepolicy.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets/qtabwidget.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets/qtwidgets-config.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets/qtwidgetsglobal.h
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets/qwidget.h

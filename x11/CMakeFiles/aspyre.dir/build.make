@@ -114,7 +114,9 @@ aspyre: CMakeFiles/aspyre.dir/aspyre_autogen/mocs_compilation.cpp.o
 aspyre: CMakeFiles/aspyre.dir/main/main.cxx.o
 aspyre: CMakeFiles/aspyre.dir/build.make
 aspyre: libvulkanplugin.a
+aspyre: libeditorplugin.a
 aspyre: /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Widgets.so.5.12.11
+aspyre: libvulkanplugin.a
 aspyre: /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Gui.so.5.12.11
 aspyre: /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Core.so.5.12.11
 aspyre: CMakeFiles/aspyre.dir/link.txt

@@ -1,5 +1,5 @@
 {
-	"BUILD_DIR" : "/home/jonas/Aspyre-Engine/x11/aspyre_autogen",
+	"BUILD_DIR" : "/home/jonas/Aspyre-Engine/x11/editorplugin_autogen",
 	"CMAKE_BINARY_DIR" : "/home/jonas/Aspyre-Engine/x11",
 	"CMAKE_CURRENT_BINARY_DIR" : "/home/jonas/Aspyre-Engine/x11",
 	"CMAKE_CURRENT_SOURCE_DIR" : "/home/jonas/Aspyre-Engine",
@@ -86,10 +86,17 @@
 	"CMAKE_SOURCE_DIR" : "/home/jonas/Aspyre-Engine",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/home/jonas/Aspyre-Engine/editor/mainwindow.hxx",
+			"MU",
+			"3HAKN7MTYQ/moc_mainwindow.cpp"
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/jonas/Aspyre-Engine/x11/aspyre_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/jonas/Aspyre-Engine/x11/aspyre_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/jonas/Aspyre-Engine/x11/editorplugin_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/jonas/Aspyre-Engine/x11/editorplugin_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -126,30 +133,28 @@
 		"-c",
 		"/usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/jonas/Aspyre-Engine/x11/aspyre_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/jonas/Aspyre-Engine/x11/editorplugin_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/jonas/Aspyre-Engine/x11/editorplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/x11/vulkanplugin_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 6,
-	"PARSE_CACHE_FILE" : "/home/jonas/Aspyre-Engine/x11/CMakeFiles/aspyre_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/jonas/Aspyre-Engine/x11/CMakeFiles/editorplugin_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/home/jonas/Qt/5.12.11/gcc_64/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/home/jonas/Qt/5.12.11/gcc_64/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 12,
-	"SETTINGS_FILE" : "/home/jonas/Aspyre-Engine/x11/CMakeFiles/aspyre_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/jonas/Aspyre-Engine/x11/CMakeFiles/editorplugin_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/jonas/Aspyre-Engine/main/main.cxx", "MU" ]
+		[ "/home/jonas/Aspyre-Engine/editor/mainwindow.cxx", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
-		"/home/jonas/Aspyre-Engine/x11/editorplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/x11/vulkanplugin_autogen/mocs_compilation.cpp"
 	],
 	"UIC_UI_FILES" : [],

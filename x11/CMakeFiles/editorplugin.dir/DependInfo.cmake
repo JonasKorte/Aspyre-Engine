@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jonas/Aspyre-Engine/x11/aspyre_autogen/mocs_compilation.cpp" "/home/jonas/Aspyre-Engine/x11/CMakeFiles/aspyre.dir/aspyre_autogen/mocs_compilation.cpp.o"
-  "/home/jonas/Aspyre-Engine/main/main.cxx" "/home/jonas/Aspyre-Engine/x11/CMakeFiles/aspyre.dir/main/main.cxx.o"
+  "/home/jonas/Aspyre-Engine/editor/mainwindow.cxx" "/home/jonas/Aspyre-Engine/x11/CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o"
+  "/home/jonas/Aspyre-Engine/x11/editorplugin_autogen/mocs_compilation.cpp" "/home/jonas/Aspyre-Engine/x11/CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,7 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "aspyre_autogen/include"
+  "editorplugin_autogen/include"
   "../core"
   "../editor"
   "/home/jonas/Qt/5.12.11/gcc_64/include"
@@ -32,7 +32,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/jonas/Aspyre-Engine/x11/CMakeFiles/vulkanplugin.dir/DependInfo.cmake"
-  "/home/jonas/Aspyre-Engine/x11/CMakeFiles/editorplugin.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

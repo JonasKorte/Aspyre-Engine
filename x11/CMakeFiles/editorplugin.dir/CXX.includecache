@@ -50,11 +50,7 @@ QVBoxLayout
 QTabWidget
 -
 
-/home/jonas/Aspyre-Engine/main/main.cxx
-iostream
--
-QApplication
--
+/home/jonas/Aspyre-Engine/editor/mainwindow.cxx
 mainwindow.hxx
 -
 

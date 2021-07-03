@@ -73,6 +73,7 @@ CMAKE_BINARY_DIR = /home/jonas/Aspyre-Engine/x11
 
 # The main recursive "all" target.
 all: CMakeFiles/vulkanplugin.dir/all
+all: CMakeFiles/editorplugin.dir/all
 all: CMakeFiles/aspyre.dir/all
 
 .PHONY : all
@@ -84,8 +85,10 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/vulkanplugin.dir/clean
+clean: CMakeFiles/editorplugin.dir/clean
 clean: CMakeFiles/aspyre.dir/clean
 clean: CMakeFiles/vulkanplugin_autogen.dir/clean
+clean: CMakeFiles/editorplugin_autogen.dir/clean
 clean: CMakeFiles/aspyre_autogen.dir/clean
 
 .PHONY : clean
@@ -97,7 +100,7 @@ clean: CMakeFiles/aspyre_autogen.dir/clean
 CMakeFiles/vulkanplugin.dir/all: CMakeFiles/vulkanplugin_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=5,6,7,8,9 "Built target vulkanplugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=9,10,11,12,13 "Built target vulkanplugin"
 .PHONY : CMakeFiles/vulkanplugin.dir/all
 
 # Build rule for subdir invocation for target.
@@ -118,10 +121,39 @@ CMakeFiles/vulkanplugin.dir/clean:
 .PHONY : CMakeFiles/vulkanplugin.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/editorplugin.dir
+
+# All Build rule for target.
+CMakeFiles/editorplugin.dir/all: CMakeFiles/vulkanplugin.dir/all
+CMakeFiles/editorplugin.dir/all: CMakeFiles/editorplugin_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin.dir/build.make CMakeFiles/editorplugin.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin.dir/build.make CMakeFiles/editorplugin.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=5,6,7 "Built target editorplugin"
+.PHONY : CMakeFiles/editorplugin.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/editorplugin.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 10
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/editorplugin.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
+.PHONY : CMakeFiles/editorplugin.dir/rule
+
+# Convenience name for target.
+editorplugin: CMakeFiles/editorplugin.dir/rule
+
+.PHONY : editorplugin
+
+# clean rule for target.
+CMakeFiles/editorplugin.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin.dir/build.make CMakeFiles/editorplugin.dir/clean
+.PHONY : CMakeFiles/editorplugin.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/aspyre.dir
 
 # All Build rule for target.
 CMakeFiles/aspyre.dir/all: CMakeFiles/vulkanplugin.dir/all
+CMakeFiles/aspyre.dir/all: CMakeFiles/editorplugin.dir/all
 CMakeFiles/aspyre.dir/all: CMakeFiles/aspyre_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aspyre.dir/build.make CMakeFiles/aspyre.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aspyre.dir/build.make CMakeFiles/aspyre.dir/build
@@ -130,7 +162,7 @@ CMakeFiles/aspyre.dir/all: CMakeFiles/aspyre_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/aspyre.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/aspyre.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
 .PHONY : CMakeFiles/aspyre.dir/rule
@@ -152,7 +184,7 @@ CMakeFiles/aspyre.dir/clean:
 CMakeFiles/vulkanplugin_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin_autogen.dir/build.make CMakeFiles/vulkanplugin_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin_autogen.dir/build.make CMakeFiles/vulkanplugin_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=10 "Built target vulkanplugin_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=14 "Built target vulkanplugin_autogen"
 .PHONY : CMakeFiles/vulkanplugin_autogen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -173,10 +205,38 @@ CMakeFiles/vulkanplugin_autogen.dir/clean:
 .PHONY : CMakeFiles/vulkanplugin_autogen.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/editorplugin_autogen.dir
+
+# All Build rule for target.
+CMakeFiles/editorplugin_autogen.dir/all: CMakeFiles/vulkanplugin.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin_autogen.dir/build.make CMakeFiles/editorplugin_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin_autogen.dir/build.make CMakeFiles/editorplugin_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=8 "Built target editorplugin_autogen"
+.PHONY : CMakeFiles/editorplugin_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/editorplugin_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/editorplugin_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
+.PHONY : CMakeFiles/editorplugin_autogen.dir/rule
+
+# Convenience name for target.
+editorplugin_autogen: CMakeFiles/editorplugin_autogen.dir/rule
+
+.PHONY : editorplugin_autogen
+
+# clean rule for target.
+CMakeFiles/editorplugin_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin_autogen.dir/build.make CMakeFiles/editorplugin_autogen.dir/clean
+.PHONY : CMakeFiles/editorplugin_autogen.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/aspyre_autogen.dir
 
 # All Build rule for target.
 CMakeFiles/aspyre_autogen.dir/all: CMakeFiles/vulkanplugin.dir/all
+CMakeFiles/aspyre_autogen.dir/all: CMakeFiles/editorplugin.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aspyre_autogen.dir/build.make CMakeFiles/aspyre_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aspyre_autogen.dir/build.make CMakeFiles/aspyre_autogen.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=4 "Built target aspyre_autogen"
@@ -184,7 +244,7 @@ CMakeFiles/aspyre_autogen.dir/all: CMakeFiles/vulkanplugin.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/aspyre_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/aspyre_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jonas/Aspyre-Engine/x11/CMakeFiles 0
 .PHONY : CMakeFiles/aspyre_autogen.dir/rule

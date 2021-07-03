@@ -1,24 +1,20 @@
 #include <iostream>
-#include <QGuiApplication>
-#include <rendering/vulkaninstance.hxx>
-#include <rendering/vulkanwindow.hxx>
+#include <QApplication>
+#include <mainwindow.hxx>
 
 int main(int argc, char *argv[])
 {
     int exitCode = 0;
 
-    QGuiApplication app(argc, argv);
-    VulkanInstance* instance = new VulkanInstance();
+    QApplication app(argc, argv);
 
-    if (!instance->IsSuccessfull())
+    MainWindow* window = new MainWindow();
+
+    if (!window->IsSuccessful())
     {
         exitCode = -1;
         return exitCode;
     }
-
-    VulkanWindow* window = new VulkanWindow();
-
-    window->setVulkanInstance(instance->GetInstance());
 
     window->resize(1280, 720);
 
@@ -29,8 +25,6 @@ int main(int argc, char *argv[])
     LOGINFO("Quitting...");
 
     delete (window);
-
-    delete (instance);
 
     return exitCode;
 }
