@@ -19,6 +19,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/jonas/Aspyre-Engine/x11/CMakeFiles/2dplugin.dir/DependInfo.cmake"
+  "/home/jonas/Aspyre-Engine/x11/CMakeFiles/3dplugin.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

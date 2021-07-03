@@ -145,7 +145,11 @@
 	],
 	"MOC_PREDEFS_FILE" : "/home/jonas/Aspyre-Engine/x11/vulkanplugin_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
-	"MOC_SKIP" : [],
+	"MOC_SKIP" : 
+	[
+		"/home/jonas/Aspyre-Engine/x11/2dplugin_autogen/mocs_compilation.cpp",
+		"/home/jonas/Aspyre-Engine/x11/3dplugin_autogen/mocs_compilation.cpp"
+	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 6,
 	"PARSE_CACHE_FILE" : "/home/jonas/Aspyre-Engine/x11/CMakeFiles/vulkanplugin_autogen.dir/ParseCache.txt",
@@ -165,7 +169,11 @@
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
-	"UIC_SKIP" : [],
+	"UIC_SKIP" : 
+	[
+		"/home/jonas/Aspyre-Engine/x11/2dplugin_autogen/mocs_compilation.cpp",
+		"/home/jonas/Aspyre-Engine/x11/3dplugin_autogen/mocs_compilation.cpp"
+	],
 	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0
 }

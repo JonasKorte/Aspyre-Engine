@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib3dplugin.a CMakeFiles/3dplugin.dir/3dplugin_autogen/mocs_compilation.cpp.o CMakeFiles/3dplugin.dir/core/rendering/graphics/3D/vulkan3d.cxx.o
+/usr/bin/ranlib lib3dplugin.a

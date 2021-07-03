@@ -10,7 +10,19 @@
 iostream
 -
 
+../core/rendering/graphics/2D/vulkan2d.hxx
+logging/log.hxx
+-
+
+../core/rendering/graphics/3D/vulkan3d.hxx
+logging/log.hxx
+-
+
 ../core/rendering/graphics/vulkanmainrenderer.hxx
+rendering/graphics/3D/vulkan3d.hxx
+-
+rendering/graphics/2D/vulkan2d.hxx
+-
 
 ../core/rendering/vulkaninstance.hxx
 logging/log.hxx

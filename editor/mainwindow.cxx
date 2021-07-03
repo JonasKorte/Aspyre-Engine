@@ -34,7 +34,7 @@ MainWindow::MainWindow()
 
     setLayout(this->m_vboxLayout);
 
-    this->m_mainRenderer = new VulkanMainRenderer();
+    this->m_mainRenderer = new VulkanMainRenderer(VKR_HYBRID);
 }
 
 MainWindow::~MainWindow()

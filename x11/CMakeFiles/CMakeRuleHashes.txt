@@ -1,4 +1,6 @@
 # Hashes of file build rules.
+f243b52ae56ad52e3d222a5d44d9d285 CMakeFiles/2dplugin_autogen
+889d3e6c027c0aff4a82c21682e4c324 CMakeFiles/3dplugin_autogen
 cbfda6b936f394ffdbae9ac718a72af8 CMakeFiles/aspyre_autogen
 d04b885944f497941c4eeb51e2c5dfcb CMakeFiles/editorplugin_autogen
 c019ab71be352b74cc9c3c102567ff64 CMakeFiles/graphicsplugin_autogen

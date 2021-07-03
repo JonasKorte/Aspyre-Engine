@@ -176,6 +176,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 3dplugin
+
+# Build rule for target.
+3dplugin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dplugin
+.PHONY : 3dplugin
+
+# fast build rule for target.
+3dplugin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3dplugin.dir/build.make CMakeFiles/3dplugin.dir/build
+.PHONY : 3dplugin/fast
+
+#=============================================================================
+# Target rules for targets named 2dplugin
+
+# Build rule for target.
+2dplugin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2dplugin
+.PHONY : 2dplugin
+
+# fast build rule for target.
+2dplugin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2dplugin.dir/build.make CMakeFiles/2dplugin.dir/build
+.PHONY : 2dplugin/fast
+
+#=============================================================================
 # Target rules for targets named vulkanplugin
 
 # Build rule for target.
@@ -226,6 +252,32 @@ aspyre: cmake_check_build_system
 aspyre/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aspyre.dir/build.make CMakeFiles/aspyre.dir/build
 .PHONY : aspyre/fast
+
+#=============================================================================
+# Target rules for targets named 3dplugin_autogen
+
+# Build rule for target.
+3dplugin_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dplugin_autogen
+.PHONY : 3dplugin_autogen
+
+# fast build rule for target.
+3dplugin_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3dplugin_autogen.dir/build.make CMakeFiles/3dplugin_autogen.dir/build
+.PHONY : 3dplugin_autogen/fast
+
+#=============================================================================
+# Target rules for targets named 2dplugin_autogen
+
+# Build rule for target.
+2dplugin_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2dplugin_autogen
+.PHONY : 2dplugin_autogen
+
+# fast build rule for target.
+2dplugin_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2dplugin_autogen.dir/build.make CMakeFiles/2dplugin_autogen.dir/build
+.PHONY : 2dplugin_autogen/fast
 
 #=============================================================================
 # Target rules for targets named vulkanplugin_autogen
@@ -487,6 +539,60 @@ AdvancedDockingSystemDemo_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/build.make external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemDemo_autogen.dir/build
 .PHONY : AdvancedDockingSystemDemo_autogen/fast
 
+2dplugin_autogen/mocs_compilation.o: 2dplugin_autogen/mocs_compilation.cpp.o
+
+.PHONY : 2dplugin_autogen/mocs_compilation.o
+
+# target to build an object file
+2dplugin_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2dplugin.dir/build.make CMakeFiles/2dplugin.dir/2dplugin_autogen/mocs_compilation.cpp.o
+.PHONY : 2dplugin_autogen/mocs_compilation.cpp.o
+
+2dplugin_autogen/mocs_compilation.i: 2dplugin_autogen/mocs_compilation.cpp.i
+
+.PHONY : 2dplugin_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+2dplugin_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2dplugin.dir/build.make CMakeFiles/2dplugin.dir/2dplugin_autogen/mocs_compilation.cpp.i
+.PHONY : 2dplugin_autogen/mocs_compilation.cpp.i
+
+2dplugin_autogen/mocs_compilation.s: 2dplugin_autogen/mocs_compilation.cpp.s
+
+.PHONY : 2dplugin_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+2dplugin_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2dplugin.dir/build.make CMakeFiles/2dplugin.dir/2dplugin_autogen/mocs_compilation.cpp.s
+.PHONY : 2dplugin_autogen/mocs_compilation.cpp.s
+
+3dplugin_autogen/mocs_compilation.o: 3dplugin_autogen/mocs_compilation.cpp.o
+
+.PHONY : 3dplugin_autogen/mocs_compilation.o
+
+# target to build an object file
+3dplugin_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3dplugin.dir/build.make CMakeFiles/3dplugin.dir/3dplugin_autogen/mocs_compilation.cpp.o
+.PHONY : 3dplugin_autogen/mocs_compilation.cpp.o
+
+3dplugin_autogen/mocs_compilation.i: 3dplugin_autogen/mocs_compilation.cpp.i
+
+.PHONY : 3dplugin_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+3dplugin_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3dplugin.dir/build.make CMakeFiles/3dplugin.dir/3dplugin_autogen/mocs_compilation.cpp.i
+.PHONY : 3dplugin_autogen/mocs_compilation.cpp.i
+
+3dplugin_autogen/mocs_compilation.s: 3dplugin_autogen/mocs_compilation.cpp.s
+
+.PHONY : 3dplugin_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+3dplugin_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3dplugin.dir/build.make CMakeFiles/3dplugin.dir/3dplugin_autogen/mocs_compilation.cpp.s
+.PHONY : 3dplugin_autogen/mocs_compilation.cpp.s
+
 aspyre_autogen/mocs_compilation.o: aspyre_autogen/mocs_compilation.cpp.o
 
 .PHONY : aspyre_autogen/mocs_compilation.o
@@ -513,6 +619,60 @@ aspyre_autogen/mocs_compilation.s: aspyre_autogen/mocs_compilation.cpp.s
 aspyre_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aspyre.dir/build.make CMakeFiles/aspyre.dir/aspyre_autogen/mocs_compilation.cpp.s
 .PHONY : aspyre_autogen/mocs_compilation.cpp.s
+
+core/rendering/graphics/2D/vulkan2d.o: core/rendering/graphics/2D/vulkan2d.cxx.o
+
+.PHONY : core/rendering/graphics/2D/vulkan2d.o
+
+# target to build an object file
+core/rendering/graphics/2D/vulkan2d.cxx.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2dplugin.dir/build.make CMakeFiles/2dplugin.dir/core/rendering/graphics/2D/vulkan2d.cxx.o
+.PHONY : core/rendering/graphics/2D/vulkan2d.cxx.o
+
+core/rendering/graphics/2D/vulkan2d.i: core/rendering/graphics/2D/vulkan2d.cxx.i
+
+.PHONY : core/rendering/graphics/2D/vulkan2d.i
+
+# target to preprocess a source file
+core/rendering/graphics/2D/vulkan2d.cxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2dplugin.dir/build.make CMakeFiles/2dplugin.dir/core/rendering/graphics/2D/vulkan2d.cxx.i
+.PHONY : core/rendering/graphics/2D/vulkan2d.cxx.i
+
+core/rendering/graphics/2D/vulkan2d.s: core/rendering/graphics/2D/vulkan2d.cxx.s
+
+.PHONY : core/rendering/graphics/2D/vulkan2d.s
+
+# target to generate assembly for a file
+core/rendering/graphics/2D/vulkan2d.cxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2dplugin.dir/build.make CMakeFiles/2dplugin.dir/core/rendering/graphics/2D/vulkan2d.cxx.s
+.PHONY : core/rendering/graphics/2D/vulkan2d.cxx.s
+
+core/rendering/graphics/3D/vulkan3d.o: core/rendering/graphics/3D/vulkan3d.cxx.o
+
+.PHONY : core/rendering/graphics/3D/vulkan3d.o
+
+# target to build an object file
+core/rendering/graphics/3D/vulkan3d.cxx.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3dplugin.dir/build.make CMakeFiles/3dplugin.dir/core/rendering/graphics/3D/vulkan3d.cxx.o
+.PHONY : core/rendering/graphics/3D/vulkan3d.cxx.o
+
+core/rendering/graphics/3D/vulkan3d.i: core/rendering/graphics/3D/vulkan3d.cxx.i
+
+.PHONY : core/rendering/graphics/3D/vulkan3d.i
+
+# target to preprocess a source file
+core/rendering/graphics/3D/vulkan3d.cxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3dplugin.dir/build.make CMakeFiles/3dplugin.dir/core/rendering/graphics/3D/vulkan3d.cxx.i
+.PHONY : core/rendering/graphics/3D/vulkan3d.cxx.i
+
+core/rendering/graphics/3D/vulkan3d.s: core/rendering/graphics/3D/vulkan3d.cxx.s
+
+.PHONY : core/rendering/graphics/3D/vulkan3d.s
+
+# target to generate assembly for a file
+core/rendering/graphics/3D/vulkan3d.cxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3dplugin.dir/build.make CMakeFiles/3dplugin.dir/core/rendering/graphics/3D/vulkan3d.cxx.s
+.PHONY : core/rendering/graphics/3D/vulkan3d.cxx.s
 
 core/rendering/graphics/vulkanmainrenderer.o: core/rendering/graphics/vulkanmainrenderer.cxx.o
 
@@ -769,6 +929,8 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... 2dplugin_autogen"
+	@echo "... 3dplugin_autogen"
 	@echo "... AdvancedDockingSystemDemo_autogen"
 	@echo "... CentralWidgetExample_autogen"
 	@echo "... DeleteOnCloseTest_autogen"
@@ -781,6 +943,8 @@ help:
 	@echo "... graphicsplugin_autogen"
 	@echo "... qtadvanceddocking_autogen"
 	@echo "... vulkanplugin_autogen"
+	@echo "... 2dplugin"
+	@echo "... 3dplugin"
 	@echo "... AdvancedDockingSystemDemo"
 	@echo "... CentralWidgetExample"
 	@echo "... DeleteOnCloseTest"
@@ -793,9 +957,21 @@ help:
 	@echo "... graphicsplugin"
 	@echo "... qtadvanceddocking"
 	@echo "... vulkanplugin"
+	@echo "... 2dplugin_autogen/mocs_compilation.o"
+	@echo "... 2dplugin_autogen/mocs_compilation.i"
+	@echo "... 2dplugin_autogen/mocs_compilation.s"
+	@echo "... 3dplugin_autogen/mocs_compilation.o"
+	@echo "... 3dplugin_autogen/mocs_compilation.i"
+	@echo "... 3dplugin_autogen/mocs_compilation.s"
 	@echo "... aspyre_autogen/mocs_compilation.o"
 	@echo "... aspyre_autogen/mocs_compilation.i"
 	@echo "... aspyre_autogen/mocs_compilation.s"
+	@echo "... core/rendering/graphics/2D/vulkan2d.o"
+	@echo "... core/rendering/graphics/2D/vulkan2d.i"
+	@echo "... core/rendering/graphics/2D/vulkan2d.s"
+	@echo "... core/rendering/graphics/3D/vulkan3d.o"
+	@echo "... core/rendering/graphics/3D/vulkan3d.i"
+	@echo "... core/rendering/graphics/3D/vulkan3d.s"
 	@echo "... core/rendering/graphics/vulkanmainrenderer.o"
 	@echo "... core/rendering/graphics/vulkanmainrenderer.i"
 	@echo "... core/rendering/graphics/vulkanmainrenderer.s"

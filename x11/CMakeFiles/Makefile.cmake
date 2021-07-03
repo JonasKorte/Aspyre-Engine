@@ -116,6 +116,8 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "CMakeFiles/3dplugin_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/2dplugin_autogen.dir/AutogenInfo.json"
   "CMakeFiles/vulkanplugin_autogen.dir/AutogenInfo.json"
   "CMakeFiles/editorplugin_autogen.dir/AutogenInfo.json"
   "CMakeFiles/graphicsplugin_autogen.dir/AutogenInfo.json"
@@ -149,10 +151,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/3dplugin.dir/DependInfo.cmake"
+  "CMakeFiles/2dplugin.dir/DependInfo.cmake"
   "CMakeFiles/vulkanplugin.dir/DependInfo.cmake"
   "CMakeFiles/editorplugin.dir/DependInfo.cmake"
   "CMakeFiles/graphicsplugin.dir/DependInfo.cmake"
   "CMakeFiles/aspyre.dir/DependInfo.cmake"
+  "CMakeFiles/3dplugin_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/2dplugin_autogen.dir/DependInfo.cmake"
   "CMakeFiles/vulkanplugin_autogen.dir/DependInfo.cmake"
   "CMakeFiles/editorplugin_autogen.dir/DependInfo.cmake"
   "CMakeFiles/graphicsplugin_autogen.dir/DependInfo.cmake"

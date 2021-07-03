@@ -10,7 +10,19 @@
 iostream
 -
 
+../core/rendering/graphics/2D/vulkan2d.hxx
+logging/log.hxx
+-
+
+../core/rendering/graphics/3D/vulkan3d.hxx
+logging/log.hxx
+-
+
 ../core/rendering/graphics/vulkanmainrenderer.hxx
+rendering/graphics/3D/vulkan3d.hxx
+-
+rendering/graphics/2D/vulkan2d.hxx
+-
 
 ../core/rendering/vulkaninstance.hxx
 logging/log.hxx
@@ -57,36 +69,6 @@ QTabWidget
 /home/jonas/Aspyre-Engine/editor/mainwindow.cxx
 mainwindow.hxx
 -
-
-/home/jonas/Aspyre-Engine/editor/mainwindow.hxx
-logging/log.hxx
--
-rendering/vulkaninstance.hxx
--
-rendering/vulkanwindow.hxx
--
-rendering/graphics/vulkanmainrenderer.hxx
--
-QWidget
--
-QApplication
--
-QVBoxLayout
--
-QTabWidget
--
-
-/home/jonas/Aspyre-Engine/x11/editorplugin_autogen/3HAKN7MTYQ/moc_mainwindow.cpp
-../../../editor/mainwindow.hxx
-/home/jonas/Aspyre-Engine/editor/mainwindow.hxx
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/home/jonas/Aspyre-Engine/x11/editorplugin_autogen/mocs_compilation.cpp
-3HAKN7MTYQ/moc_mainwindow.cpp
-/home/jonas/Aspyre-Engine/x11/editorplugin_autogen/3HAKN7MTYQ/moc_mainwindow.cpp
 
 /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QByteArrayList
 qbytearraylist.h
