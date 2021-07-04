@@ -1,8 +1,9 @@
 {
+	"archive" : {},
 	"artifacts" : 
 	[
 		{
-			"path" : "aspyre"
+			"path" : "libeditorplugin.a"
 		}
 	],
 	"backtrace" : 1,
@@ -10,7 +11,7 @@
 	{
 		"commands" : 
 		[
-			"add_executable",
+			"add_library",
 			"target_link_libraries",
 			"include_directories"
 		],
@@ -26,13 +27,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 27,
+				"line" : 39,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 39,
+				"line" : 44,
 				"parent" : 0
 			},
 			{
@@ -84,13 +85,17 @@
 				{
 					"backtrace" : 2,
 					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_X11EXTRAS_LIB"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 0,
-					"path" : "/home/jonas/Aspyre-Engine/build/aspyre_autogen/include"
+					"path" : "/home/jonas/Aspyre-Engine/build/editorplugin_autogen/include"
 				},
 				{
 					"backtrace" : 3,
@@ -128,6 +133,11 @@
 					"backtrace" : 2,
 					"isSystem" : true,
 					"path" : "/home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/jonas/Qt/5.12.11/gcc_64/include/QtX11Extras"
 				}
 			],
 			"language" : "CXX",
@@ -142,11 +152,19 @@
 	[
 		{
 			"backtrace" : 2,
+			"id" : "3dplugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "2dplugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 2,
 			"id" : "vulkanplugin::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "editorplugin::@6890427a1f51a3e7e1df"
+			"id" : "graphicsplugin::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 2,
@@ -154,68 +172,12 @@
 		},
 		{
 			"backtrace" : 0,
-			"id" : "aspyre_autogen::@6890427a1f51a3e7e1df"
+			"id" : "editorplugin_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "aspyre::@6890427a1f51a3e7e1df",
-	"link" : 
-	{
-		"commandFragments" : 
-		[
-			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
-			{
-				"fragment" : "",
-				"role" : "flags"
-			},
-			{
-				"fragment" : "-Wl,-rpath,/home/jonas/Aspyre-Engine/build/x64/lib:/home/jonas/Qt/5.12.11/gcc_64/lib",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "libvulkanplugin.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "libeditorplugin.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "libvulkanplugin.a",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "x64/lib/libqtadvanceddocking.so.3.7.1",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "/home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Widgets.so.5.12.11",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/home/jonas/Qt/5.12.11/gcc_64/lib/libQt5X11Extras.so.5.12.11",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "/home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Gui.so.5.12.11",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Core.so.5.12.11",
-				"role" : "libraries"
-			}
-		],
-		"language" : "CXX"
-	},
-	"name" : "aspyre",
-	"nameOnDisk" : "aspyre",
+	"id" : "editorplugin::@6890427a1f51a3e7e1df",
+	"name" : "editorplugin",
+	"nameOnDisk" : "libeditorplugin.a",
 	"paths" : 
 	{
 		"build" : ".",
@@ -230,6 +192,13 @@
 				0,
 				1
 			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2
+			]
 		}
 	],
 	"sources" : 
@@ -238,15 +207,20 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/aspyre_autogen/mocs_compilation.cpp",
+			"path" : "build/editorplugin_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main/main.cxx",
+			"path" : "editor/mainwindow.cxx",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "editor/mainwindow.hxx",
+			"sourceGroupIndex" : 1
 		}
 	],
-	"type" : "EXECUTABLE"
+	"type" : "STATIC_LIBRARY"
 }

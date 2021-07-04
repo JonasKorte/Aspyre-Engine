@@ -1,6 +1,7 @@
 #include <mainwindow.hxx>
 
 #include <QApplication>
+#include <QIcon>
 
 int main(int argc, char *argv[])
 {
@@ -19,6 +20,7 @@ int main(int argc, char *argv[])
     window->resize(1280, 720);
 
     window->setWindowTitle("Aspyre Engine 1.0.0");
+    window->setWindowIcon(QIcon("/icon.png"));
 
     window->show();
 

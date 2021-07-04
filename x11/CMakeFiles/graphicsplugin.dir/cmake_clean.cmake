@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "graphicsplugin_autogen"
   "CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.o"
   "CMakeFiles/graphicsplugin.dir/graphicsplugin_autogen/mocs_compilation.cpp.o"
-  "libgraphicsplugin.a"
   "libgraphicsplugin.pdb"
+  "libgraphicsplugin.so"
 )
 
 # Per-language clean rules from dependency scanning.

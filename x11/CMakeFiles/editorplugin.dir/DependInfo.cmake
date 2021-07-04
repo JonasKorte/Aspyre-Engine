@@ -16,6 +16,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "QT_NO_DEBUG"
   "QT_WIDGETS_LIB"
   "QT_X11EXTRAS_LIB"
+  "editorplugin_EXPORTS"
   )
 
 # The include file search paths:

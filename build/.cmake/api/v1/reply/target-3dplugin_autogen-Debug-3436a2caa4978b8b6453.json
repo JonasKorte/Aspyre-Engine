@@ -14,20 +14,9 @@
 			}
 		]
 	},
-	"dependencies" : 
-	[
-		{
-			"backtrace" : 0,
-			"id" : "vulkanplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 0,
-			"id" : "editorplugin::@6890427a1f51a3e7e1df"
-		}
-	],
-	"id" : "aspyre_autogen::@6890427a1f51a3e7e1df",
+	"id" : "3dplugin_autogen::@6890427a1f51a3e7e1df",
 	"isGeneratorProvided" : true,
-	"name" : "aspyre_autogen",
+	"name" : "3dplugin_autogen",
 	"paths" : 
 	{
 		"build" : ".",
@@ -55,13 +44,13 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/aspyre_autogen",
+			"path" : "build/CMakeFiles/3dplugin_autogen",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/aspyre_autogen.rule",
+			"path" : "build/CMakeFiles/3dplugin_autogen.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

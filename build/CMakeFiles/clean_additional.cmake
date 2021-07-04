@@ -3,10 +3,18 @@ cmake_minimum_required(VERSION 3.16)
 
 if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "Debug")
   file(REMOVE_RECURSE
+  "2dplugin_autogen"
+  "3dplugin_autogen"
+  "CMakeFiles/2dplugin_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/2dplugin_autogen.dir/ParseCache.txt"
+  "CMakeFiles/3dplugin_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/3dplugin_autogen.dir/ParseCache.txt"
   "CMakeFiles/aspyre_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/aspyre_autogen.dir/ParseCache.txt"
   "CMakeFiles/editorplugin_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/editorplugin_autogen.dir/ParseCache.txt"
+  "CMakeFiles/graphicsplugin_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/graphicsplugin_autogen.dir/ParseCache.txt"
   "CMakeFiles/vulkanplugin_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/vulkanplugin_autogen.dir/ParseCache.txt"
   "aspyre_autogen"
@@ -35,6 +43,7 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "Debug")
   "external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/AutogenUsed.txt"
   "external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking_autogen.dir/ParseCache.txt"
   "external/Qt-Advanced-Docking-System/src/qtadvanceddocking_autogen"
+  "graphicsplugin_autogen"
   "vulkanplugin_autogen"
   )
 endif()

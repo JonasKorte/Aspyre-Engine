@@ -131,7 +131,10 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
+		"/home/jonas/Aspyre-Engine/build/2dplugin_autogen/mocs_compilation.cpp",
+		"/home/jonas/Aspyre-Engine/build/3dplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/build/editorplugin_autogen/mocs_compilation.cpp",
+		"/home/jonas/Aspyre-Engine/build/graphicsplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/build/vulkanplugin_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
@@ -150,7 +153,10 @@
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
+		"/home/jonas/Aspyre-Engine/build/2dplugin_autogen/mocs_compilation.cpp",
+		"/home/jonas/Aspyre-Engine/build/3dplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/build/editorplugin_autogen/mocs_compilation.cpp",
+		"/home/jonas/Aspyre-Engine/build/graphicsplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/build/vulkanplugin_autogen/mocs_compilation.cpp"
 	],
 	"UIC_UI_FILES" : [],

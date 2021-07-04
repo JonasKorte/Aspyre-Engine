@@ -24,19 +24,31 @@ include_directories(core)
 include_directories(editor)
 include_directories(external/Qt-Advanced-Docking-System/src)
 
-add_executable(aspyre main/main.cxx)
+set(APP_ICON_RESOURCE_WINDOWS "${CMAKE_CURRENT_SOURCE_DIR}/res/resources.rc")
 
-add_library(vulkanplugin STATIC 
-    core/rendering/vulkaninstance.cxx core/rendering/vulkaninstance.hxx
-    core/rendering/vulkanwindow.cxx core/rendering/vulkanwindow.hxx
-    core/rendering/vulkanwindowrenderer.cxx core/rendering/vulkanwindowrenderer.hxx)
+add_executable(aspyre main/main.cxx ${APP_ICON_RESOURCE_WINDOWS})
 
-add_library(graphicsplugin STATIC core/rendering/graphics/vulkanmainrenderer.cxx core/rendering/graphics/vulkanmainrenderer.hxx)
+set (vulkanplugin_src core/rendering/vulkaninstance.cxx core/rendering/vulkaninstance.hxx
+core/rendering/vulkanwindow.cxx core/rendering/vulkanwindow.hxx
+core/rendering/vulkanwindowrenderer.cxx core/rendering/vulkanwindowrenderer.hxx)
 
-add_library(2dplugin STATIC core/rendering/graphics/2D/vulkan2d.cxx core/rendering/graphics/2D/vulkan2d.hxx)
-add_library(3dplugin STATIC core/rendering/graphics/3D/vulkan3d.cxx core/rendering/graphics/3D/vulkan3d.hxx)
+add_library(vulkanplugin ${vulkanplugin_src})
 
-add_library(editorplugin STATIC editor/mainwindow.cxx editor/mainwindow.hxx)
+set (graphicsplugin_src core/rendering/graphics/vulkanmainrenderer.cxx core/rendering/graphics/vulkanmainrenderer.hxx)
+
+add_library(graphicsplugin ${graphicsplugin_src})
+
+set (2dplugin_src core/rendering/graphics/2D/vulkan2d.cxx core/rendering/graphics/2D/vulkan2d.hxx)
+
+add_library(2dplugin ${2dplugin_src})
+
+set (3dplugin_src core/rendering/graphics/3D/vulkan3d.cxx core/rendering/graphics/3D/vulkan3d.hxx)
+
+add_library(3dplugin ${3dplugin_src})
+
+set (editorplugin_src editor/mainwindow.cxx editor/mainwindow.hxx)
+
+add_library(editorplugin ${editorplugin_src})
 
 target_link_libraries(graphicsplugin PRIVATE 2dplugin 3dplugin)
 
@@ -44,3 +56,39 @@ target_link_libraries(vulkanplugin PRIVATE Qt5::Gui)
 target_link_libraries(editorplugin PRIVATE vulkanplugin graphicsplugin 2dplugin 3dplugin Qt5::Gui Qt5::Widgets qtadvanceddocking)
 
 target_link_libraries(aspyre PRIVATE vulkanplugin editorplugin graphicsplugin 2dplugin 3dplugin Qt5::Gui Qt5::Widgets)
+
+
+set(binary_dir ${CMAKE_SOURCE_DIR}/release/bin)
+set(library_dir ${CMAKE_SOURCE_DIR}/release/lib)
+set(resource_dir ${CMAKE_SOURCE_DIR}/release/res)
+
+if(${CMAKE_SYSTEM_NAME} MATCHES "Linux")
+    set(binary_dir ${CMAKE_SOURCE_DIR}/release/bin/x11)
+    if(BUILD_SHARED_LIBS)
+        set(library_dir ${CMAKE_SOURCE_DIR}/release/bin/x11)
+    endif()
+endif()
+
+if(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
+    set(binary_dir ${CMAKE_SOURCE_DIR}/release/bin/win64)
+    if(BUILD_SHARED_LIBS)
+        set(library_dir ${CMAKE_SOURCE_DIR}/release/bin/win64)
+    endif()
+endif()
+
+if(${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
+    set(binary_dir ${CMAKE_SOURCE_DIR}/release/bin/osx)
+    if(BUILD_SHARED_LIBS)
+        set(library_dir ${CMAKE_SOURCE_DIR}/release/bin/osx)
+    endif()
+endif()
+
+
+install(TARGETS aspyre DESTINATION ${binary_dir})
+
+install(TARGETS vulkanplugin LIBRARY DESTINATION ${library_dir} ARCHIVE DESTINATION ${library_dir} RUNTIME DESTINATION ${binary_dir})
+install(TARGETS graphicsplugin LIBRARY DESTINATION ${library_dir} ARCHIVE DESTINATION ${library_dir} RUNTIME DESTINATION ${binary_dir})
+install(TARGETS 2dplugin LIBRARY DESTINATION ${library_dir} ARCHIVE DESTINATION ${library_dir} RUNTIME DESTINATION ${binary_dir})
+install(TARGETS 3dplugin LIBRARY DESTINATION ${library_dir} ARCHIVE DESTINATION ${library_dir} RUNTIME DESTINATION ${binary_dir})
+install(TARGETS editorplugin LIBRARY DESTINATION ${library_dir} ARCHIVE DESTINATION ${library_dir} RUNTIME DESTINATION ${binary_dir})
+install(FILES res/icons/icon.ico branding/icon.png DESTINATION ${resource_dir}/icons)

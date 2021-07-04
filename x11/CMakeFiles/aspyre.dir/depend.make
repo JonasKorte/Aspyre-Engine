@@ -92,6 +92,7 @@ CMakeFiles/aspyre.dir/main/main.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtC
 CMakeFiles/aspyre.dir/main/main.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qvector.h
 CMakeFiles/aspyre.dir/main/main.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qversionnumber.h
 CMakeFiles/aspyre.dir/main/main.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qversiontagging.h
+CMakeFiles/aspyre.dir/main/main.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/QIcon
 CMakeFiles/aspyre.dir/main/main.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/QVulkanDeviceFunctions
 CMakeFiles/aspyre.dir/main/main.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/QVulkanInstance
 CMakeFiles/aspyre.dir/main/main.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtGui/QVulkanWindow

@@ -18,7 +18,19 @@
 	[
 		{
 			"backtrace" : 0,
+			"id" : "3dplugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "2dplugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
 			"id" : "vulkanplugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "graphicsplugin::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 0,

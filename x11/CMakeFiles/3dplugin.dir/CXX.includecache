@@ -6,17 +6,3 @@
 
 #IncludeRegexTransform: 
 
-../core/logging/log.hxx
-iostream
--
-
-../core/rendering/graphics/3D/vulkan3d.hxx
-logging/log.hxx
--
-
-/home/jonas/Aspyre-Engine/core/rendering/graphics/3D/vulkan3d.cxx
-rendering/graphics/3D/vulkan3d.hxx
--
-
-/home/jonas/Aspyre-Engine/x11/3dplugin_autogen/mocs_compilation.cpp
-

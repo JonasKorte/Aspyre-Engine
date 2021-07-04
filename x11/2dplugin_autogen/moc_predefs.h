@@ -33,6 +33,7 @@
 #define __CET__ 3
 #define __GCC_ATOMIC_CHAR32_T_LOCK_FREE 2
 #define __cpp_variadic_templates 200704L
+#define _2dplugin_EXPORTS 1
 #define __UINT_FAST64_MAX__ 0xffffffffffffffffUL
 #define __SIG_ATOMIC_TYPE__ int
 #define __DBL_MIN_10_EXP__ (-307)

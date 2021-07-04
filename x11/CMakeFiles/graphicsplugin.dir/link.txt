@@ -1,2 +1,1 @@
-/usr/bin/ar qc libgraphicsplugin.a CMakeFiles/graphicsplugin.dir/graphicsplugin_autogen/mocs_compilation.cpp.o CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.o
-/usr/bin/ranlib libgraphicsplugin.a
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libgraphicsplugin.so -o libgraphicsplugin.so CMakeFiles/graphicsplugin.dir/graphicsplugin_autogen/mocs_compilation.cpp.o CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.o  -Wl,-rpath,/home/jonas/Aspyre-Engine/x11: lib2dplugin.so lib3dplugin.so 

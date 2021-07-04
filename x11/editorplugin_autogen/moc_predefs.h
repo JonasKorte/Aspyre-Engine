@@ -9,6 +9,7 @@
 #define __cpp_aggregate_nsdmi 201304L
 #define __UINT_LEAST8_TYPE__ unsigned char
 #define __SIZEOF_FLOAT80__ 16
+#define editorplugin_EXPORTS 1
 #define __INTMAX_C(c) c ## L
 #define __CHAR_BIT__ 8
 #define __UINT8_MAX__ 0xff

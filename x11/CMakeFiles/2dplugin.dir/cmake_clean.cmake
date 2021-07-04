@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/2dplugin_autogen.dir/ParseCache.txt"
   "CMakeFiles/2dplugin.dir/2dplugin_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/2dplugin.dir/core/rendering/graphics/2D/vulkan2d.cxx.o"
-  "lib2dplugin.a"
   "lib2dplugin.pdb"
+  "lib2dplugin.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -87,6 +87,84 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 
 build edit_cache: phony CMakeFiles/edit_cache.util
 
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target 3dplugin
+
+
+#############################################
+# Order-only phony target for 3dplugin
+
+build cmake_object_order_depends_target_3dplugin: phony || 3dplugin_autogen
+
+build CMakeFiles/3dplugin.dir/3dplugin_autogen/mocs_compilation.cpp.o: CXX_COMPILER__3dplugin_Debug 3dplugin_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_3dplugin
+  DEP_FILE = CMakeFiles/3dplugin.dir/3dplugin_autogen/mocs_compilation.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  INCLUDES = -I3dplugin_autogen/include -I../core -I../editor -I../external/Qt-Advanced-Docking-System/src
+  OBJECT_DIR = CMakeFiles/3dplugin.dir
+  OBJECT_FILE_DIR = CMakeFiles/3dplugin.dir/3dplugin_autogen
+
+build CMakeFiles/3dplugin.dir/core/rendering/graphics/3D/vulkan3d.cxx.o: CXX_COMPILER__3dplugin_Debug ../core/rendering/graphics/3D/vulkan3d.cxx || cmake_object_order_depends_target_3dplugin
+  DEP_FILE = CMakeFiles/3dplugin.dir/core/rendering/graphics/3D/vulkan3d.cxx.o.d
+  FLAGS = -g -std=gnu++2a
+  INCLUDES = -I3dplugin_autogen/include -I../core -I../editor -I../external/Qt-Advanced-Docking-System/src
+  OBJECT_DIR = CMakeFiles/3dplugin.dir
+  OBJECT_FILE_DIR = CMakeFiles/3dplugin.dir/core/rendering/graphics/3D
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target 3dplugin
+
+
+#############################################
+# Link the static library lib3dplugin.a
+
+build lib3dplugin.a: CXX_STATIC_LIBRARY_LINKER__3dplugin_Debug CMakeFiles/3dplugin.dir/3dplugin_autogen/mocs_compilation.cpp.o CMakeFiles/3dplugin.dir/core/rendering/graphics/3D/vulkan3d.cxx.o || 3dplugin_autogen
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles/3dplugin.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lib3dplugin.a
+  TARGET_PDB = 3dplugin.a.dbg
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target 2dplugin
+
+
+#############################################
+# Order-only phony target for 2dplugin
+
+build cmake_object_order_depends_target_2dplugin: phony || 2dplugin_autogen
+
+build CMakeFiles/2dplugin.dir/2dplugin_autogen/mocs_compilation.cpp.o: CXX_COMPILER__2dplugin_Debug 2dplugin_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_2dplugin
+  DEP_FILE = CMakeFiles/2dplugin.dir/2dplugin_autogen/mocs_compilation.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  INCLUDES = -I2dplugin_autogen/include -I../core -I../editor -I../external/Qt-Advanced-Docking-System/src
+  OBJECT_DIR = CMakeFiles/2dplugin.dir
+  OBJECT_FILE_DIR = CMakeFiles/2dplugin.dir/2dplugin_autogen
+
+build CMakeFiles/2dplugin.dir/core/rendering/graphics/2D/vulkan2d.cxx.o: CXX_COMPILER__2dplugin_Debug ../core/rendering/graphics/2D/vulkan2d.cxx || cmake_object_order_depends_target_2dplugin
+  DEP_FILE = CMakeFiles/2dplugin.dir/core/rendering/graphics/2D/vulkan2d.cxx.o.d
+  FLAGS = -g -std=gnu++2a
+  INCLUDES = -I2dplugin_autogen/include -I../core -I../editor -I../external/Qt-Advanced-Docking-System/src
+  OBJECT_DIR = CMakeFiles/2dplugin.dir
+  OBJECT_FILE_DIR = CMakeFiles/2dplugin.dir/core/rendering/graphics/2D
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target 2dplugin
+
+
+#############################################
+# Link the static library lib2dplugin.a
+
+build lib2dplugin.a: CXX_STATIC_LIBRARY_LINKER__2dplugin_Debug CMakeFiles/2dplugin.dir/2dplugin_autogen/mocs_compilation.cpp.o CMakeFiles/2dplugin.dir/core/rendering/graphics/2D/vulkan2d.cxx.o || 2dplugin_autogen
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles/2dplugin.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lib2dplugin.a
+  TARGET_PDB = 2dplugin.a.dbg
+
 
 #############################################
 # Utility command for install/local
@@ -163,7 +241,7 @@ build libvulkanplugin.a: CXX_STATIC_LIBRARY_LINKER__vulkanplugin_Debug CMakeFile
 #############################################
 # Order-only phony target for editorplugin
 
-build cmake_object_order_depends_target_editorplugin: phony || cmake_object_order_depends_target_qtadvanceddocking cmake_object_order_depends_target_vulkanplugin editorplugin_autogen
+build cmake_object_order_depends_target_editorplugin: phony || cmake_object_order_depends_target_2dplugin cmake_object_order_depends_target_3dplugin cmake_object_order_depends_target_graphicsplugin cmake_object_order_depends_target_qtadvanceddocking cmake_object_order_depends_target_vulkanplugin editorplugin_autogen
 
 build CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.o: CXX_COMPILER__editorplugin_Debug editorplugin_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_editorplugin
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DQT_X11EXTRAS_LIB
@@ -189,7 +267,7 @@ build CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o: CXX_COMPILER__editorp
 #############################################
 # Link the static library libeditorplugin.a
 
-build libeditorplugin.a: CXX_STATIC_LIBRARY_LINKER__editorplugin_Debug CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.o CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o || editorplugin_autogen libvulkanplugin.a x64/lib/libqtadvanceddocking.so x64/lib/libqtadvanceddocking.so /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Widgets.so.5.12.11 /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5X11Extras.so.5.12.11 /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Gui.so.5.12.11 /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Core.so.5.12.11
+build libeditorplugin.a: CXX_STATIC_LIBRARY_LINKER__editorplugin_Debug CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.o CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o || editorplugin_autogen lib2dplugin.a lib3dplugin.a libgraphicsplugin.a libvulkanplugin.a x64/lib/libqtadvanceddocking.so x64/lib/libqtadvanceddocking.so /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Widgets.so.5.12.11 /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5X11Extras.so.5.12.11 /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Gui.so.5.12.11 /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Core.so.5.12.11
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/editorplugin.dir
   POST_BUILD = :
@@ -198,13 +276,52 @@ build libeditorplugin.a: CXX_STATIC_LIBRARY_LINKER__editorplugin_Debug CMakeFile
   TARGET_PDB = editorplugin.a.dbg
 
 # =============================================================================
+# Object build statements for STATIC_LIBRARY target graphicsplugin
+
+
+#############################################
+# Order-only phony target for graphicsplugin
+
+build cmake_object_order_depends_target_graphicsplugin: phony || cmake_object_order_depends_target_2dplugin cmake_object_order_depends_target_3dplugin graphicsplugin_autogen
+
+build CMakeFiles/graphicsplugin.dir/graphicsplugin_autogen/mocs_compilation.cpp.o: CXX_COMPILER__graphicsplugin_Debug graphicsplugin_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_graphicsplugin
+  DEP_FILE = CMakeFiles/graphicsplugin.dir/graphicsplugin_autogen/mocs_compilation.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  INCLUDES = -Igraphicsplugin_autogen/include -I../core -I../editor -I../external/Qt-Advanced-Docking-System/src
+  OBJECT_DIR = CMakeFiles/graphicsplugin.dir
+  OBJECT_FILE_DIR = CMakeFiles/graphicsplugin.dir/graphicsplugin_autogen
+
+build CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.o: CXX_COMPILER__graphicsplugin_Debug ../core/rendering/graphics/vulkanmainrenderer.cxx || cmake_object_order_depends_target_graphicsplugin
+  DEP_FILE = CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.o.d
+  FLAGS = -g -std=gnu++2a
+  INCLUDES = -Igraphicsplugin_autogen/include -I../core -I../editor -I../external/Qt-Advanced-Docking-System/src
+  OBJECT_DIR = CMakeFiles/graphicsplugin.dir
+  OBJECT_FILE_DIR = CMakeFiles/graphicsplugin.dir/core/rendering/graphics
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target graphicsplugin
+
+
+#############################################
+# Link the static library libgraphicsplugin.a
+
+build libgraphicsplugin.a: CXX_STATIC_LIBRARY_LINKER__graphicsplugin_Debug CMakeFiles/graphicsplugin.dir/graphicsplugin_autogen/mocs_compilation.cpp.o CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.o || graphicsplugin_autogen lib2dplugin.a lib3dplugin.a
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = CMakeFiles/graphicsplugin.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = libgraphicsplugin.a
+  TARGET_PDB = graphicsplugin.a.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target aspyre
 
 
 #############################################
 # Order-only phony target for aspyre
 
-build cmake_object_order_depends_target_aspyre: phony || aspyre_autogen cmake_object_order_depends_target_editorplugin cmake_object_order_depends_target_qtadvanceddocking cmake_object_order_depends_target_vulkanplugin
+build cmake_object_order_depends_target_aspyre: phony || aspyre_autogen cmake_object_order_depends_target_2dplugin cmake_object_order_depends_target_3dplugin cmake_object_order_depends_target_editorplugin cmake_object_order_depends_target_graphicsplugin cmake_object_order_depends_target_qtadvanceddocking cmake_object_order_depends_target_vulkanplugin
 
 build CMakeFiles/aspyre.dir/aspyre_autogen/mocs_compilation.cpp.o: CXX_COMPILER__aspyre_Debug aspyre_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_aspyre
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
@@ -230,14 +347,26 @@ build CMakeFiles/aspyre.dir/main/main.cxx.o: CXX_COMPILER__aspyre_Debug ../main/
 #############################################
 # Link the executable aspyre
 
-build aspyre: CXX_EXECUTABLE_LINKER__aspyre_Debug CMakeFiles/aspyre.dir/aspyre_autogen/mocs_compilation.cpp.o CMakeFiles/aspyre.dir/main/main.cxx.o | libvulkanplugin.a libeditorplugin.a libvulkanplugin.a x64/lib/libqtadvanceddocking.so.3.7.1 /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Widgets.so.5.12.11 /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5X11Extras.so.5.12.11 /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Gui.so.5.12.11 /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Core.so.5.12.11 || aspyre_autogen libeditorplugin.a libvulkanplugin.a x64/lib/libqtadvanceddocking.so x64/lib/libqtadvanceddocking.so
+build aspyre: CXX_EXECUTABLE_LINKER__aspyre_Debug CMakeFiles/aspyre.dir/aspyre_autogen/mocs_compilation.cpp.o CMakeFiles/aspyre.dir/main/main.cxx.o | libvulkanplugin.a libeditorplugin.a libgraphicsplugin.a lib2dplugin.a lib3dplugin.a libvulkanplugin.a x64/lib/libqtadvanceddocking.so.3.7.1 /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Widgets.so.5.12.11 /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5X11Extras.so.5.12.11 /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Gui.so.5.12.11 /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Core.so.5.12.11 || aspyre_autogen lib2dplugin.a lib3dplugin.a libeditorplugin.a libgraphicsplugin.a libvulkanplugin.a x64/lib/libqtadvanceddocking.so x64/lib/libqtadvanceddocking.so
   FLAGS = -g
-  LINK_LIBRARIES = -Wl,-rpath,/home/jonas/Aspyre-Engine/build/x64/lib:/home/jonas/Qt/5.12.11/gcc_64/lib  libvulkanplugin.a  libeditorplugin.a  libvulkanplugin.a  x64/lib/libqtadvanceddocking.so.3.7.1  /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Widgets.so.5.12.11  /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5X11Extras.so.5.12.11  /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Gui.so.5.12.11  /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Core.so.5.12.11
+  LINK_LIBRARIES = -Wl,-rpath,/home/jonas/Aspyre-Engine/build/x64/lib:/home/jonas/Qt/5.12.11/gcc_64/lib  libvulkanplugin.a  libeditorplugin.a  libgraphicsplugin.a  lib2dplugin.a  lib3dplugin.a  libvulkanplugin.a  x64/lib/libqtadvanceddocking.so.3.7.1  /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Widgets.so.5.12.11  /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5X11Extras.so.5.12.11  /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Gui.so.5.12.11  /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Core.so.5.12.11
   OBJECT_DIR = CMakeFiles/aspyre.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = aspyre
   TARGET_PDB = aspyre.dbg
+
+
+#############################################
+# Utility command for 3dplugin_autogen
+
+build 3dplugin_autogen: phony CMakeFiles/3dplugin_autogen 3dplugin_autogen/mocs_compilation.cpp
+
+
+#############################################
+# Utility command for 2dplugin_autogen
+
+build 2dplugin_autogen: phony CMakeFiles/2dplugin_autogen 2dplugin_autogen/mocs_compilation.cpp
 
 
 #############################################
@@ -249,13 +378,37 @@ build vulkanplugin_autogen: phony CMakeFiles/vulkanplugin_autogen vulkanplugin_a
 #############################################
 # Utility command for editorplugin_autogen
 
-build editorplugin_autogen: phony CMakeFiles/editorplugin_autogen editorplugin_autogen/mocs_compilation.cpp libvulkanplugin.a x64/lib/libqtadvanceddocking.so
+build editorplugin_autogen: phony CMakeFiles/editorplugin_autogen editorplugin_autogen/mocs_compilation.cpp lib2dplugin.a lib3dplugin.a libgraphicsplugin.a libvulkanplugin.a x64/lib/libqtadvanceddocking.so
+
+
+#############################################
+# Utility command for graphicsplugin_autogen
+
+build graphicsplugin_autogen: phony CMakeFiles/graphicsplugin_autogen graphicsplugin_autogen/mocs_compilation.cpp lib2dplugin.a lib3dplugin.a
 
 
 #############################################
 # Utility command for aspyre_autogen
 
-build aspyre_autogen: phony CMakeFiles/aspyre_autogen aspyre_autogen/mocs_compilation.cpp libeditorplugin.a libvulkanplugin.a
+build aspyre_autogen: phony CMakeFiles/aspyre_autogen aspyre_autogen/mocs_compilation.cpp lib2dplugin.a lib3dplugin.a libeditorplugin.a libgraphicsplugin.a libvulkanplugin.a
+
+
+#############################################
+# Custom command for CMakeFiles/3dplugin_autogen
+
+build CMakeFiles/3dplugin_autogen 3dplugin_autogen/mocs_compilation.cpp: CUSTOM_COMMAND
+  COMMAND = cd /home/jonas/Aspyre-Engine/build && /usr/bin/cmake -E cmake_autogen /home/jonas/Aspyre-Engine/build/CMakeFiles/3dplugin_autogen.dir/AutogenInfo.json Debug
+  DESC = Automatic MOC and UIC for target 3dplugin
+  restat = 1
+
+
+#############################################
+# Custom command for CMakeFiles/2dplugin_autogen
+
+build CMakeFiles/2dplugin_autogen 2dplugin_autogen/mocs_compilation.cpp: CUSTOM_COMMAND
+  COMMAND = cd /home/jonas/Aspyre-Engine/build && /usr/bin/cmake -E cmake_autogen /home/jonas/Aspyre-Engine/build/CMakeFiles/2dplugin_autogen.dir/AutogenInfo.json Debug
+  DESC = Automatic MOC and UIC for target 2dplugin
+  restat = 1
 
 
 #############################################
@@ -270,16 +423,25 @@ build CMakeFiles/vulkanplugin_autogen vulkanplugin_autogen/mocs_compilation.cpp:
 #############################################
 # Custom command for CMakeFiles/editorplugin_autogen
 
-build CMakeFiles/editorplugin_autogen editorplugin_autogen/mocs_compilation.cpp: CUSTOM_COMMAND || external/Qt-Advanced-Docking-System/src/qtadvanceddocking_autogen libvulkanplugin.a vulkanplugin_autogen x64/lib/libqtadvanceddocking.so
+build CMakeFiles/editorplugin_autogen editorplugin_autogen/mocs_compilation.cpp: CUSTOM_COMMAND || 2dplugin_autogen 3dplugin_autogen external/Qt-Advanced-Docking-System/src/qtadvanceddocking_autogen graphicsplugin_autogen lib2dplugin.a lib3dplugin.a libgraphicsplugin.a libvulkanplugin.a vulkanplugin_autogen x64/lib/libqtadvanceddocking.so
   COMMAND = cd /home/jonas/Aspyre-Engine/build && /usr/bin/cmake -E cmake_autogen /home/jonas/Aspyre-Engine/build/CMakeFiles/editorplugin_autogen.dir/AutogenInfo.json Debug
   DESC = Automatic MOC and UIC for target editorplugin
   restat = 1
 
 
 #############################################
+# Custom command for CMakeFiles/graphicsplugin_autogen
+
+build CMakeFiles/graphicsplugin_autogen graphicsplugin_autogen/mocs_compilation.cpp: CUSTOM_COMMAND || 2dplugin_autogen 3dplugin_autogen lib2dplugin.a lib3dplugin.a
+  COMMAND = cd /home/jonas/Aspyre-Engine/build && /usr/bin/cmake -E cmake_autogen /home/jonas/Aspyre-Engine/build/CMakeFiles/graphicsplugin_autogen.dir/AutogenInfo.json Debug
+  DESC = Automatic MOC and UIC for target graphicsplugin
+  restat = 1
+
+
+#############################################
 # Custom command for CMakeFiles/aspyre_autogen
 
-build CMakeFiles/aspyre_autogen aspyre_autogen/mocs_compilation.cpp: CUSTOM_COMMAND || editorplugin_autogen external/Qt-Advanced-Docking-System/src/qtadvanceddocking_autogen libeditorplugin.a libvulkanplugin.a vulkanplugin_autogen x64/lib/libqtadvanceddocking.so
+build CMakeFiles/aspyre_autogen aspyre_autogen/mocs_compilation.cpp: CUSTOM_COMMAND || 2dplugin_autogen 3dplugin_autogen editorplugin_autogen external/Qt-Advanced-Docking-System/src/qtadvanceddocking_autogen graphicsplugin_autogen lib2dplugin.a lib3dplugin.a libeditorplugin.a libgraphicsplugin.a libvulkanplugin.a vulkanplugin_autogen x64/lib/libqtadvanceddocking.so
   COMMAND = cd /home/jonas/Aspyre-Engine/build && /usr/bin/cmake -E cmake_autogen /home/jonas/Aspyre-Engine/build/CMakeFiles/aspyre_autogen.dir/AutogenInfo.json Debug
   DESC = Automatic MOC and UIC for target aspyre
   restat = 1
@@ -1760,6 +1922,10 @@ build external/Qt-Advanced-Docking-System/demo/CMakeFiles/AdvancedDockingSystemD
 # =============================================================================
 # Target aliases.
 
+build 2dplugin: phony lib2dplugin.a
+
+build 3dplugin: phony lib3dplugin.a
+
 build AdvancedDockingSystemDemo: phony x64/bin/AdvancedDockingSystemDemo
 
 build AdvancedDockingSystemDemo_autogen: phony external/Qt-Advanced-Docking-System/demo/AdvancedDockingSystemDemo_autogen
@@ -1790,6 +1956,8 @@ build SimpleExample_autogen: phony external/Qt-Advanced-Docking-System/examples/
 
 build editorplugin: phony libeditorplugin.a
 
+build graphicsplugin: phony libgraphicsplugin.a
+
 build libqtadvanceddocking.so: phony x64/lib/libqtadvanceddocking.so
 
 build qtadvanceddocking: phony x64/lib/libqtadvanceddocking.so
@@ -1806,7 +1974,7 @@ build vulkanplugin: phony libvulkanplugin.a
 #############################################
 # Folder: /home/jonas/Aspyre-Engine/build
 
-build all: phony libvulkanplugin.a libeditorplugin.a aspyre external/Qt-Advanced-Docking-System/all
+build all: phony lib3dplugin.a lib2dplugin.a libvulkanplugin.a libeditorplugin.a libgraphicsplugin.a aspyre external/Qt-Advanced-Docking-System/all
 
 # =============================================================================
 

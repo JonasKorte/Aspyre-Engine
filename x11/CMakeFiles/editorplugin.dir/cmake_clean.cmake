@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "editorplugin_autogen"
   "CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o"
   "CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.o"
-  "libeditorplugin.a"
   "libeditorplugin.pdb"
+  "libeditorplugin.so"
 )
 
 # Per-language clean rules from dependency scanning.
