@@ -14,20 +14,9 @@
 			}
 		]
 	},
-	"dependencies" : 
-	[
-		{
-			"backtrace" : 0,
-			"id" : "3dplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 0,
-			"id" : "2dplugin::@6890427a1f51a3e7e1df"
-		}
-	],
-	"id" : "graphicsplugin_autogen::@6890427a1f51a3e7e1df",
+	"id" : "coreplugin_autogen::@6890427a1f51a3e7e1df",
 	"isGeneratorProvided" : true,
-	"name" : "graphicsplugin_autogen",
+	"name" : "coreplugin_autogen",
 	"paths" : 
 	{
 		"build" : ".",
@@ -55,13 +44,13 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/graphicsplugin_autogen",
+			"path" : "build/CMakeFiles/coreplugin_autogen",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/graphicsplugin_autogen.rule",
+			"path" : "build/CMakeFiles/coreplugin_autogen.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

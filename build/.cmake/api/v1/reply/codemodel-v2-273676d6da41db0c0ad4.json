@@ -29,8 +29,14 @@
 						21,
 						22,
 						23,
+						24,
+						25,
 						26,
-						27
+						27,
+						30,
+						31,
+						32,
+						33
 					]
 				},
 				{
@@ -62,8 +68,8 @@
 					"source" : "external/Qt-Advanced-Docking-System/src",
 					"targetIndexes" : 
 					[
-						24,
-						25
+						28,
+						29
 					]
 				},
 				{
@@ -216,8 +222,14 @@
 						21,
 						22,
 						23,
+						24,
+						25,
 						26,
-						27
+						27,
+						30,
+						31,
+						32,
+						33
 					]
 				},
 				{
@@ -243,8 +255,8 @@
 					"parentIndex" : 1,
 					"targetIndexes" : 
 					[
-						24,
-						25
+						28,
+						29
 					]
 				},
 				{
@@ -361,7 +373,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "2dplugin::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-2dplugin-Debug-0cab363595fc1ed401e3.json",
+					"jsonFile" : "target-2dplugin-Debug-37ab72463bd43806fd77.json",
 					"name" : "2dplugin",
 					"projectIndex" : 0
 				},
@@ -375,7 +387,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "3dplugin::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-3dplugin-Debug-36c504be7353d335b23b.json",
+					"jsonFile" : "target-3dplugin-Debug-e22a087e95ef5a951347.json",
 					"name" : "3dplugin",
 					"projectIndex" : 0
 				},
@@ -487,42 +499,70 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "aspyre::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-aspyre-Debug-466267b9e0674edc9b2d.json",
+					"jsonFile" : "target-aspyre-Debug-5c874930dc2c257e637f.json",
 					"name" : "aspyre",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "aspyre_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-aspyre_autogen-Debug-f37f0930d06bfe39adaa.json",
+					"jsonFile" : "target-aspyre_autogen-Debug-c10626e0dd90c84f70a1.json",
 					"name" : "aspyre_autogen",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "coreplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coreplugin-Debug-bcd533270c02e9340673.json",
+					"name" : "coreplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coreplugin_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coreplugin_autogen-Debug-8f1427996c760c2155bd.json",
+					"name" : "coreplugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ecsplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ecsplugin-Debug-80361a5c6afdf5f6eeb7.json",
+					"name" : "ecsplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ecsplugin_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ecsplugin_autogen-Debug-4cc60377a2bde6b219e2.json",
+					"name" : "ecsplugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "editorplugin::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-editorplugin-Debug-48b153d04a1543190507.json",
+					"jsonFile" : "target-editorplugin-Debug-37a7810d02114d9ad2ab.json",
 					"name" : "editorplugin",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "editorplugin_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-editorplugin_autogen-Debug-ca165080dd72ca51d0d5.json",
+					"jsonFile" : "target-editorplugin_autogen-Debug-a49cb983b5f6dbad56f3.json",
 					"name" : "editorplugin_autogen",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "graphicsplugin::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-graphicsplugin-Debug-63142fb6e944a4c29fbc.json",
+					"jsonFile" : "target-graphicsplugin-Debug-48013c2c55bc4cc14c99.json",
 					"name" : "graphicsplugin",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "graphicsplugin_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-graphicsplugin_autogen-Debug-5c4caf8721617a93331d.json",
+					"jsonFile" : "target-graphicsplugin_autogen-Debug-342379e0de3900c7113c.json",
 					"name" : "graphicsplugin_autogen",
 					"projectIndex" : 0
 				},
@@ -542,15 +582,29 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "sceneplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sceneplugin-Debug-f60b1fb286790ef80fb6.json",
+					"name" : "sceneplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sceneplugin_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sceneplugin_autogen-Debug-3b38855c8d7573a8e17d.json",
+					"name" : "sceneplugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "vulkanplugin::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-vulkanplugin-Debug-d783c31e461743fa1907.json",
+					"jsonFile" : "target-vulkanplugin-Debug-01192b547c5081d95795.json",
 					"name" : "vulkanplugin",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "vulkanplugin_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-vulkanplugin_autogen-Debug-2e19f8f86b701bfaa7a3.json",
+					"jsonFile" : "target-vulkanplugin_autogen-Debug-60d4b511348ed35da118.json",
 					"name" : "vulkanplugin_autogen",
 					"projectIndex" : 0
 				}

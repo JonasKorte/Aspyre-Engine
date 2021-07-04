@@ -1,5 +1,5 @@
 {
-	"BUILD_DIR" : "/home/jonas/Aspyre-Engine/build/aspyre_autogen",
+	"BUILD_DIR" : "/home/jonas/Aspyre-Engine/build/sceneplugin_autogen",
 	"CMAKE_BINARY_DIR" : "/home/jonas/Aspyre-Engine/build",
 	"CMAKE_CURRENT_BINARY_DIR" : "/home/jonas/Aspyre-Engine/build",
 	"CMAKE_CURRENT_SOURCE_DIR" : "/home/jonas/Aspyre-Engine",
@@ -86,11 +86,18 @@
 	"CMAKE_SOURCE_DIR" : "/home/jonas/Aspyre-Engine",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/home/jonas/Aspyre-Engine/core/scene/scene.hxx",
+			"MU",
+			"CCNLTW5OAG/moc_scene.cpp"
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/jonas/Aspyre-Engine/build/aspyre_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/jonas/Aspyre-Engine/build/aspyre_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"INCLUDE_DIR" : "/home/jonas/Aspyre-Engine/build/sceneplugin_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/jonas/Aspyre-Engine/build/sceneplugin_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -103,18 +110,13 @@
 		"/home/jonas/Aspyre-Engine/core",
 		"/home/jonas/Aspyre-Engine/editor",
 		"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src",
-		"/home/jonas/Qt/5.12.11/gcc_64/include",
-		"/home/jonas/Qt/5.12.11/gcc_64/include/QtGui",
-		"/home/jonas/Qt/5.12.11/gcc_64/include/QtCore",
-		"/home/jonas/Qt/5.12.11/gcc_64/mkspecs/linux-g++",
-		"/home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets",
-		"/usr/include",
 		"/usr/include/c++/10",
 		"/usr/include/x86_64-linux-gnu/c++/10",
 		"/usr/include/c++/10/backward",
 		"/usr/lib/gcc/x86_64-linux-gnu/10/include",
 		"/usr/local/include",
-		"/usr/include/x86_64-linux-gnu"
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
 	],
 	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
 	"MOC_OPTIONS" : [],
@@ -127,30 +129,27 @@
 		"-c",
 		"/usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/jonas/Aspyre-Engine/build/aspyre_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/jonas/Aspyre-Engine/build/sceneplugin_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
 		"/home/jonas/Aspyre-Engine/build/2dplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/build/3dplugin_autogen/mocs_compilation.cpp",
-		"/home/jonas/Aspyre-Engine/build/coreplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/build/ecsplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/build/editorplugin_autogen/mocs_compilation.cpp",
-		"/home/jonas/Aspyre-Engine/build/graphicsplugin_autogen/mocs_compilation.cpp",
-		"/home/jonas/Aspyre-Engine/build/sceneplugin_autogen/mocs_compilation.cpp",
-		"/home/jonas/Aspyre-Engine/build/vulkanplugin_autogen/mocs_compilation.cpp"
+		"/home/jonas/Aspyre-Engine/build/graphicsplugin_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 6,
-	"PARSE_CACHE_FILE" : "/home/jonas/Aspyre-Engine/build/CMakeFiles/aspyre_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/jonas/Aspyre-Engine/build/CMakeFiles/sceneplugin_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/home/jonas/Qt/5.12.11/gcc_64/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/home/jonas/Qt/5.12.11/gcc_64/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 12,
-	"SETTINGS_FILE" : "/home/jonas/Aspyre-Engine/build/CMakeFiles/aspyre_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/jonas/Aspyre-Engine/build/CMakeFiles/sceneplugin_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/jonas/Aspyre-Engine/main/main.cxx", "MU" ]
+		[ "/home/jonas/Aspyre-Engine/core/scene/scene.cxx", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
@@ -158,12 +157,9 @@
 	[
 		"/home/jonas/Aspyre-Engine/build/2dplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/build/3dplugin_autogen/mocs_compilation.cpp",
-		"/home/jonas/Aspyre-Engine/build/coreplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/build/ecsplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/build/editorplugin_autogen/mocs_compilation.cpp",
-		"/home/jonas/Aspyre-Engine/build/graphicsplugin_autogen/mocs_compilation.cpp",
-		"/home/jonas/Aspyre-Engine/build/sceneplugin_autogen/mocs_compilation.cpp",
-		"/home/jonas/Aspyre-Engine/build/vulkanplugin_autogen/mocs_compilation.cpp"
+		"/home/jonas/Aspyre-Engine/build/graphicsplugin_autogen/mocs_compilation.cpp"
 	],
 	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0

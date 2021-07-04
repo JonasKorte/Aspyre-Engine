@@ -14,32 +14,9 @@
 			}
 		]
 	},
-	"dependencies" : 
-	[
-		{
-			"backtrace" : 0,
-			"id" : "3dplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 0,
-			"id" : "2dplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 0,
-			"id" : "vulkanplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 0,
-			"id" : "editorplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 0,
-			"id" : "graphicsplugin::@6890427a1f51a3e7e1df"
-		}
-	],
-	"id" : "aspyre_autogen::@6890427a1f51a3e7e1df",
+	"id" : "sceneplugin_autogen::@6890427a1f51a3e7e1df",
 	"isGeneratorProvided" : true,
-	"name" : "aspyre_autogen",
+	"name" : "sceneplugin_autogen",
 	"paths" : 
 	{
 		"build" : ".",
@@ -67,13 +44,13 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/aspyre_autogen",
+			"path" : "build/CMakeFiles/sceneplugin_autogen",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/aspyre_autogen.rule",
+			"path" : "build/CMakeFiles/sceneplugin_autogen.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

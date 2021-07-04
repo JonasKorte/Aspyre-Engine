@@ -22,25 +22,6 @@ rule CUSTOM_COMMAND
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__3dplugin_Debug
-  depfile = $DEP_FILE
-  deps = gcc
-  command = /usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building CXX object $out
-
-
-#############################################
-# Rule for linking CXX static library.
-
-rule CXX_STATIC_LIBRARY_LINKER__3dplugin_Debug
-  command = $PRE_LINK && /usr/bin/cmake -E rm -f $TARGET_FILE && /usr/bin/ar qc $TARGET_FILE $LINK_FLAGS $in && /usr/bin/ranlib $TARGET_FILE && $POST_BUILD
-  description = Linking CXX static library $TARGET_FILE
-  restat = $RESTAT
-
-
-#############################################
-# Rule for compiling CXX files.
-
 rule CXX_COMPILER__2dplugin_Debug
   depfile = $DEP_FILE
   deps = gcc
@@ -60,7 +41,7 @@ rule CXX_STATIC_LIBRARY_LINKER__2dplugin_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__vulkanplugin_Debug
+rule CXX_COMPILER__3dplugin_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = /usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -70,7 +51,45 @@ rule CXX_COMPILER__vulkanplugin_Debug
 #############################################
 # Rule for linking CXX static library.
 
-rule CXX_STATIC_LIBRARY_LINKER__vulkanplugin_Debug
+rule CXX_STATIC_LIBRARY_LINKER__3dplugin_Debug
+  command = $PRE_LINK && /usr/bin/cmake -E rm -f $TARGET_FILE && /usr/bin/ar qc $TARGET_FILE $LINK_FLAGS $in && /usr/bin/ranlib $TARGET_FILE && $POST_BUILD
+  description = Linking CXX static library $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__ecsplugin_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX static library.
+
+rule CXX_STATIC_LIBRARY_LINKER__ecsplugin_Debug
+  command = $PRE_LINK && /usr/bin/cmake -E rm -f $TARGET_FILE && /usr/bin/ar qc $TARGET_FILE $LINK_FLAGS $in && /usr/bin/ranlib $TARGET_FILE && $POST_BUILD
+  description = Linking CXX static library $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__graphicsplugin_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX static library.
+
+rule CXX_STATIC_LIBRARY_LINKER__graphicsplugin_Debug
   command = $PRE_LINK && /usr/bin/cmake -E rm -f $TARGET_FILE && /usr/bin/ar qc $TARGET_FILE $LINK_FLAGS $in && /usr/bin/ranlib $TARGET_FILE && $POST_BUILD
   description = Linking CXX static library $TARGET_FILE
   restat = $RESTAT
@@ -98,7 +117,7 @@ rule CXX_STATIC_LIBRARY_LINKER__editorplugin_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__graphicsplugin_Debug
+rule CXX_COMPILER__sceneplugin_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = /usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -108,7 +127,45 @@ rule CXX_COMPILER__graphicsplugin_Debug
 #############################################
 # Rule for linking CXX static library.
 
-rule CXX_STATIC_LIBRARY_LINKER__graphicsplugin_Debug
+rule CXX_STATIC_LIBRARY_LINKER__sceneplugin_Debug
+  command = $PRE_LINK && /usr/bin/cmake -E rm -f $TARGET_FILE && /usr/bin/ar qc $TARGET_FILE $LINK_FLAGS $in && /usr/bin/ranlib $TARGET_FILE && $POST_BUILD
+  description = Linking CXX static library $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__vulkanplugin_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX static library.
+
+rule CXX_STATIC_LIBRARY_LINKER__vulkanplugin_Debug
+  command = $PRE_LINK && /usr/bin/cmake -E rm -f $TARGET_FILE && /usr/bin/ar qc $TARGET_FILE $LINK_FLAGS $in && /usr/bin/ranlib $TARGET_FILE && $POST_BUILD
+  description = Linking CXX static library $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__coreplugin_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = /usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX static library.
+
+rule CXX_STATIC_LIBRARY_LINKER__coreplugin_Debug
   command = $PRE_LINK && /usr/bin/cmake -E rm -f $TARGET_FILE && /usr/bin/ar qc $TARGET_FILE $LINK_FLAGS $in && /usr/bin/ranlib $TARGET_FILE && $POST_BUILD
   description = Linking CXX static library $TARGET_FILE
   restat = $RESTAT

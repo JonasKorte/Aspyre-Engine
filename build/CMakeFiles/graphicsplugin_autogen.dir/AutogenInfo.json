@@ -135,8 +135,7 @@
 	[
 		"/home/jonas/Aspyre-Engine/build/2dplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/build/3dplugin_autogen/mocs_compilation.cpp",
-		"/home/jonas/Aspyre-Engine/build/editorplugin_autogen/mocs_compilation.cpp",
-		"/home/jonas/Aspyre-Engine/build/vulkanplugin_autogen/mocs_compilation.cpp"
+		"/home/jonas/Aspyre-Engine/build/ecsplugin_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 6,
@@ -159,8 +158,7 @@
 	[
 		"/home/jonas/Aspyre-Engine/build/2dplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/build/3dplugin_autogen/mocs_compilation.cpp",
-		"/home/jonas/Aspyre-Engine/build/editorplugin_autogen/mocs_compilation.cpp",
-		"/home/jonas/Aspyre-Engine/build/vulkanplugin_autogen/mocs_compilation.cpp"
+		"/home/jonas/Aspyre-Engine/build/ecsplugin_autogen/mocs_compilation.cpp"
 	],
 	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0
