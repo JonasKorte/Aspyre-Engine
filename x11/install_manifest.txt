@@ -36,3 +36,4 @@
 /home/jonas/Aspyre-Engine/release/lib/libcoreplugin.a
 /home/jonas/Aspyre-Engine/release/res/icons/icon.ico
 /home/jonas/Aspyre-Engine/release/res/icons/icon.png
+/home/jonas/Aspyre-Engine/release/res/style/main.aspyre-style

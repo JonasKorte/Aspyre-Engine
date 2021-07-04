@@ -4,6 +4,9 @@
 
 #include <QApplication>
 #include <QIcon>
+#include <QFile>
+#include <QLatin1String>
+#include <QString>
 
 int main(int argc, char *argv[])
 {
@@ -18,6 +21,12 @@ int main(int argc, char *argv[])
         exitCode = -1;
         return exitCode;
     }
+
+    QFile main_stylesheet("../res/style/main.aspyre-style");
+    main_stylesheet.open(QFile::ReadOnly);
+    QString stylesheet = QLatin1String(main_stylesheet.readAll());
+
+    app.setStyleSheet(stylesheet);
 
     window->resize(1280, 720);
 

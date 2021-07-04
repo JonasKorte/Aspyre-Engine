@@ -16,9 +16,12 @@ CMakeFiles/aspyre.dir/main/main.cxx.o
  /home/jonas/Aspyre-Engine/main/main.cxx
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QByteArrayList
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QEvent
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QFile
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QLatin1String
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QMargins
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QObject
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QRect
+ /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QString
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qalgorithms.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qarraydata.h
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qatomic.h

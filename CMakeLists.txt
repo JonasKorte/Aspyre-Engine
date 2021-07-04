@@ -108,3 +108,4 @@ install(TARGETS ecsplugin LIBRARY DESTINATION ${library_dir} ARCHIVE DESTINATION
 install(TARGETS sceneplugin LIBRARY DESTINATION ${library_dir} ARCHIVE DESTINATION ${library_dir} RUNTIME DESTINATION ${binary_dir})
 install(TARGETS coreplugin LIBRARY DESTINATION ${library_dir} ARCHIVE DESTINATION ${library_dir} RUNTIME DESTINATION ${binary_dir})
 install(FILES res/icons/icon.ico branding/icon.png DESTINATION ${resource_dir}/icons)
+install(FILES res/style/main.aspyre-style DESTINATION ${resource_dir}/style)

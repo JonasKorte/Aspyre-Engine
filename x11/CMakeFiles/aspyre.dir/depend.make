@@ -15,9 +15,12 @@ CMakeFiles/aspyre.dir/main/main.cxx.o: ../editor/mainwindow.hxx
 CMakeFiles/aspyre.dir/main/main.cxx.o: ../main/main.cxx
 CMakeFiles/aspyre.dir/main/main.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QByteArrayList
 CMakeFiles/aspyre.dir/main/main.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QEvent
+CMakeFiles/aspyre.dir/main/main.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QFile
+CMakeFiles/aspyre.dir/main/main.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QLatin1String
 CMakeFiles/aspyre.dir/main/main.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QMargins
 CMakeFiles/aspyre.dir/main/main.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QObject
 CMakeFiles/aspyre.dir/main/main.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QRect
+CMakeFiles/aspyre.dir/main/main.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QString
 CMakeFiles/aspyre.dir/main/main.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qalgorithms.h
 CMakeFiles/aspyre.dir/main/main.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qarraydata.h
 CMakeFiles/aspyre.dir/main/main.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qatomic.h
