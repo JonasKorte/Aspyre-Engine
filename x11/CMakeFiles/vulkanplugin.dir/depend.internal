@@ -4,6 +4,7 @@
 CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.o
  ../core/logging/log.hxx
  ../core/rendering/vulkaninstance.hxx
+ ../core/types.hxx
  /home/jonas/Aspyre-Engine/core/rendering/vulkaninstance.cxx
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QByteArrayList
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qalgorithms.h
@@ -78,6 +79,7 @@ CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.o
  ../core/logging/log.hxx
  ../core/rendering/vulkanwindow.hxx
  ../core/rendering/vulkanwindowrenderer.hxx
+ ../core/types.hxx
  /home/jonas/Aspyre-Engine/core/rendering/vulkanwindow.cxx
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QEvent
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QMargins
@@ -187,6 +189,7 @@ CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.o
 CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.o
  ../core/logging/log.hxx
  ../core/rendering/vulkanwindowrenderer.hxx
+ ../core/types.hxx
  /home/jonas/Aspyre-Engine/core/rendering/vulkanwindowrenderer.cxx
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QEvent
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QMargins

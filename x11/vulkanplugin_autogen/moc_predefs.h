@@ -234,7 +234,6 @@
 #define __FLT64_DIG__ 15
 #define __UINT_FAST32_MAX__ 0xffffffffffffffffUL
 #define __UINT_LEAST64_TYPE__ long unsigned int
-#define vulkanplugin_EXPORTS 1
 #define __FLT_HAS_QUIET_NAN__ 1
 #define __FLT_MAX_10_EXP__ 38
 #define __LONG_MAX__ 0x7fffffffffffffffL

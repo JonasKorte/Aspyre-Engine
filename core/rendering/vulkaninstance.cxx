@@ -31,7 +31,7 @@ QVulkanInstance* VulkanInstance::GetInstance()
     return this->m_instance;
 }
 
-bool VulkanInstance::IsSuccessful()
+ABool VulkanInstance::IsSuccessful()
 {
     return this->m_success;
 }

@@ -50,12 +50,25 @@ set (editorplugin_src editor/mainwindow.cxx editor/mainwindow.hxx)
 
 add_library(editorplugin ${editorplugin_src})
 
-target_link_libraries(graphicsplugin PRIVATE 2dplugin 3dplugin)
+set (ecsplugin_src core/ecs/entity.cxx core/ecs/entity.hxx
+    core/ecs/guid.cxx core/ecs/guid.hxx)
 
-target_link_libraries(vulkanplugin PRIVATE Qt5::Gui)
-target_link_libraries(editorplugin PRIVATE vulkanplugin graphicsplugin 2dplugin 3dplugin Qt5::Gui Qt5::Widgets qtadvanceddocking)
+add_library(ecsplugin ${ecsplugin_src})
 
-target_link_libraries(aspyre PRIVATE vulkanplugin editorplugin graphicsplugin 2dplugin 3dplugin Qt5::Gui Qt5::Widgets)
+set (sceneplugin_src core/scene/scene.cxx core/scene/scene.hxx)
+
+add_library(sceneplugin ${sceneplugin_src})
+
+set (coreplugin_src core/types.hxx)
+
+add_library(coreplugin ${coreplugin_src})
+
+target_link_libraries(graphicsplugin PRIVATE 2dplugin 3dplugin ecsplugin sceneplugin coreplugin)
+
+target_link_libraries(vulkanplugin PRIVATE ecsplugin sceneplugin coreplugin Qt5::Gui)
+target_link_libraries(editorplugin PRIVATE vulkanplugin graphicsplugin 2dplugin 3dplugin ecsplugin sceneplugin coreplugin Qt5::Gui Qt5::Widgets qtadvanceddocking)
+
+target_link_libraries(aspyre PRIVATE vulkanplugin editorplugin graphicsplugin 2dplugin 3dplugin ecsplugin sceneplugin coreplugin Qt5::Gui Qt5::Widgets)
 
 
 set(binary_dir ${CMAKE_SOURCE_DIR}/release/bin)
@@ -91,4 +104,7 @@ install(TARGETS graphicsplugin LIBRARY DESTINATION ${library_dir} ARCHIVE DESTIN
 install(TARGETS 2dplugin LIBRARY DESTINATION ${library_dir} ARCHIVE DESTINATION ${library_dir} RUNTIME DESTINATION ${binary_dir})
 install(TARGETS 3dplugin LIBRARY DESTINATION ${library_dir} ARCHIVE DESTINATION ${library_dir} RUNTIME DESTINATION ${binary_dir})
 install(TARGETS editorplugin LIBRARY DESTINATION ${library_dir} ARCHIVE DESTINATION ${library_dir} RUNTIME DESTINATION ${binary_dir})
+install(TARGETS ecsplugin LIBRARY DESTINATION ${library_dir} ARCHIVE DESTINATION ${library_dir} RUNTIME DESTINATION ${binary_dir})
+install(TARGETS sceneplugin LIBRARY DESTINATION ${library_dir} ARCHIVE DESTINATION ${library_dir} RUNTIME DESTINATION ${binary_dir})
+install(TARGETS coreplugin LIBRARY DESTINATION ${library_dir} ARCHIVE DESTINATION ${library_dir} RUNTIME DESTINATION ${binary_dir})
 install(FILES res/icons/icon.ico branding/icon.png DESTINATION ${resource_dir}/icons)

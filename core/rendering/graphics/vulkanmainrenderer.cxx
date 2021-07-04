@@ -12,7 +12,7 @@ VulkanMainRenderer::~VulkanMainRenderer()
 
 }
 
-void VulkanMainRenderer::draw()
+AVoid VulkanMainRenderer::draw()
 {
     if (this->m_rendererType == VKR_3D)
     {
@@ -34,7 +34,7 @@ VulkanRendererType VulkanMainRenderer::GetRendererType()
     return this->m_rendererType;
 }
 
-void VulkanMainRenderer::SetRendererType(VulkanRendererType rendererType)
+AVoid VulkanMainRenderer::SetRendererType(VulkanRendererType rendererType)
 {
     this->m_rendererType = rendererType;
 }

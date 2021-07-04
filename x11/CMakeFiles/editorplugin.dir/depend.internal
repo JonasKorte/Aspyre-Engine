@@ -9,6 +9,7 @@ CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o
  ../core/rendering/vulkaninstance.hxx
  ../core/rendering/vulkanwindow.hxx
  ../core/rendering/vulkanwindowrenderer.hxx
+ ../core/types.hxx
  ../editor/mainwindow.hxx
  /home/jonas/Aspyre-Engine/editor/mainwindow.cxx
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QByteArrayList
@@ -158,6 +159,7 @@ CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.o
  ../core/rendering/vulkaninstance.hxx
  ../core/rendering/vulkanwindow.hxx
  ../core/rendering/vulkanwindowrenderer.hxx
+ ../core/types.hxx
  /home/jonas/Aspyre-Engine/editor/mainwindow.hxx
  /home/jonas/Aspyre-Engine/x11/editorplugin_autogen/3HAKN7MTYQ/moc_mainwindow.cpp
  /home/jonas/Aspyre-Engine/x11/editorplugin_autogen/mocs_compilation.cpp

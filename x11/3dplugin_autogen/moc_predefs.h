@@ -263,7 +263,6 @@
 #define __cpp_sized_deallocation 201309L
 #define linux 1
 #define __FLT64_HAS_QUIET_NAN__ 1
-#define _3dplugin_EXPORTS 1
 #define __FLT32_MIN_10_EXP__ (-37)
 #define __EXCEPTIONS 1
 #define __PTRDIFF_WIDTH__ 64

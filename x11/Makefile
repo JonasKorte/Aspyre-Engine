@@ -87,38 +87,17 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
 
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"headers\" \"license\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -131,17 +110,38 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
 
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"headers\" \"license\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -176,19 +176,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 3dplugin
-
-# Build rule for target.
-3dplugin: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dplugin
-.PHONY : 3dplugin
-
-# fast build rule for target.
-3dplugin/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3dplugin.dir/build.make CMakeFiles/3dplugin.dir/build
-.PHONY : 3dplugin/fast
-
-#=============================================================================
 # Target rules for targets named 2dplugin
 
 # Build rule for target.
@@ -202,30 +189,30 @@ depend:
 .PHONY : 2dplugin/fast
 
 #=============================================================================
-# Target rules for targets named vulkanplugin
+# Target rules for targets named 3dplugin
 
 # Build rule for target.
-vulkanplugin: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vulkanplugin
-.PHONY : vulkanplugin
+3dplugin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dplugin
+.PHONY : 3dplugin
 
 # fast build rule for target.
-vulkanplugin/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/build
-.PHONY : vulkanplugin/fast
+3dplugin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3dplugin.dir/build.make CMakeFiles/3dplugin.dir/build
+.PHONY : 3dplugin/fast
 
 #=============================================================================
-# Target rules for targets named editorplugin
+# Target rules for targets named ecsplugin
 
 # Build rule for target.
-editorplugin: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 editorplugin
-.PHONY : editorplugin
+ecsplugin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ecsplugin
+.PHONY : ecsplugin
 
 # fast build rule for target.
-editorplugin/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin.dir/build.make CMakeFiles/editorplugin.dir/build
-.PHONY : editorplugin/fast
+ecsplugin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecsplugin.dir/build.make CMakeFiles/ecsplugin.dir/build
+.PHONY : ecsplugin/fast
 
 #=============================================================================
 # Target rules for targets named graphicsplugin
@@ -241,6 +228,58 @@ graphicsplugin/fast:
 .PHONY : graphicsplugin/fast
 
 #=============================================================================
+# Target rules for targets named editorplugin
+
+# Build rule for target.
+editorplugin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 editorplugin
+.PHONY : editorplugin
+
+# fast build rule for target.
+editorplugin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/editorplugin.dir/build.make CMakeFiles/editorplugin.dir/build
+.PHONY : editorplugin/fast
+
+#=============================================================================
+# Target rules for targets named sceneplugin
+
+# Build rule for target.
+sceneplugin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sceneplugin
+.PHONY : sceneplugin
+
+# fast build rule for target.
+sceneplugin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sceneplugin.dir/build.make CMakeFiles/sceneplugin.dir/build
+.PHONY : sceneplugin/fast
+
+#=============================================================================
+# Target rules for targets named vulkanplugin
+
+# Build rule for target.
+vulkanplugin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vulkanplugin
+.PHONY : vulkanplugin
+
+# fast build rule for target.
+vulkanplugin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/build
+.PHONY : vulkanplugin/fast
+
+#=============================================================================
+# Target rules for targets named coreplugin
+
+# Build rule for target.
+coreplugin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 coreplugin
+.PHONY : coreplugin
+
+# fast build rule for target.
+coreplugin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coreplugin.dir/build.make CMakeFiles/coreplugin.dir/build
+.PHONY : coreplugin/fast
+
+#=============================================================================
 # Target rules for targets named aspyre
 
 # Build rule for target.
@@ -252,19 +291,6 @@ aspyre: cmake_check_build_system
 aspyre/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aspyre.dir/build.make CMakeFiles/aspyre.dir/build
 .PHONY : aspyre/fast
-
-#=============================================================================
-# Target rules for targets named 3dplugin_autogen
-
-# Build rule for target.
-3dplugin_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dplugin_autogen
-.PHONY : 3dplugin_autogen
-
-# fast build rule for target.
-3dplugin_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/3dplugin_autogen.dir/build.make CMakeFiles/3dplugin_autogen.dir/build
-.PHONY : 3dplugin_autogen/fast
 
 #=============================================================================
 # Target rules for targets named 2dplugin_autogen
@@ -280,17 +306,43 @@ aspyre/fast:
 .PHONY : 2dplugin_autogen/fast
 
 #=============================================================================
-# Target rules for targets named vulkanplugin_autogen
+# Target rules for targets named 3dplugin_autogen
 
 # Build rule for target.
-vulkanplugin_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vulkanplugin_autogen
-.PHONY : vulkanplugin_autogen
+3dplugin_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3dplugin_autogen
+.PHONY : 3dplugin_autogen
 
 # fast build rule for target.
-vulkanplugin_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin_autogen.dir/build.make CMakeFiles/vulkanplugin_autogen.dir/build
-.PHONY : vulkanplugin_autogen/fast
+3dplugin_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3dplugin_autogen.dir/build.make CMakeFiles/3dplugin_autogen.dir/build
+.PHONY : 3dplugin_autogen/fast
+
+#=============================================================================
+# Target rules for targets named ecsplugin_autogen
+
+# Build rule for target.
+ecsplugin_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ecsplugin_autogen
+.PHONY : ecsplugin_autogen
+
+# fast build rule for target.
+ecsplugin_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecsplugin_autogen.dir/build.make CMakeFiles/ecsplugin_autogen.dir/build
+.PHONY : ecsplugin_autogen/fast
+
+#=============================================================================
+# Target rules for targets named graphicsplugin_autogen
+
+# Build rule for target.
+graphicsplugin_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 graphicsplugin_autogen
+.PHONY : graphicsplugin_autogen
+
+# fast build rule for target.
+graphicsplugin_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphicsplugin_autogen.dir/build.make CMakeFiles/graphicsplugin_autogen.dir/build
+.PHONY : graphicsplugin_autogen/fast
 
 #=============================================================================
 # Target rules for targets named editorplugin_autogen
@@ -306,17 +358,43 @@ editorplugin_autogen/fast:
 .PHONY : editorplugin_autogen/fast
 
 #=============================================================================
-# Target rules for targets named graphicsplugin_autogen
+# Target rules for targets named sceneplugin_autogen
 
 # Build rule for target.
-graphicsplugin_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 graphicsplugin_autogen
-.PHONY : graphicsplugin_autogen
+sceneplugin_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sceneplugin_autogen
+.PHONY : sceneplugin_autogen
 
 # fast build rule for target.
-graphicsplugin_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphicsplugin_autogen.dir/build.make CMakeFiles/graphicsplugin_autogen.dir/build
-.PHONY : graphicsplugin_autogen/fast
+sceneplugin_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sceneplugin_autogen.dir/build.make CMakeFiles/sceneplugin_autogen.dir/build
+.PHONY : sceneplugin_autogen/fast
+
+#=============================================================================
+# Target rules for targets named vulkanplugin_autogen
+
+# Build rule for target.
+vulkanplugin_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vulkanplugin_autogen
+.PHONY : vulkanplugin_autogen
+
+# fast build rule for target.
+vulkanplugin_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin_autogen.dir/build.make CMakeFiles/vulkanplugin_autogen.dir/build
+.PHONY : vulkanplugin_autogen/fast
+
+#=============================================================================
+# Target rules for targets named coreplugin_autogen
+
+# Build rule for target.
+coreplugin_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 coreplugin_autogen
+.PHONY : coreplugin_autogen
+
+# fast build rule for target.
+coreplugin_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coreplugin_autogen.dir/build.make CMakeFiles/coreplugin_autogen.dir/build
+.PHONY : coreplugin_autogen/fast
 
 #=============================================================================
 # Target rules for targets named aspyre_autogen
@@ -620,6 +698,60 @@ aspyre_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aspyre.dir/build.make CMakeFiles/aspyre.dir/aspyre_autogen/mocs_compilation.cpp.s
 .PHONY : aspyre_autogen/mocs_compilation.cpp.s
 
+core/ecs/entity.o: core/ecs/entity.cxx.o
+
+.PHONY : core/ecs/entity.o
+
+# target to build an object file
+core/ecs/entity.cxx.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecsplugin.dir/build.make CMakeFiles/ecsplugin.dir/core/ecs/entity.cxx.o
+.PHONY : core/ecs/entity.cxx.o
+
+core/ecs/entity.i: core/ecs/entity.cxx.i
+
+.PHONY : core/ecs/entity.i
+
+# target to preprocess a source file
+core/ecs/entity.cxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecsplugin.dir/build.make CMakeFiles/ecsplugin.dir/core/ecs/entity.cxx.i
+.PHONY : core/ecs/entity.cxx.i
+
+core/ecs/entity.s: core/ecs/entity.cxx.s
+
+.PHONY : core/ecs/entity.s
+
+# target to generate assembly for a file
+core/ecs/entity.cxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecsplugin.dir/build.make CMakeFiles/ecsplugin.dir/core/ecs/entity.cxx.s
+.PHONY : core/ecs/entity.cxx.s
+
+core/ecs/guid.o: core/ecs/guid.cxx.o
+
+.PHONY : core/ecs/guid.o
+
+# target to build an object file
+core/ecs/guid.cxx.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecsplugin.dir/build.make CMakeFiles/ecsplugin.dir/core/ecs/guid.cxx.o
+.PHONY : core/ecs/guid.cxx.o
+
+core/ecs/guid.i: core/ecs/guid.cxx.i
+
+.PHONY : core/ecs/guid.i
+
+# target to preprocess a source file
+core/ecs/guid.cxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecsplugin.dir/build.make CMakeFiles/ecsplugin.dir/core/ecs/guid.cxx.i
+.PHONY : core/ecs/guid.cxx.i
+
+core/ecs/guid.s: core/ecs/guid.cxx.s
+
+.PHONY : core/ecs/guid.s
+
+# target to generate assembly for a file
+core/ecs/guid.cxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecsplugin.dir/build.make CMakeFiles/ecsplugin.dir/core/ecs/guid.cxx.s
+.PHONY : core/ecs/guid.cxx.s
+
 core/rendering/graphics/2D/vulkan2d.o: core/rendering/graphics/2D/vulkan2d.cxx.o
 
 .PHONY : core/rendering/graphics/2D/vulkan2d.o
@@ -782,6 +914,87 @@ core/rendering/vulkanwindowrenderer.cxx.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vulkanplugin.dir/build.make CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.s
 .PHONY : core/rendering/vulkanwindowrenderer.cxx.s
 
+core/scene/scene.o: core/scene/scene.cxx.o
+
+.PHONY : core/scene/scene.o
+
+# target to build an object file
+core/scene/scene.cxx.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sceneplugin.dir/build.make CMakeFiles/sceneplugin.dir/core/scene/scene.cxx.o
+.PHONY : core/scene/scene.cxx.o
+
+core/scene/scene.i: core/scene/scene.cxx.i
+
+.PHONY : core/scene/scene.i
+
+# target to preprocess a source file
+core/scene/scene.cxx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sceneplugin.dir/build.make CMakeFiles/sceneplugin.dir/core/scene/scene.cxx.i
+.PHONY : core/scene/scene.cxx.i
+
+core/scene/scene.s: core/scene/scene.cxx.s
+
+.PHONY : core/scene/scene.s
+
+# target to generate assembly for a file
+core/scene/scene.cxx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sceneplugin.dir/build.make CMakeFiles/sceneplugin.dir/core/scene/scene.cxx.s
+.PHONY : core/scene/scene.cxx.s
+
+coreplugin_autogen/mocs_compilation.o: coreplugin_autogen/mocs_compilation.cpp.o
+
+.PHONY : coreplugin_autogen/mocs_compilation.o
+
+# target to build an object file
+coreplugin_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coreplugin.dir/build.make CMakeFiles/coreplugin.dir/coreplugin_autogen/mocs_compilation.cpp.o
+.PHONY : coreplugin_autogen/mocs_compilation.cpp.o
+
+coreplugin_autogen/mocs_compilation.i: coreplugin_autogen/mocs_compilation.cpp.i
+
+.PHONY : coreplugin_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+coreplugin_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coreplugin.dir/build.make CMakeFiles/coreplugin.dir/coreplugin_autogen/mocs_compilation.cpp.i
+.PHONY : coreplugin_autogen/mocs_compilation.cpp.i
+
+coreplugin_autogen/mocs_compilation.s: coreplugin_autogen/mocs_compilation.cpp.s
+
+.PHONY : coreplugin_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+coreplugin_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/coreplugin.dir/build.make CMakeFiles/coreplugin.dir/coreplugin_autogen/mocs_compilation.cpp.s
+.PHONY : coreplugin_autogen/mocs_compilation.cpp.s
+
+ecsplugin_autogen/mocs_compilation.o: ecsplugin_autogen/mocs_compilation.cpp.o
+
+.PHONY : ecsplugin_autogen/mocs_compilation.o
+
+# target to build an object file
+ecsplugin_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecsplugin.dir/build.make CMakeFiles/ecsplugin.dir/ecsplugin_autogen/mocs_compilation.cpp.o
+.PHONY : ecsplugin_autogen/mocs_compilation.cpp.o
+
+ecsplugin_autogen/mocs_compilation.i: ecsplugin_autogen/mocs_compilation.cpp.i
+
+.PHONY : ecsplugin_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+ecsplugin_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecsplugin.dir/build.make CMakeFiles/ecsplugin.dir/ecsplugin_autogen/mocs_compilation.cpp.i
+.PHONY : ecsplugin_autogen/mocs_compilation.cpp.i
+
+ecsplugin_autogen/mocs_compilation.s: ecsplugin_autogen/mocs_compilation.cpp.s
+
+.PHONY : ecsplugin_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+ecsplugin_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ecsplugin.dir/build.make CMakeFiles/ecsplugin.dir/ecsplugin_autogen/mocs_compilation.cpp.s
+.PHONY : ecsplugin_autogen/mocs_compilation.cpp.s
+
 editor/mainwindow.o: editor/mainwindow.cxx.o
 
 .PHONY : editor/mainwindow.o
@@ -890,6 +1103,33 @@ main/main.cxx.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aspyre.dir/build.make CMakeFiles/aspyre.dir/main/main.cxx.s
 .PHONY : main/main.cxx.s
 
+sceneplugin_autogen/mocs_compilation.o: sceneplugin_autogen/mocs_compilation.cpp.o
+
+.PHONY : sceneplugin_autogen/mocs_compilation.o
+
+# target to build an object file
+sceneplugin_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sceneplugin.dir/build.make CMakeFiles/sceneplugin.dir/sceneplugin_autogen/mocs_compilation.cpp.o
+.PHONY : sceneplugin_autogen/mocs_compilation.cpp.o
+
+sceneplugin_autogen/mocs_compilation.i: sceneplugin_autogen/mocs_compilation.cpp.i
+
+.PHONY : sceneplugin_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+sceneplugin_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sceneplugin.dir/build.make CMakeFiles/sceneplugin.dir/sceneplugin_autogen/mocs_compilation.cpp.i
+.PHONY : sceneplugin_autogen/mocs_compilation.cpp.i
+
+sceneplugin_autogen/mocs_compilation.s: sceneplugin_autogen/mocs_compilation.cpp.s
+
+.PHONY : sceneplugin_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+sceneplugin_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sceneplugin.dir/build.make CMakeFiles/sceneplugin.dir/sceneplugin_autogen/mocs_compilation.cpp.s
+.PHONY : sceneplugin_autogen/mocs_compilation.cpp.s
+
 vulkanplugin_autogen/mocs_compilation.o: vulkanplugin_autogen/mocs_compilation.cpp.o
 
 .PHONY : vulkanplugin_autogen/mocs_compilation.o
@@ -939,9 +1179,12 @@ help:
 	@echo "... SidebarExample_autogen"
 	@echo "... SimpleExample_autogen"
 	@echo "... aspyre_autogen"
+	@echo "... coreplugin_autogen"
+	@echo "... ecsplugin_autogen"
 	@echo "... editorplugin_autogen"
 	@echo "... graphicsplugin_autogen"
 	@echo "... qtadvanceddocking_autogen"
+	@echo "... sceneplugin_autogen"
 	@echo "... vulkanplugin_autogen"
 	@echo "... 2dplugin"
 	@echo "... 3dplugin"
@@ -953,9 +1196,12 @@ help:
 	@echo "... SidebarExample"
 	@echo "... SimpleExample"
 	@echo "... aspyre"
+	@echo "... coreplugin"
+	@echo "... ecsplugin"
 	@echo "... editorplugin"
 	@echo "... graphicsplugin"
 	@echo "... qtadvanceddocking"
+	@echo "... sceneplugin"
 	@echo "... vulkanplugin"
 	@echo "... 2dplugin_autogen/mocs_compilation.o"
 	@echo "... 2dplugin_autogen/mocs_compilation.i"
@@ -966,6 +1212,12 @@ help:
 	@echo "... aspyre_autogen/mocs_compilation.o"
 	@echo "... aspyre_autogen/mocs_compilation.i"
 	@echo "... aspyre_autogen/mocs_compilation.s"
+	@echo "... core/ecs/entity.o"
+	@echo "... core/ecs/entity.i"
+	@echo "... core/ecs/entity.s"
+	@echo "... core/ecs/guid.o"
+	@echo "... core/ecs/guid.i"
+	@echo "... core/ecs/guid.s"
 	@echo "... core/rendering/graphics/2D/vulkan2d.o"
 	@echo "... core/rendering/graphics/2D/vulkan2d.i"
 	@echo "... core/rendering/graphics/2D/vulkan2d.s"
@@ -984,6 +1236,15 @@ help:
 	@echo "... core/rendering/vulkanwindowrenderer.o"
 	@echo "... core/rendering/vulkanwindowrenderer.i"
 	@echo "... core/rendering/vulkanwindowrenderer.s"
+	@echo "... core/scene/scene.o"
+	@echo "... core/scene/scene.i"
+	@echo "... core/scene/scene.s"
+	@echo "... coreplugin_autogen/mocs_compilation.o"
+	@echo "... coreplugin_autogen/mocs_compilation.i"
+	@echo "... coreplugin_autogen/mocs_compilation.s"
+	@echo "... ecsplugin_autogen/mocs_compilation.o"
+	@echo "... ecsplugin_autogen/mocs_compilation.i"
+	@echo "... ecsplugin_autogen/mocs_compilation.s"
 	@echo "... editor/mainwindow.o"
 	@echo "... editor/mainwindow.i"
 	@echo "... editor/mainwindow.s"
@@ -996,6 +1257,9 @@ help:
 	@echo "... main/main.o"
 	@echo "... main/main.i"
 	@echo "... main/main.s"
+	@echo "... sceneplugin_autogen/mocs_compilation.o"
+	@echo "... sceneplugin_autogen/mocs_compilation.i"
+	@echo "... sceneplugin_autogen/mocs_compilation.s"
 	@echo "... vulkanplugin_autogen/mocs_compilation.o"
 	@echo "... vulkanplugin_autogen/mocs_compilation.i"
 	@echo "... vulkanplugin_autogen/mocs_compilation.s"

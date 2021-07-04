@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsceneplugin.a CMakeFiles/sceneplugin.dir/sceneplugin_autogen/mocs_compilation.cpp.o CMakeFiles/sceneplugin.dir/core/scene/scene.cxx.o
+/usr/bin/ranlib libsceneplugin.a

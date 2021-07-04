@@ -11,6 +11,7 @@ CMakeFiles/aspyre.dir/main/main.cxx.o
  ../core/rendering/vulkaninstance.hxx
  ../core/rendering/vulkanwindow.hxx
  ../core/rendering/vulkanwindowrenderer.hxx
+ ../core/types.hxx
  ../editor/mainwindow.hxx
  /home/jonas/Aspyre-Engine/main/main.cxx
  /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QByteArrayList

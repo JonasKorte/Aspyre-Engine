@@ -2,6 +2,8 @@
 #include <rendering/graphics/3D/vulkan3d.hxx>
 #include <rendering/graphics/2D/vulkan2d.hxx>
 
+#include <types.hxx>
+
 enum VulkanRendererType
 {
     VKR_3D,
@@ -15,9 +17,9 @@ public:
     VulkanMainRenderer(VulkanRendererType rendererType);
     ~VulkanMainRenderer();
 
-    void draw();
+    AVoid draw();
 
-    void SetRendererType(VulkanRendererType rendererType);
+    AVoid SetRendererType(VulkanRendererType rendererType);
     VulkanRendererType GetRendererType();
 
 private:

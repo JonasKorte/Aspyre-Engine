@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/3dplugin_autogen.dir/ParseCache.txt"
   "CMakeFiles/3dplugin.dir/3dplugin_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/3dplugin.dir/core/rendering/graphics/3D/vulkan3d.cxx.o"
+  "lib3dplugin.a"
   "lib3dplugin.pdb"
-  "lib3dplugin.so"
 )
 
 # Per-language clean rules from dependency scanning.

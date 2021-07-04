@@ -1,0 +1,2 @@
+/usr/bin/ar qc libecsplugin.a CMakeFiles/ecsplugin.dir/ecsplugin_autogen/mocs_compilation.cpp.o CMakeFiles/ecsplugin.dir/core/ecs/entity.cxx.o CMakeFiles/ecsplugin.dir/core/ecs/guid.cxx.o
+/usr/bin/ranlib libecsplugin.a

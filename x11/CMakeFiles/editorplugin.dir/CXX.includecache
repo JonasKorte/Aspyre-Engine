@@ -13,9 +13,13 @@ iostream
 ../core/rendering/graphics/2D/vulkan2d.hxx
 logging/log.hxx
 -
+types.hxx
+-
 
 ../core/rendering/graphics/3D/vulkan3d.hxx
 logging/log.hxx
+-
+types.hxx
 -
 
 ../core/rendering/graphics/vulkanmainrenderer.hxx
@@ -23,9 +27,13 @@ rendering/graphics/3D/vulkan3d.hxx
 -
 rendering/graphics/2D/vulkan2d.hxx
 -
+types.hxx
+-
 
 ../core/rendering/vulkaninstance.hxx
 logging/log.hxx
+-
+types.hxx
 -
 QVulkanInstance
 -
@@ -35,11 +43,15 @@ QByteArrayList
 ../core/rendering/vulkanwindow.hxx
 QVulkanWindow
 -
+types.hxx
+-
 rendering/vulkanwindowrenderer.hxx
 -
 
 ../core/rendering/vulkanwindowrenderer.hxx
 logging/log.hxx
+-
+types.hxx
 -
 QVulkanWindowRenderer
 -
@@ -48,8 +60,12 @@ QVulkanDeviceFunctions
 QVulkanWindow
 -
 
+../core/types.hxx
+
 /home/jonas/Aspyre-Engine/editor/mainwindow.hxx
 logging/log.hxx
+-
+types.hxx
 -
 rendering/vulkaninstance.hxx
 -

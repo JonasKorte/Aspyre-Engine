@@ -16,7 +16,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "QT_NO_DEBUG"
   "QT_WIDGETS_LIB"
   "QT_X11EXTRAS_LIB"
-  "editorplugin_EXPORTS"
   )
 
 # The include file search paths:
@@ -39,6 +38,9 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/jonas/Aspyre-Engine/x11/CMakeFiles/graphicsplugin.dir/DependInfo.cmake"
   "/home/jonas/Aspyre-Engine/x11/CMakeFiles/2dplugin.dir/DependInfo.cmake"
   "/home/jonas/Aspyre-Engine/x11/CMakeFiles/3dplugin.dir/DependInfo.cmake"
+  "/home/jonas/Aspyre-Engine/x11/CMakeFiles/ecsplugin.dir/DependInfo.cmake"
+  "/home/jonas/Aspyre-Engine/x11/CMakeFiles/sceneplugin.dir/DependInfo.cmake"
+  "/home/jonas/Aspyre-Engine/x11/CMakeFiles/coreplugin.dir/DependInfo.cmake"
   "/home/jonas/Aspyre-Engine/x11/external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/DependInfo.cmake"
   )
 

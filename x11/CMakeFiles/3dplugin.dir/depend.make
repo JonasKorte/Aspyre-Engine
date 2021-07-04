@@ -5,5 +5,6 @@ CMakeFiles/3dplugin.dir/3dplugin_autogen/mocs_compilation.cpp.o: 3dplugin_autoge
 
 CMakeFiles/3dplugin.dir/core/rendering/graphics/3D/vulkan3d.cxx.o: ../core/logging/log.hxx
 CMakeFiles/3dplugin.dir/core/rendering/graphics/3D/vulkan3d.cxx.o: ../core/rendering/graphics/3D/vulkan3d.hxx
+CMakeFiles/3dplugin.dir/core/rendering/graphics/3D/vulkan3d.cxx.o: ../core/types.hxx
 CMakeFiles/3dplugin.dir/core/rendering/graphics/3D/vulkan3d.cxx.o: ../core/rendering/graphics/3D/vulkan3d.cxx
 

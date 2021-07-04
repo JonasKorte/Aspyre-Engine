@@ -97,7 +97,7 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/jonas/Aspyre-Engine/x11/graphicsplugin_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/jonas/Aspyre-Engine/x11/graphicsplugin_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "graphicsplugin_EXPORTS" ],
+	"MOC_DEFINITIONS" : [],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -135,8 +135,7 @@
 	[
 		"/home/jonas/Aspyre-Engine/x11/2dplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/x11/3dplugin_autogen/mocs_compilation.cpp",
-		"/home/jonas/Aspyre-Engine/x11/editorplugin_autogen/mocs_compilation.cpp",
-		"/home/jonas/Aspyre-Engine/x11/vulkanplugin_autogen/mocs_compilation.cpp"
+		"/home/jonas/Aspyre-Engine/x11/ecsplugin_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 6,
@@ -159,8 +158,7 @@
 	[
 		"/home/jonas/Aspyre-Engine/x11/2dplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/x11/3dplugin_autogen/mocs_compilation.cpp",
-		"/home/jonas/Aspyre-Engine/x11/editorplugin_autogen/mocs_compilation.cpp",
-		"/home/jonas/Aspyre-Engine/x11/vulkanplugin_autogen/mocs_compilation.cpp"
+		"/home/jonas/Aspyre-Engine/x11/ecsplugin_autogen/mocs_compilation.cpp"
 	],
 	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0

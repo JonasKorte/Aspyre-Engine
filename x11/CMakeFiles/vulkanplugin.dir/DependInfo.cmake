@@ -16,7 +16,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "QT_CORE_LIB"
   "QT_GUI_LIB"
   "QT_NO_DEBUG"
-  "vulkanplugin_EXPORTS"
   )
 
 # The include file search paths:
@@ -33,6 +32,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/jonas/Aspyre-Engine/x11/CMakeFiles/ecsplugin.dir/DependInfo.cmake"
+  "/home/jonas/Aspyre-Engine/x11/CMakeFiles/sceneplugin.dir/DependInfo.cmake"
+  "/home/jonas/Aspyre-Engine/x11/CMakeFiles/coreplugin.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

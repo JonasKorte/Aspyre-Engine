@@ -1,11 +1,13 @@
 #include <mainwindow.hxx>
 
+#include <types.hxx>
+
 #include <QApplication>
 #include <QIcon>
 
 int main(int argc, char *argv[])
 {
-    int exitCode = 0;
+    AInt exitCode = 0;
 
     QApplication app(argc, argv);
 

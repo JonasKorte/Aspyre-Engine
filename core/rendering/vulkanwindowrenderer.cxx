@@ -5,14 +5,14 @@ VulkanWindowRenderer::VulkanWindowRenderer(QVulkanWindow* window)
     this->m_window = window;
 }
 
-void VulkanWindowRenderer::initResources()
+AVoid VulkanWindowRenderer::initResources()
 {
     LOGINFO("Setting device functions...");
     this->m_deviceFunctions = this->m_window->vulkanInstance()->deviceFunctions(this->m_window->device());
     LOGSUCCESS("Device functions set!")
 }
 
-void VulkanWindowRenderer::startNextFrame()
+AVoid VulkanWindowRenderer::startNextFrame()
 {
     VkClearColorValue clearColor = {{ 0.0f, 0.0f, 0.0f, 1.0f }};
     VkClearDepthStencilValue clearDS = { 1.0f, 0 };

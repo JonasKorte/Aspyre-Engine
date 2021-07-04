@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcoreplugin.a CMakeFiles/coreplugin.dir/coreplugin_autogen/mocs_compilation.cpp.o
+/usr/bin/ranlib libcoreplugin.a

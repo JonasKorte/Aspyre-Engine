@@ -8,6 +8,7 @@ CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o: ../core/rendering/graphics/
 CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o: ../core/rendering/vulkaninstance.hxx
 CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o: ../core/rendering/vulkanwindow.hxx
 CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o: ../core/rendering/vulkanwindowrenderer.hxx
+CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o: ../core/types.hxx
 CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o: ../editor/mainwindow.hxx
 CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o: ../editor/mainwindow.cxx
 CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QByteArrayList
@@ -157,6 +158,7 @@ CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.o: ../core
 CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.o: ../core/rendering/vulkaninstance.hxx
 CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.o: ../core/rendering/vulkanwindow.hxx
 CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.o: ../core/rendering/vulkanwindowrenderer.hxx
+CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.o: ../core/types.hxx
 CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.o: ../editor/mainwindow.hxx
 CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.o: editorplugin_autogen/3HAKN7MTYQ/moc_mainwindow.cpp
 CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.o: editorplugin_autogen/mocs_compilation.cpp

@@ -1,6 +1,8 @@
 #pragma once
 #include <logging/log.hxx>
 
+#include <types.hxx>
+
 #include <QVulkanInstance>
 #include <QByteArrayList>
 
@@ -10,9 +12,9 @@ public:
     VulkanInstance();
     ~VulkanInstance();
     QVulkanInstance* GetInstance();
-    bool IsSuccessful();
+    ABool IsSuccessful();
 private:
     QVulkanInstance* m_instance;
 
-    bool m_success;
+    ABool m_success;
 };

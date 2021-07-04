@@ -3,6 +3,7 @@
 
 CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.o: ../core/logging/log.hxx
 CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.o: ../core/rendering/vulkaninstance.hxx
+CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.o: ../core/types.hxx
 CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.o: ../core/rendering/vulkaninstance.cxx
 CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QByteArrayList
 CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/qalgorithms.h
@@ -77,6 +78,7 @@ CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.o: /home/jonas/Qt/
 CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.o: ../core/logging/log.hxx
 CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.o: ../core/rendering/vulkanwindow.hxx
 CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.o: ../core/rendering/vulkanwindowrenderer.hxx
+CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.o: ../core/types.hxx
 CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.o: ../core/rendering/vulkanwindow.cxx
 CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QEvent
 CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QMargins
@@ -186,6 +188,7 @@ CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.o: /home/jonas/Qt/5.
 
 CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.o: ../core/logging/log.hxx
 CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.o: ../core/rendering/vulkanwindowrenderer.hxx
+CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.o: ../core/types.hxx
 CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.o: ../core/rendering/vulkanwindowrenderer.cxx
 CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QEvent
 CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QMargins

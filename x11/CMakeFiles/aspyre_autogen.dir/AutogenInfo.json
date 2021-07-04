@@ -133,8 +133,11 @@
 	[
 		"/home/jonas/Aspyre-Engine/x11/2dplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/x11/3dplugin_autogen/mocs_compilation.cpp",
+		"/home/jonas/Aspyre-Engine/x11/coreplugin_autogen/mocs_compilation.cpp",
+		"/home/jonas/Aspyre-Engine/x11/ecsplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/x11/editorplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/x11/graphicsplugin_autogen/mocs_compilation.cpp",
+		"/home/jonas/Aspyre-Engine/x11/sceneplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/x11/vulkanplugin_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
@@ -155,8 +158,11 @@
 	[
 		"/home/jonas/Aspyre-Engine/x11/2dplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/x11/3dplugin_autogen/mocs_compilation.cpp",
+		"/home/jonas/Aspyre-Engine/x11/coreplugin_autogen/mocs_compilation.cpp",
+		"/home/jonas/Aspyre-Engine/x11/ecsplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/x11/editorplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/x11/graphicsplugin_autogen/mocs_compilation.cpp",
+		"/home/jonas/Aspyre-Engine/x11/sceneplugin_autogen/mocs_compilation.cpp",
 		"/home/jonas/Aspyre-Engine/x11/vulkanplugin_autogen/mocs_compilation.cpp"
 	],
 	"UIC_UI_FILES" : [],

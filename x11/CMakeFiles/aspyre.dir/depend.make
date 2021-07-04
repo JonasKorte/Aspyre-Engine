@@ -10,6 +10,7 @@ CMakeFiles/aspyre.dir/main/main.cxx.o: ../core/rendering/graphics/vulkanmainrend
 CMakeFiles/aspyre.dir/main/main.cxx.o: ../core/rendering/vulkaninstance.hxx
 CMakeFiles/aspyre.dir/main/main.cxx.o: ../core/rendering/vulkanwindow.hxx
 CMakeFiles/aspyre.dir/main/main.cxx.o: ../core/rendering/vulkanwindowrenderer.hxx
+CMakeFiles/aspyre.dir/main/main.cxx.o: ../core/types.hxx
 CMakeFiles/aspyre.dir/main/main.cxx.o: ../editor/mainwindow.hxx
 CMakeFiles/aspyre.dir/main/main.cxx.o: ../main/main.cxx
 CMakeFiles/aspyre.dir/main/main.cxx.o: /home/jonas/Qt/5.12.11/gcc_64/include/QtCore/QByteArrayList

@@ -6,4 +6,5 @@ CMakeFiles/3dplugin.dir/3dplugin_autogen/mocs_compilation.cpp.o
 CMakeFiles/3dplugin.dir/core/rendering/graphics/3D/vulkan3d.cxx.o
  ../core/logging/log.hxx
  ../core/rendering/graphics/3D/vulkan3d.hxx
+ ../core/types.hxx
  /home/jonas/Aspyre-Engine/core/rendering/graphics/3D/vulkan3d.cxx

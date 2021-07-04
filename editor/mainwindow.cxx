@@ -54,12 +54,12 @@ MainWindow::~MainWindow()
     delete (this->m_vboxLayout);
 }
 
-bool MainWindow::IsSuccessful()
+ABool MainWindow::IsSuccessful()
 {
     return this->m_success;
 }
 
-void MainWindow::draw()
+AVoid MainWindow::draw()
 {
     this->m_mainRenderer->draw();
 }

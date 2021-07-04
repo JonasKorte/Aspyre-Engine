@@ -1,6 +1,8 @@
 #pragma once
 #include <logging/log.hxx>
 
+#include <types.hxx>
+
 #include <QVulkanWindowRenderer>
 #include <QVulkanDeviceFunctions>
 #include <QVulkanWindow>
@@ -10,9 +12,9 @@ class VulkanWindowRenderer : public QVulkanWindowRenderer
 public:
     VulkanWindowRenderer(QVulkanWindow* window);
 
-    void initResources() override;
+    AVoid initResources() override;
 
-    void startNextFrame() override;
+    AVoid startNextFrame() override;
 
 private:
     QVulkanWindow* m_window;

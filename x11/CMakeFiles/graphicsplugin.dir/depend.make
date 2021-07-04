@@ -5,6 +5,7 @@ CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.o: 
 CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.o: ../core/rendering/graphics/2D/vulkan2d.hxx
 CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.o: ../core/rendering/graphics/3D/vulkan3d.hxx
 CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.o: ../core/rendering/graphics/vulkanmainrenderer.hxx
+CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.o: ../core/types.hxx
 CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.o: ../core/rendering/graphics/vulkanmainrenderer.cxx
 
 CMakeFiles/graphicsplugin.dir/graphicsplugin_autogen/mocs_compilation.cpp.o: graphicsplugin_autogen/mocs_compilation.cpp

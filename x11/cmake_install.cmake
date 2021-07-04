@@ -67,7 +67,7 @@ file(INSTALL DESTINATION "/home/jonas/Aspyre-Engine/release/bin/x11" TYPE EXECUT
      NOT IS_SYMLINK "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/aspyre")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/aspyre"
-         OLD_RPATH "/home/jonas/Aspyre-Engine/x11:/home/jonas/Aspyre-Engine/x11/x64/lib:/home/jonas/Qt/5.12.11/gcc_64/lib:"
+         OLD_RPATH "/home/jonas/Aspyre-Engine/x11/x64/lib:/home/jonas/Qt/5.12.11/gcc_64/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/aspyre")
@@ -76,150 +76,99 @@ file(INSTALL DESTINATION "/home/jonas/Aspyre-Engine/release/bin/x11" TYPE EXECUT
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/libvulkanplugin.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/libvulkanplugin.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/libvulkanplugin.so"
-         RPATH "")
-  endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jonas/Aspyre-Engine/release/bin/x11/libvulkanplugin.so")
+   "/home/jonas/Aspyre-Engine/release/lib/libvulkanplugin.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jonas/Aspyre-Engine/release/bin/x11" TYPE SHARED_LIBRARY FILES "/home/jonas/Aspyre-Engine/x11/libvulkanplugin.so")
-  if(EXISTS "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/libvulkanplugin.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/libvulkanplugin.so")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/libvulkanplugin.so"
-         OLD_RPATH "/home/jonas/Qt/5.12.11/gcc_64/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/libvulkanplugin.so")
-    endif()
-  endif()
+file(INSTALL DESTINATION "/home/jonas/Aspyre-Engine/release/lib" TYPE STATIC_LIBRARY FILES "/home/jonas/Aspyre-Engine/x11/libvulkanplugin.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/libgraphicsplugin.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/libgraphicsplugin.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/libgraphicsplugin.so"
-         RPATH "")
-  endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jonas/Aspyre-Engine/release/bin/x11/libgraphicsplugin.so")
+   "/home/jonas/Aspyre-Engine/release/lib/libgraphicsplugin.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jonas/Aspyre-Engine/release/bin/x11" TYPE SHARED_LIBRARY FILES "/home/jonas/Aspyre-Engine/x11/libgraphicsplugin.so")
-  if(EXISTS "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/libgraphicsplugin.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/libgraphicsplugin.so")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/libgraphicsplugin.so"
-         OLD_RPATH "/home/jonas/Aspyre-Engine/x11:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/libgraphicsplugin.so")
-    endif()
-  endif()
+file(INSTALL DESTINATION "/home/jonas/Aspyre-Engine/release/lib" TYPE STATIC_LIBRARY FILES "/home/jonas/Aspyre-Engine/x11/libgraphicsplugin.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/lib2dplugin.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/lib2dplugin.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/lib2dplugin.so"
-         RPATH "")
-  endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jonas/Aspyre-Engine/release/bin/x11/lib2dplugin.so")
+   "/home/jonas/Aspyre-Engine/release/lib/lib2dplugin.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jonas/Aspyre-Engine/release/bin/x11" TYPE SHARED_LIBRARY FILES "/home/jonas/Aspyre-Engine/x11/lib2dplugin.so")
-  if(EXISTS "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/lib2dplugin.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/lib2dplugin.so")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/lib2dplugin.so")
-    endif()
-  endif()
+file(INSTALL DESTINATION "/home/jonas/Aspyre-Engine/release/lib" TYPE STATIC_LIBRARY FILES "/home/jonas/Aspyre-Engine/x11/lib2dplugin.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/lib3dplugin.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/lib3dplugin.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/lib3dplugin.so"
-         RPATH "")
-  endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jonas/Aspyre-Engine/release/bin/x11/lib3dplugin.so")
+   "/home/jonas/Aspyre-Engine/release/lib/lib3dplugin.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jonas/Aspyre-Engine/release/bin/x11" TYPE SHARED_LIBRARY FILES "/home/jonas/Aspyre-Engine/x11/lib3dplugin.so")
-  if(EXISTS "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/lib3dplugin.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/lib3dplugin.so")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/lib3dplugin.so")
-    endif()
-  endif()
+file(INSTALL DESTINATION "/home/jonas/Aspyre-Engine/release/lib" TYPE STATIC_LIBRARY FILES "/home/jonas/Aspyre-Engine/x11/lib3dplugin.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/libeditorplugin.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/libeditorplugin.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/libeditorplugin.so"
-         RPATH "")
-  endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jonas/Aspyre-Engine/release/bin/x11/libeditorplugin.so")
+   "/home/jonas/Aspyre-Engine/release/lib/libeditorplugin.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jonas/Aspyre-Engine/release/bin/x11" TYPE SHARED_LIBRARY FILES "/home/jonas/Aspyre-Engine/x11/libeditorplugin.so")
-  if(EXISTS "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/libeditorplugin.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/libeditorplugin.so")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/libeditorplugin.so"
-         OLD_RPATH "/home/jonas/Aspyre-Engine/x11:/home/jonas/Aspyre-Engine/x11/x64/lib:/home/jonas/Qt/5.12.11/gcc_64/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/libeditorplugin.so")
-    endif()
-  endif()
+file(INSTALL DESTINATION "/home/jonas/Aspyre-Engine/release/lib" TYPE STATIC_LIBRARY FILES "/home/jonas/Aspyre-Engine/x11/libeditorplugin.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/home/jonas/Aspyre-Engine/release/lib/libecsplugin.a")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "/home/jonas/Aspyre-Engine/release/lib" TYPE STATIC_LIBRARY FILES "/home/jonas/Aspyre-Engine/x11/libecsplugin.a")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/home/jonas/Aspyre-Engine/release/lib/libsceneplugin.a")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "/home/jonas/Aspyre-Engine/release/lib" TYPE STATIC_LIBRARY FILES "/home/jonas/Aspyre-Engine/x11/libsceneplugin.a")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/home/jonas/Aspyre-Engine/release/lib/libcoreplugin.a")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "/home/jonas/Aspyre-Engine/release/lib" TYPE STATIC_LIBRARY FILES "/home/jonas/Aspyre-Engine/x11/libcoreplugin.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

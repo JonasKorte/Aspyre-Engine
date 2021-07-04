@@ -97,7 +97,7 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/jonas/Aspyre-Engine/x11/3dplugin_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/jonas/Aspyre-Engine/x11/3dplugin_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "_3dplugin_EXPORTS" ],
+	"MOC_DEFINITIONS" : [],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -131,7 +131,7 @@
 	],
 	"MOC_PREDEFS_FILE" : "/home/jonas/Aspyre-Engine/x11/3dplugin_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
-	"MOC_SKIP" : [],
+	"MOC_SKIP" : [ "/home/jonas/Aspyre-Engine/x11/2dplugin_autogen/mocs_compilation.cpp" ],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 6,
 	"PARSE_CACHE_FILE" : "/home/jonas/Aspyre-Engine/x11/CMakeFiles/3dplugin_autogen.dir/ParseCache.txt",
@@ -149,7 +149,7 @@
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
-	"UIC_SKIP" : [],
+	"UIC_SKIP" : [ "/home/jonas/Aspyre-Engine/x11/2dplugin_autogen/mocs_compilation.cpp" ],
 	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0
 }

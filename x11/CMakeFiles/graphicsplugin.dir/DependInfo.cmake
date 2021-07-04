@@ -9,11 +9,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "graphicsplugin_EXPORTS"
-  )
-
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "graphicsplugin_autogen/include"
@@ -26,6 +21,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/jonas/Aspyre-Engine/x11/CMakeFiles/2dplugin.dir/DependInfo.cmake"
   "/home/jonas/Aspyre-Engine/x11/CMakeFiles/3dplugin.dir/DependInfo.cmake"
+  "/home/jonas/Aspyre-Engine/x11/CMakeFiles/ecsplugin.dir/DependInfo.cmake"
+  "/home/jonas/Aspyre-Engine/x11/CMakeFiles/sceneplugin.dir/DependInfo.cmake"
+  "/home/jonas/Aspyre-Engine/x11/CMakeFiles/coreplugin.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
