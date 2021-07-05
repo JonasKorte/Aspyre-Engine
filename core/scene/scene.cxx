@@ -7,10 +7,9 @@ Scene::Scene(AString name)
 
 Scene::~Scene()
 {
-
 }
 
-Scene Scene::load(AString directory, AString name)
+Scene *Scene::load(AString directory, AString name)
 {
-    
+    return new Scene(name);
 }

@@ -7,7 +7,8 @@ public:
     Scene(AString name);
     ~Scene();
 
-    static Scene load(AString directory, AString name);
+    static Scene *load(AString directory, AString name);
+
 private:
     AString m_name;
 };

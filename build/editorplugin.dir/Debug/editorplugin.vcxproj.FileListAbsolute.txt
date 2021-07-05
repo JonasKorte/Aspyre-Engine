@@ -1,0 +1,2 @@
+L:\Aspyre-Engine\build\Debug\editorplugin.pdb
+L:\Aspyre-Engine\build\editorplugin.dir\Debug\editorplugin.pdb

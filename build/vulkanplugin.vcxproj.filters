@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="L:\Aspyre-Engine\build\vulkanplugin_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\Aspyre-Engine\core\rendering\vulkaninstance.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\Aspyre-Engine\core\rendering\vulkanwindow.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\Aspyre-Engine\core\rendering\vulkanwindowrenderer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\Aspyre-Engine\build\vulkanplugin_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\Aspyre-Engine\build\vulkanplugin_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\Aspyre-Engine\build\vulkanplugin_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="L:\Aspyre-Engine\core\rendering\vulkaninstance.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\Aspyre-Engine\core\rendering\vulkanwindow.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\Aspyre-Engine\core\rendering\vulkanwindowrenderer.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="L:\Aspyre-Engine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BB5C3DBD-131B-3103-9A4E-848BF9105750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{32B26582-C4C9-396B-94D3-475549DA0F42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

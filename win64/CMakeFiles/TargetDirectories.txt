@@ -1,3 +1,12 @@
-Q:/Aspyre-Engine/win64/CMakeFiles/aspyre.dir
-Q:/Aspyre-Engine/win64/CMakeFiles/ALL_BUILD.dir
-Q:/Aspyre-Engine/win64/CMakeFiles/ZERO_CHECK.dir
+L:/Aspyre-Engine/win64/CMakeFiles/aspyre.dir
+L:/Aspyre-Engine/win64/CMakeFiles/3dplugin.dir
+L:/Aspyre-Engine/win64/CMakeFiles/vulkanplugin.dir
+L:/Aspyre-Engine/win64/CMakeFiles/editorplugin.dir
+L:/Aspyre-Engine/win64/CMakeFiles/graphicsplugin.dir
+L:/Aspyre-Engine/win64/CMakeFiles/sceneplugin.dir
+L:/Aspyre-Engine/win64/CMakeFiles/2dplugin.dir
+L:/Aspyre-Engine/win64/CMakeFiles/ecsplugin.dir
+L:/Aspyre-Engine/win64/CMakeFiles/coreplugin.dir
+L:/Aspyre-Engine/win64/CMakeFiles/INSTALL.dir
+L:/Aspyre-Engine/win64/CMakeFiles/ALL_BUILD.dir
+L:/Aspyre-Engine/win64/CMakeFiles/ZERO_CHECK.dir

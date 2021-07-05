@@ -13,16 +13,22 @@ if(CMAKE_VERSION VERSION_LESS "3.7.0")
     set(CMAKE_INCLUDE_CURRENT_DIR ON)
 endif()
 
-set(CMAKE_PREFIX_PATH "/home/jonas/Qt/5.12.11/gcc_64")
+if(${CMAKE_SYSTEM_NAME} MATCHES "Linux")
+    set(CMAKE_PREFIX_PATH "/home/jonas/Qt/5.12.11/gcc_64")
+endif()
+
+if(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
+    set(CMAKE_PREFIX_PATH "D:/Qt/5.12.11/msvc2017_64")
+endif()
 
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 find_package(Qt5 COMPONENTS Gui REQUIRED)
-
-add_subdirectory(external/Qt-Advanced-Docking-System)
+find_package(Qt5 COMPONENTS Core REQUIRED)
+find_package(Vulkan)
 
 include_directories(core)
 include_directories(editor)
-include_directories(external/Qt-Advanced-Docking-System/src)
+include_directories(${Vulkan_INCLUDE_DIRS})
 
 set(APP_ICON_RESOURCE_WINDOWS "${CMAKE_CURRENT_SOURCE_DIR}/res/resources.rc")
 
@@ -63,12 +69,12 @@ set (coreplugin_src core/types.hxx)
 
 add_library(coreplugin ${coreplugin_src})
 
-target_link_libraries(graphicsplugin PRIVATE 2dplugin 3dplugin ecsplugin sceneplugin coreplugin)
+target_link_libraries(graphicsplugin PRIVATE 2dplugin 3dplugin ecsplugin sceneplugin coreplugin Qt5::Core)
 
-target_link_libraries(vulkanplugin PRIVATE ecsplugin sceneplugin coreplugin Qt5::Gui)
-target_link_libraries(editorplugin PRIVATE vulkanplugin graphicsplugin 2dplugin 3dplugin ecsplugin sceneplugin coreplugin Qt5::Gui Qt5::Widgets qtadvanceddocking)
+target_link_libraries(vulkanplugin PRIVATE ecsplugin sceneplugin coreplugin Qt5::Gui Qt5::Core)
+target_link_libraries(editorplugin PRIVATE vulkanplugin graphicsplugin 2dplugin 3dplugin ecsplugin sceneplugin coreplugin Qt5::Gui Qt5::Widgets Qt5::Core)
 
-target_link_libraries(aspyre PRIVATE vulkanplugin editorplugin graphicsplugin 2dplugin 3dplugin ecsplugin sceneplugin coreplugin Qt5::Gui Qt5::Widgets)
+target_link_libraries(aspyre PRIVATE vulkanplugin editorplugin graphicsplugin 2dplugin 3dplugin ecsplugin sceneplugin coreplugin Qt5::Gui Qt5::Widgets Qt5::Core)
 
 
 set(binary_dir ${CMAKE_SOURCE_DIR}/release/bin)

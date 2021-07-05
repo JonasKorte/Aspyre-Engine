@@ -1,16 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="Q:\Aspyre-Engine\source\main.cxx">
+    <ClCompile Include="L:\Aspyre-Engine\win64\aspyre_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\Aspyre-Engine\main\main.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\Aspyre-Engine\win64\aspyre_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\Aspyre-Engine\win64\aspyre_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\Aspyre-Engine\win64\aspyre_autogen\mocs_compilation_RelWithDebInfo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="Q:\Aspyre-Engine\CMakeLists.txt" />
+    <CustomBuild Include="L:\Aspyre-Engine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="L:\Aspyre-Engine\res\resources.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{D159E6C6-2D37-37FB-8402-701FAC026FC5}</UniqueIdentifier>
+      <UniqueIdentifier>{442746AB-42D7-3835-B4C1-ACDB2BE79743}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

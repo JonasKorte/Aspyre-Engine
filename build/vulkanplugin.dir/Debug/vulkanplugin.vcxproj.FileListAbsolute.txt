@@ -1,0 +1,2 @@
+L:\Aspyre-Engine\build\Debug\vulkanplugin.pdb
+L:\Aspyre-Engine\build\vulkanplugin.dir\Debug\vulkanplugin.pdb

@@ -1,0 +1,556 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-7e08039e4ec4a10f351f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Aspyre Engine",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "2dplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2dplugin-Debug-4ebc5dae56a0bdc26c70.json",
+					"name" : "2dplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3dplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3dplugin-Debug-1b615ac7eba51f7006aa.json",
+					"name" : "3dplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-2672ab5cc1df09965eaf.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-2da4ddbc0c8d113a749d.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aspyre::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aspyre-Debug-cb49267286c5fe545e53.json",
+					"name" : "aspyre",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coreplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coreplugin-Debug-cfd2960ab9ccefad0e04.json",
+					"name" : "coreplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ecsplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ecsplugin-Debug-bb04b5e2ad45cd3a189a.json",
+					"name" : "ecsplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "editorplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-editorplugin-Debug-dbeed0b63489d99f18c6.json",
+					"name" : "editorplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graphicsplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graphicsplugin-Debug-3ca849bd968ea303be1d.json",
+					"name" : "graphicsplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sceneplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sceneplugin-Debug-1a160077420653e6a705.json",
+					"name" : "sceneplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vulkanplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vulkanplugin-Debug-da951fefffce265260f9.json",
+					"name" : "vulkanplugin",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-ca7446a7d7ed65c986de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Aspyre Engine",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "2dplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2dplugin-Release-6eebe3e4b2dff3cc1788.json",
+					"name" : "2dplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3dplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3dplugin-Release-b02d23e208c7c0425e3a.json",
+					"name" : "3dplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-2672ab5cc1df09965eaf.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-2da4ddbc0c8d113a749d.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aspyre::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aspyre-Release-7c9d4134ca8c6402c3e7.json",
+					"name" : "aspyre",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coreplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coreplugin-Release-8140418af18ed081b886.json",
+					"name" : "coreplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ecsplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ecsplugin-Release-83179a79868074b97b9d.json",
+					"name" : "ecsplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "editorplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-editorplugin-Release-18884d8f77a456c19ea2.json",
+					"name" : "editorplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graphicsplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graphicsplugin-Release-69cf2d11fd169a3b7ed5.json",
+					"name" : "graphicsplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sceneplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sceneplugin-Release-88158935cc4367e84743.json",
+					"name" : "sceneplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vulkanplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vulkanplugin-Release-04eb328ba96e00f43aee.json",
+					"name" : "vulkanplugin",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-9ad2051e01d042594e13.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Aspyre Engine",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "2dplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2dplugin-MinSizeRel-d5380107ff2368b782d9.json",
+					"name" : "2dplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3dplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3dplugin-MinSizeRel-f82afa00c389a77a4006.json",
+					"name" : "3dplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-2672ab5cc1df09965eaf.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-2da4ddbc0c8d113a749d.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aspyre::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aspyre-MinSizeRel-cc51e66968cd35e130c1.json",
+					"name" : "aspyre",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coreplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coreplugin-MinSizeRel-908c6ac87d24c206d954.json",
+					"name" : "coreplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ecsplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ecsplugin-MinSizeRel-eb51ce4995998d981e8f.json",
+					"name" : "ecsplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "editorplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-editorplugin-MinSizeRel-320ae26fad4e4c90b9d1.json",
+					"name" : "editorplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graphicsplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graphicsplugin-MinSizeRel-a5e65490a557b3c3a3f1.json",
+					"name" : "graphicsplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sceneplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sceneplugin-MinSizeRel-0d0affea63bfb76f7a79.json",
+					"name" : "sceneplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vulkanplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vulkanplugin-MinSizeRel-233db3d943fd3e062d9b.json",
+					"name" : "vulkanplugin",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-69b5ed61fa5e0555a057.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Aspyre Engine",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "2dplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2dplugin-RelWithDebInfo-251ecf687b7049b32042.json",
+					"name" : "2dplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3dplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3dplugin-RelWithDebInfo-1c6cbb8c6b3faff1aee9.json",
+					"name" : "3dplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-2672ab5cc1df09965eaf.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-2da4ddbc0c8d113a749d.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aspyre::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aspyre-RelWithDebInfo-cdc9f2d7cd1954eca366.json",
+					"name" : "aspyre",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "coreplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-coreplugin-RelWithDebInfo-49ea7b2b1260bd20ff1b.json",
+					"name" : "coreplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ecsplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ecsplugin-RelWithDebInfo-58fcc7fdf6e284c5e896.json",
+					"name" : "ecsplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "editorplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-editorplugin-RelWithDebInfo-553845ec293952e521f1.json",
+					"name" : "editorplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graphicsplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graphicsplugin-RelWithDebInfo-07b54393202f771dcc3f.json",
+					"name" : "graphicsplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sceneplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sceneplugin-RelWithDebInfo-0aba369154dea8a450b4.json",
+					"name" : "sceneplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vulkanplugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vulkanplugin-RelWithDebInfo-7793e78cb8293981c8ac.json",
+					"name" : "vulkanplugin",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "L:/Aspyre-Engine/build",
+		"source" : "L:/Aspyre-Engine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

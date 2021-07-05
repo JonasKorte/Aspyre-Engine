@@ -1,0 +1,2 @@
+L:\Aspyre-Engine\build\Debug\coreplugin.pdb
+L:\Aspyre-Engine\build\coreplugin.dir\Debug\coreplugin.pdb

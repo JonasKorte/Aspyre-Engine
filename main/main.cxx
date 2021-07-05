@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 
     QApplication app(argc, argv);
 
-    MainWindow* window = new MainWindow();
+    MainWindow *window = new MainWindow();
 
     if (!window->IsSuccessful())
     {
@@ -22,11 +22,9 @@ int main(int argc, char *argv[])
         return exitCode;
     }
 
-    QFile main_stylesheet("../res/style/main.aspyre-style");
+    QFile main_stylesheet("/main.aspyre-style");
     main_stylesheet.open(QFile::ReadOnly);
     QString stylesheet = QLatin1String(main_stylesheet.readAll());
-
-    app.setStyleSheet(stylesheet);
 
     window->resize(1280, 720);
 
@@ -34,6 +32,10 @@ int main(int argc, char *argv[])
     window->setWindowIcon(QIcon("/icon.png"));
 
     window->show();
+
+    app.setStyleSheet(stylesheet);
+
+    main_stylesheet.close();
 
     while (window->isVisible())
     {

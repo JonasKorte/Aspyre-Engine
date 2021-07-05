@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="L:\Aspyre-Engine\win64\3dplugin_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\Aspyre-Engine\core\rendering\graphics\3D\vulkan3d.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\Aspyre-Engine\win64\3dplugin_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\Aspyre-Engine\win64\3dplugin_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="L:\Aspyre-Engine\win64\3dplugin_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="L:\Aspyre-Engine\core\rendering\graphics\3D\vulkan3d.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="L:\Aspyre-Engine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B921744E-9908-3FF1-9D47-57512D45BC28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{442746AB-42D7-3835-B4C1-ACDB2BE79743}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

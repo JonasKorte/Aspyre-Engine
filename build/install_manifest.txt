@@ -1,0 +1,12 @@
+L:/Aspyre-Engine/release/bin/win64/aspyre.exe
+L:/Aspyre-Engine/release/lib/vulkanplugin.lib
+L:/Aspyre-Engine/release/lib/graphicsplugin.lib
+L:/Aspyre-Engine/release/lib/2dplugin.lib
+L:/Aspyre-Engine/release/lib/3dplugin.lib
+L:/Aspyre-Engine/release/lib/editorplugin.lib
+L:/Aspyre-Engine/release/lib/ecsplugin.lib
+L:/Aspyre-Engine/release/lib/sceneplugin.lib
+L:/Aspyre-Engine/release/lib/coreplugin.lib
+L:/Aspyre-Engine/release/res/icons/icon.ico
+L:/Aspyre-Engine/release/res/icons/icon.png
+L:/Aspyre-Engine/release/res/style/main.aspyre-style

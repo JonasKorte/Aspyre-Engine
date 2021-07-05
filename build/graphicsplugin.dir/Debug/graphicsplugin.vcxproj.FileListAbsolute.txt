@@ -1,0 +1,2 @@
+L:\Aspyre-Engine\build\Debug\graphicsplugin.pdb
+L:\Aspyre-Engine\build\graphicsplugin.dir\Debug\graphicsplugin.pdb
