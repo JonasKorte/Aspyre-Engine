@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Release/aspyre.exe"
+			"path" : "Debug/aspyre.exe"
 		},
 		{
-			"path" : "Release/aspyre.pdb"
+			"path" : "Debug/aspyre.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -71,7 +71,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd"
 				},
 				{
 					"fragment" : "-std:c++latest"
@@ -89,10 +89,6 @@
 				},
 				{
 					"backtrace" : 3,
-					"define" : "QT_NO_DEBUG"
-				},
-				{
-					"backtrace" : 3,
 					"define" : "QT_WIDGETS_LIB"
 				}
 			],
@@ -100,7 +96,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "L:/Aspyre-Engine/build/aspyre_autogen/include_Release"
+					"path" : "L:/Aspyre-Engine/build/aspyre_autogen/include_Debug"
 				},
 				{
 					"backtrace" : 4,
@@ -164,7 +160,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-DWIN32"
+					"fragment" : "-DWIN32 -D_DEBUG"
 				}
 			],
 			"defines" : 
@@ -179,10 +175,6 @@
 				},
 				{
 					"backtrace" : 3,
-					"define" : "QT_NO_DEBUG"
-				},
-				{
-					"backtrace" : 3,
 					"define" : "QT_WIDGETS_LIB"
 				}
 			],
@@ -190,7 +182,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "L:/Aspyre-Engine/build/aspyre_autogen/include_Release"
+					"path" : "L:/Aspyre-Engine/build/aspyre_autogen/include_Debug"
 				},
 				{
 					"backtrace" : 4,
@@ -246,15 +238,30 @@
 	[
 		{
 			"backtrace" : 3,
-			"id" : "editorplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 3,
 			"id" : "graphicsplugin::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 3,
+			"id" : "coreplugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
 			"id" : "sceneplugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "3dplugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "vulkanplugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "editorplugin::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 3,
@@ -263,21 +270,6 @@
 		{
 			"backtrace" : 3,
 			"id" : "ecsplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "vulkanplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "3dplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "coreplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "aspyre::@6890427a1f51a3e7e1df",
@@ -300,86 +292,86 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "Release\\vulkanplugin.lib",
+				"fragment" : "Debug\\vulkanplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "Release\\editorplugin.lib",
+				"fragment" : "Debug\\editorplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "Release\\graphicsplugin.lib",
+				"fragment" : "Debug\\graphicsplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "Release\\2dplugin.lib",
+				"fragment" : "Debug\\2dplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "Release\\3dplugin.lib",
+				"fragment" : "Debug\\3dplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "Release\\ecsplugin.lib",
+				"fragment" : "Debug\\ecsplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "Release\\sceneplugin.lib",
+				"fragment" : "Debug\\sceneplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "Release\\coreplugin.lib",
+				"fragment" : "Debug\\coreplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "D:\\Qt\\5.12.11\\msvc2017_64\\lib\\Qt5Widgets.lib",
+				"fragment" : "D:\\Qt\\5.12.11\\msvc2017_64\\lib\\Qt5Widgetsd.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "Release\\vulkanplugin.lib",
+				"fragment" : "Debug\\vulkanplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "Release\\ecsplugin.lib",
+				"fragment" : "Debug\\ecsplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "Release\\sceneplugin.lib",
+				"fragment" : "Debug\\sceneplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "Release\\coreplugin.lib",
+				"fragment" : "Debug\\coreplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "D:\\Qt\\5.12.11\\msvc2017_64\\lib\\Qt5Gui.lib",
+				"fragment" : "D:\\Qt\\5.12.11\\msvc2017_64\\lib\\Qt5Guid.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "D:\\Qt\\5.12.11\\msvc2017_64\\lib\\Qt5Core.lib",
+				"fragment" : "D:\\Qt\\5.12.11\\msvc2017_64\\lib\\Qt5Cored.lib",
 				"role" : "libraries"
 			},
 			{
@@ -414,7 +406,7 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/aspyre_autogen/mocs_compilation_Release.cpp",
+			"path" : "build/aspyre_autogen/mocs_compilation_Debug.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

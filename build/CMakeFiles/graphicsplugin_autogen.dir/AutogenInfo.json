@@ -78,6 +78,12 @@
 	"HEADERS" : 
 	[
 		[
+			"L:/Aspyre-Engine/core/rendering/graphics/shader.hxx",
+			"MU",
+			"TTQD3CLYMW/moc_shader.cpp",
+			null
+		],
+		[
 			"L:/Aspyre-Engine/core/rendering/graphics/vulkanmainrenderer.hxx",
 			"MU",
 			"TTQD3CLYMW/moc_vulkanmainrenderer.cpp",
@@ -156,6 +162,7 @@
 	"SETTINGS_FILE_Release" : "L:/Aspyre-Engine/build/CMakeFiles/graphicsplugin_autogen.dir/AutogenUsed_Release.txt",
 	"SOURCES" : 
 	[
+		[ "L:/Aspyre-Engine/core/rendering/graphics/shader.cxx", "MU", null ],
 		[
 			"L:/Aspyre-Engine/core/rendering/graphics/vulkanmainrenderer.cxx",
 			"MU",

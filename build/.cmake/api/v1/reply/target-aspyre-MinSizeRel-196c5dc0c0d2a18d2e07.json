@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "RelWithDebInfo/aspyre.exe"
+			"path" : "MinSizeRel/aspyre.exe"
 		},
 		{
-			"path" : "RelWithDebInfo/aspyre.pdb"
+			"path" : "MinSizeRel/aspyre.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -71,7 +71,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -MD"
 				},
 				{
 					"fragment" : "-std:c++latest"
@@ -100,7 +100,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "L:/Aspyre-Engine/build/aspyre_autogen/include_RelWithDebInfo"
+					"path" : "L:/Aspyre-Engine/build/aspyre_autogen/include_MinSizeRel"
 				},
 				{
 					"backtrace" : 4,
@@ -190,7 +190,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "L:/Aspyre-Engine/build/aspyre_autogen/include_RelWithDebInfo"
+					"path" : "L:/Aspyre-Engine/build/aspyre_autogen/include_MinSizeRel"
 				},
 				{
 					"backtrace" : 4,
@@ -246,15 +246,30 @@
 	[
 		{
 			"backtrace" : 3,
-			"id" : "editorplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 3,
 			"id" : "graphicsplugin::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 3,
+			"id" : "coreplugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
 			"id" : "sceneplugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "3dplugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "vulkanplugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "editorplugin::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 3,
@@ -263,21 +278,6 @@
 		{
 			"backtrace" : 3,
 			"id" : "ecsplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "vulkanplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "3dplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "coreplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "aspyre::@6890427a1f51a3e7e1df",
@@ -300,51 +300,51 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -MD",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "RelWithDebInfo\\vulkanplugin.lib",
+				"fragment" : "MinSizeRel\\vulkanplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "RelWithDebInfo\\editorplugin.lib",
+				"fragment" : "MinSizeRel\\editorplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "RelWithDebInfo\\graphicsplugin.lib",
+				"fragment" : "MinSizeRel\\graphicsplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "RelWithDebInfo\\2dplugin.lib",
+				"fragment" : "MinSizeRel\\2dplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "RelWithDebInfo\\3dplugin.lib",
+				"fragment" : "MinSizeRel\\3dplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "RelWithDebInfo\\ecsplugin.lib",
+				"fragment" : "MinSizeRel\\ecsplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "RelWithDebInfo\\sceneplugin.lib",
+				"fragment" : "MinSizeRel\\sceneplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "RelWithDebInfo\\coreplugin.lib",
+				"fragment" : "MinSizeRel\\coreplugin.lib",
 				"role" : "libraries"
 			},
 			{
@@ -354,22 +354,22 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "RelWithDebInfo\\vulkanplugin.lib",
+				"fragment" : "MinSizeRel\\vulkanplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "RelWithDebInfo\\ecsplugin.lib",
+				"fragment" : "MinSizeRel\\ecsplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "RelWithDebInfo\\sceneplugin.lib",
+				"fragment" : "MinSizeRel\\sceneplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "RelWithDebInfo\\coreplugin.lib",
+				"fragment" : "MinSizeRel\\coreplugin.lib",
 				"role" : "libraries"
 			},
 			{
@@ -414,7 +414,7 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/aspyre_autogen/mocs_compilation_RelWithDebInfo.cpp",
+			"path" : "build/aspyre_autogen/mocs_compilation_MinSizeRel.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

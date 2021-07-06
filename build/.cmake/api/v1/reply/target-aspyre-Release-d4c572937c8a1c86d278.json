@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "MinSizeRel/aspyre.exe"
+			"path" : "Release/aspyre.exe"
 		},
 		{
-			"path" : "MinSizeRel/aspyre.pdb"
+			"path" : "Release/aspyre.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -71,7 +71,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -MD"
 				},
 				{
 					"fragment" : "-std:c++latest"
@@ -100,7 +100,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "L:/Aspyre-Engine/build/aspyre_autogen/include_MinSizeRel"
+					"path" : "L:/Aspyre-Engine/build/aspyre_autogen/include_Release"
 				},
 				{
 					"backtrace" : 4,
@@ -190,7 +190,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "L:/Aspyre-Engine/build/aspyre_autogen/include_MinSizeRel"
+					"path" : "L:/Aspyre-Engine/build/aspyre_autogen/include_Release"
 				},
 				{
 					"backtrace" : 4,
@@ -246,15 +246,30 @@
 	[
 		{
 			"backtrace" : 3,
-			"id" : "editorplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 3,
 			"id" : "graphicsplugin::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 3,
+			"id" : "coreplugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
 			"id" : "sceneplugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "3dplugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "vulkanplugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "editorplugin::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 3,
@@ -263,21 +278,6 @@
 		{
 			"backtrace" : 3,
 			"id" : "ecsplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "vulkanplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "3dplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "coreplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "aspyre::@6890427a1f51a3e7e1df",
@@ -300,7 +300,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -MD",
 				"role" : "flags"
 			},
 			{
@@ -309,42 +309,42 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "MinSizeRel\\vulkanplugin.lib",
+				"fragment" : "Release\\vulkanplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "MinSizeRel\\editorplugin.lib",
+				"fragment" : "Release\\editorplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "MinSizeRel\\graphicsplugin.lib",
+				"fragment" : "Release\\graphicsplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "MinSizeRel\\2dplugin.lib",
+				"fragment" : "Release\\2dplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "MinSizeRel\\3dplugin.lib",
+				"fragment" : "Release\\3dplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "MinSizeRel\\ecsplugin.lib",
+				"fragment" : "Release\\ecsplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "MinSizeRel\\sceneplugin.lib",
+				"fragment" : "Release\\sceneplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "MinSizeRel\\coreplugin.lib",
+				"fragment" : "Release\\coreplugin.lib",
 				"role" : "libraries"
 			},
 			{
@@ -354,22 +354,22 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "MinSizeRel\\vulkanplugin.lib",
+				"fragment" : "Release\\vulkanplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "MinSizeRel\\ecsplugin.lib",
+				"fragment" : "Release\\ecsplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "MinSizeRel\\sceneplugin.lib",
+				"fragment" : "Release\\sceneplugin.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "MinSizeRel\\coreplugin.lib",
+				"fragment" : "Release\\coreplugin.lib",
 				"role" : "libraries"
 			},
 			{
@@ -414,7 +414,7 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/aspyre_autogen/mocs_compilation_MinSizeRel.cpp",
+			"path" : "build/aspyre_autogen/mocs_compilation_Release.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

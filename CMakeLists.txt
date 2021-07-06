@@ -40,7 +40,7 @@ core/rendering/vulkanwindowrenderer.cxx core/rendering/vulkanwindowrenderer.hxx)
 
 add_library(vulkanplugin ${vulkanplugin_src})
 
-set (graphicsplugin_src core/rendering/graphics/vulkanmainrenderer.cxx core/rendering/graphics/vulkanmainrenderer.hxx)
+set (graphicsplugin_src core/rendering/graphics/vulkanmainrenderer.cxx core/rendering/graphics/vulkanmainrenderer.hxx core/rendering/graphics/shader.cxx core/rendering/graphics/shader.hxx)
 
 add_library(graphicsplugin ${graphicsplugin_src})
 

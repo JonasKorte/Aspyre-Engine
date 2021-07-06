@@ -12,7 +12,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Release/editorplugin.lib"
+			"path" : "Debug/editorplugin.lib"
 		}
 	],
 	"backtrace" : 1,
@@ -78,7 +78,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O2 /Ob2 /DNDEBUG -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd"
 				},
 				{
 					"fragment" : "-std:c++latest"
@@ -96,10 +96,6 @@
 				},
 				{
 					"backtrace" : 3,
-					"define" : "QT_NO_DEBUG"
-				},
-				{
-					"backtrace" : 3,
 					"define" : "QT_WIDGETS_LIB"
 				}
 			],
@@ -107,7 +103,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "L:/Aspyre-Engine/build/editorplugin_autogen/include_Release"
+					"path" : "L:/Aspyre-Engine/build/editorplugin_autogen/include_Debug"
 				},
 				{
 					"backtrace" : 4,
@@ -176,7 +172,22 @@
 		},
 		{
 			"backtrace" : 3,
+			"id" : "coreplugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
 			"id" : "sceneplugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "3dplugin::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "vulkanplugin::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 3,
@@ -185,21 +196,6 @@
 		{
 			"backtrace" : 3,
 			"id" : "ecsplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "vulkanplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "3dplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "coreplugin::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "editorplugin::@6890427a1f51a3e7e1df",
@@ -248,7 +244,7 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/editorplugin_autogen/mocs_compilation_Release.cpp",
+			"path" : "build/editorplugin_autogen/mocs_compilation_Debug.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

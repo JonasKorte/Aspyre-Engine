@@ -7,6 +7,9 @@
     <ClCompile Include="L:\Aspyre-Engine\core\rendering\graphics\vulkanmainrenderer.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="L:\Aspyre-Engine\core\rendering\graphics\shader.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="L:\Aspyre-Engine\build\graphicsplugin_autogen\mocs_compilation_Release.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -19,6 +22,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="L:\Aspyre-Engine\core\rendering\graphics\vulkanmainrenderer.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="L:\Aspyre-Engine\core\rendering\graphics\shader.hxx">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
