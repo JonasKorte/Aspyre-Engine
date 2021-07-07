@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 
     window->show();
 
-    QFile main_stylesheet("/main.aspyre-style");
+    QFile main_stylesheet("../../res/style/main.aspyre-style");
     main_stylesheet.open(QFile::ReadOnly);
     QString stylesheet = QLatin1String(main_stylesheet.readAll());
 
