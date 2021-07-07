@@ -1,107 +1,107 @@
 [
 {
   "directory": "/home/jonas/Aspyre-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -I2dplugin_autogen/include -I../core -I../editor -g -std=gnu++2a -o CMakeFiles/2dplugin.dir/2dplugin_autogen/mocs_compilation.cpp.o -c /home/jonas/Aspyre-Engine/build/2dplugin_autogen/mocs_compilation.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -I2dplugin_autogen/include -I../core -I../editor -g -std=gnu++11 -o CMakeFiles/2dplugin.dir/2dplugin_autogen/mocs_compilation.cpp.o -c /home/jonas/Aspyre-Engine/build/2dplugin_autogen/mocs_compilation.cpp",
   "file": "/home/jonas/Aspyre-Engine/build/2dplugin_autogen/mocs_compilation.cpp"
 },
 {
   "directory": "/home/jonas/Aspyre-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -I2dplugin_autogen/include -I../core -I../editor -g -std=gnu++2a -o CMakeFiles/2dplugin.dir/core/rendering/graphics/2D/vulkan2d.cxx.o -c /home/jonas/Aspyre-Engine/core/rendering/graphics/2D/vulkan2d.cxx",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -I2dplugin_autogen/include -I../core -I../editor -g -std=gnu++11 -o CMakeFiles/2dplugin.dir/core/rendering/graphics/2D/vulkan2d.cxx.o -c /home/jonas/Aspyre-Engine/core/rendering/graphics/2D/vulkan2d.cxx",
   "file": "/home/jonas/Aspyre-Engine/core/rendering/graphics/2D/vulkan2d.cxx"
 },
 {
   "directory": "/home/jonas/Aspyre-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -I3dplugin_autogen/include -I../core -I../editor -g -std=gnu++2a -o CMakeFiles/3dplugin.dir/3dplugin_autogen/mocs_compilation.cpp.o -c /home/jonas/Aspyre-Engine/build/3dplugin_autogen/mocs_compilation.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -I3dplugin_autogen/include -I../core -I../editor -g -std=gnu++11 -o CMakeFiles/3dplugin.dir/3dplugin_autogen/mocs_compilation.cpp.o -c /home/jonas/Aspyre-Engine/build/3dplugin_autogen/mocs_compilation.cpp",
   "file": "/home/jonas/Aspyre-Engine/build/3dplugin_autogen/mocs_compilation.cpp"
 },
 {
   "directory": "/home/jonas/Aspyre-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -I3dplugin_autogen/include -I../core -I../editor -g -std=gnu++2a -o CMakeFiles/3dplugin.dir/core/rendering/graphics/3D/vulkan3d.cxx.o -c /home/jonas/Aspyre-Engine/core/rendering/graphics/3D/vulkan3d.cxx",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -I3dplugin_autogen/include -I../core -I../editor -g -std=gnu++11 -o CMakeFiles/3dplugin.dir/core/rendering/graphics/3D/vulkan3d.cxx.o -c /home/jonas/Aspyre-Engine/core/rendering/graphics/3D/vulkan3d.cxx",
   "file": "/home/jonas/Aspyre-Engine/core/rendering/graphics/3D/vulkan3d.cxx"
 },
 {
   "directory": "/home/jonas/Aspyre-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -Iecsplugin_autogen/include -I../core -I../editor -g -std=gnu++2a -o CMakeFiles/ecsplugin.dir/ecsplugin_autogen/mocs_compilation.cpp.o -c /home/jonas/Aspyre-Engine/build/ecsplugin_autogen/mocs_compilation.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -Iecsplugin_autogen/include -I../core -I../editor -g -std=gnu++11 -o CMakeFiles/ecsplugin.dir/ecsplugin_autogen/mocs_compilation.cpp.o -c /home/jonas/Aspyre-Engine/build/ecsplugin_autogen/mocs_compilation.cpp",
   "file": "/home/jonas/Aspyre-Engine/build/ecsplugin_autogen/mocs_compilation.cpp"
 },
 {
   "directory": "/home/jonas/Aspyre-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -Iecsplugin_autogen/include -I../core -I../editor -g -std=gnu++2a -o CMakeFiles/ecsplugin.dir/core/ecs/entity.cxx.o -c /home/jonas/Aspyre-Engine/core/ecs/entity.cxx",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -Iecsplugin_autogen/include -I../core -I../editor -g -std=gnu++11 -o CMakeFiles/ecsplugin.dir/core/ecs/entity.cxx.o -c /home/jonas/Aspyre-Engine/core/ecs/entity.cxx",
   "file": "/home/jonas/Aspyre-Engine/core/ecs/entity.cxx"
 },
 {
   "directory": "/home/jonas/Aspyre-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -Iecsplugin_autogen/include -I../core -I../editor -g -std=gnu++2a -o CMakeFiles/ecsplugin.dir/core/ecs/guid.cxx.o -c /home/jonas/Aspyre-Engine/core/ecs/guid.cxx",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -Iecsplugin_autogen/include -I../core -I../editor -g -std=gnu++11 -o CMakeFiles/ecsplugin.dir/core/ecs/guid.cxx.o -c /home/jonas/Aspyre-Engine/core/ecs/guid.cxx",
   "file": "/home/jonas/Aspyre-Engine/core/ecs/guid.cxx"
 },
 {
   "directory": "/home/jonas/Aspyre-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -Igraphicsplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -g -fPIC -std=gnu++2a -o CMakeFiles/graphicsplugin.dir/graphicsplugin_autogen/mocs_compilation.cpp.o -c /home/jonas/Aspyre-Engine/build/graphicsplugin_autogen/mocs_compilation.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -Igraphicsplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -g -fPIC -std=gnu++11 -o CMakeFiles/graphicsplugin.dir/graphicsplugin_autogen/mocs_compilation.cpp.o -c /home/jonas/Aspyre-Engine/build/graphicsplugin_autogen/mocs_compilation.cpp",
   "file": "/home/jonas/Aspyre-Engine/build/graphicsplugin_autogen/mocs_compilation.cpp"
 },
 {
   "directory": "/home/jonas/Aspyre-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -Igraphicsplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -g -fPIC -std=gnu++2a -o CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.o -c /home/jonas/Aspyre-Engine/core/rendering/graphics/vulkanmainrenderer.cxx",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -Igraphicsplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -g -fPIC -std=gnu++11 -o CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.o -c /home/jonas/Aspyre-Engine/core/rendering/graphics/vulkanmainrenderer.cxx",
   "file": "/home/jonas/Aspyre-Engine/core/rendering/graphics/vulkanmainrenderer.cxx"
 },
 {
   "directory": "/home/jonas/Aspyre-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -Igraphicsplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -g -fPIC -std=gnu++2a -o CMakeFiles/graphicsplugin.dir/core/rendering/graphics/shader.cxx.o -c /home/jonas/Aspyre-Engine/core/rendering/graphics/shader.cxx",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -Igraphicsplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -g -fPIC -std=gnu++11 -o CMakeFiles/graphicsplugin.dir/core/rendering/graphics/shader.cxx.o -c /home/jonas/Aspyre-Engine/core/rendering/graphics/shader.cxx",
   "file": "/home/jonas/Aspyre-Engine/core/rendering/graphics/shader.cxx"
 },
 {
   "directory": "/home/jonas/Aspyre-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -Ieditorplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets -g -fPIC -std=gnu++2a -o CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.o -c /home/jonas/Aspyre-Engine/build/editorplugin_autogen/mocs_compilation.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -Ieditorplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets -g -fPIC -std=gnu++11 -o CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.o -c /home/jonas/Aspyre-Engine/build/editorplugin_autogen/mocs_compilation.cpp",
   "file": "/home/jonas/Aspyre-Engine/build/editorplugin_autogen/mocs_compilation.cpp"
 },
 {
   "directory": "/home/jonas/Aspyre-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -Ieditorplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets -g -fPIC -std=gnu++2a -o CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o -c /home/jonas/Aspyre-Engine/editor/mainwindow.cxx",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -Ieditorplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets -g -fPIC -std=gnu++11 -o CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o -c /home/jonas/Aspyre-Engine/editor/mainwindow.cxx",
   "file": "/home/jonas/Aspyre-Engine/editor/mainwindow.cxx"
 },
 {
   "directory": "/home/jonas/Aspyre-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -Isceneplugin_autogen/include -I../core -I../editor -g -std=gnu++2a -o CMakeFiles/sceneplugin.dir/sceneplugin_autogen/mocs_compilation.cpp.o -c /home/jonas/Aspyre-Engine/build/sceneplugin_autogen/mocs_compilation.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -Isceneplugin_autogen/include -I../core -I../editor -g -std=gnu++11 -o CMakeFiles/sceneplugin.dir/sceneplugin_autogen/mocs_compilation.cpp.o -c /home/jonas/Aspyre-Engine/build/sceneplugin_autogen/mocs_compilation.cpp",
   "file": "/home/jonas/Aspyre-Engine/build/sceneplugin_autogen/mocs_compilation.cpp"
 },
 {
   "directory": "/home/jonas/Aspyre-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -Isceneplugin_autogen/include -I../core -I../editor -g -std=gnu++2a -o CMakeFiles/sceneplugin.dir/core/scene/scene.cxx.o -c /home/jonas/Aspyre-Engine/core/scene/scene.cxx",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -Isceneplugin_autogen/include -I../core -I../editor -g -std=gnu++11 -o CMakeFiles/sceneplugin.dir/core/scene/scene.cxx.o -c /home/jonas/Aspyre-Engine/core/scene/scene.cxx",
   "file": "/home/jonas/Aspyre-Engine/core/scene/scene.cxx"
 },
 {
   "directory": "/home/jonas/Aspyre-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -Ivulkanplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -g -fPIC -std=gnu++2a -o CMakeFiles/vulkanplugin.dir/vulkanplugin_autogen/mocs_compilation.cpp.o -c /home/jonas/Aspyre-Engine/build/vulkanplugin_autogen/mocs_compilation.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -Ivulkanplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -g -fPIC -std=gnu++11 -o CMakeFiles/vulkanplugin.dir/vulkanplugin_autogen/mocs_compilation.cpp.o -c /home/jonas/Aspyre-Engine/build/vulkanplugin_autogen/mocs_compilation.cpp",
   "file": "/home/jonas/Aspyre-Engine/build/vulkanplugin_autogen/mocs_compilation.cpp"
 },
 {
   "directory": "/home/jonas/Aspyre-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -Ivulkanplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -g -fPIC -std=gnu++2a -o CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.o -c /home/jonas/Aspyre-Engine/core/rendering/vulkaninstance.cxx",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -Ivulkanplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -g -fPIC -std=gnu++11 -o CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.o -c /home/jonas/Aspyre-Engine/core/rendering/vulkaninstance.cxx",
   "file": "/home/jonas/Aspyre-Engine/core/rendering/vulkaninstance.cxx"
 },
 {
   "directory": "/home/jonas/Aspyre-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -Ivulkanplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -g -fPIC -std=gnu++2a -o CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.o -c /home/jonas/Aspyre-Engine/core/rendering/vulkanwindow.cxx",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -Ivulkanplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -g -fPIC -std=gnu++11 -o CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.o -c /home/jonas/Aspyre-Engine/core/rendering/vulkanwindow.cxx",
   "file": "/home/jonas/Aspyre-Engine/core/rendering/vulkanwindow.cxx"
 },
 {
   "directory": "/home/jonas/Aspyre-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -Ivulkanplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -g -fPIC -std=gnu++2a -o CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.o -c /home/jonas/Aspyre-Engine/core/rendering/vulkanwindowrenderer.cxx",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -Ivulkanplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -g -fPIC -std=gnu++11 -o CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.o -c /home/jonas/Aspyre-Engine/core/rendering/vulkanwindowrenderer.cxx",
   "file": "/home/jonas/Aspyre-Engine/core/rendering/vulkanwindowrenderer.cxx"
 },
 {
   "directory": "/home/jonas/Aspyre-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -Icoreplugin_autogen/include -I../core -I../editor -g -std=gnu++2a -o CMakeFiles/coreplugin.dir/coreplugin_autogen/mocs_compilation.cpp.o -c /home/jonas/Aspyre-Engine/build/coreplugin_autogen/mocs_compilation.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -Icoreplugin_autogen/include -I../core -I../editor -g -std=gnu++11 -o CMakeFiles/coreplugin.dir/coreplugin_autogen/mocs_compilation.cpp.o -c /home/jonas/Aspyre-Engine/build/coreplugin_autogen/mocs_compilation.cpp",
   "file": "/home/jonas/Aspyre-Engine/build/coreplugin_autogen/mocs_compilation.cpp"
 },
 {
   "directory": "/home/jonas/Aspyre-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -Iaspyre_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets -g -fPIC -std=gnu++2a -o CMakeFiles/aspyre.dir/aspyre_autogen/mocs_compilation.cpp.o -c /home/jonas/Aspyre-Engine/build/aspyre_autogen/mocs_compilation.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -Iaspyre_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets -g -fPIC -std=gnu++11 -o CMakeFiles/aspyre.dir/aspyre_autogen/mocs_compilation.cpp.o -c /home/jonas/Aspyre-Engine/build/aspyre_autogen/mocs_compilation.cpp",
   "file": "/home/jonas/Aspyre-Engine/build/aspyre_autogen/mocs_compilation.cpp"
 },
 {
   "directory": "/home/jonas/Aspyre-Engine/build",
-  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -Iaspyre_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets -g -fPIC -std=gnu++2a -o CMakeFiles/aspyre.dir/main/main.cxx.o -c /home/jonas/Aspyre-Engine/main/main.cxx",
+  "command": "/bin/x86_64-linux-gnu-g++-10 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -Iaspyre_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets -g -fPIC -std=gnu++11 -o CMakeFiles/aspyre.dir/main/main.cxx.o -c /home/jonas/Aspyre-Engine/main/main.cxx",
   "file": "/home/jonas/Aspyre-Engine/main/main.cxx"
 }
 ]

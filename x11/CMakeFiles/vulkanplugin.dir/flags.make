@@ -6,5 +6,5 @@ CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG
 
 CXX_INCLUDES = -I/home/jonas/Aspyre-Engine/x11/vulkanplugin_autogen/include -I/home/jonas/Aspyre-Engine/core -I/home/jonas/Aspyre-Engine/editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++
 
-CXX_FLAGS = -fPIC -std=gnu++2a
+CXX_FLAGS = -fPIC -std=gnu++11
 

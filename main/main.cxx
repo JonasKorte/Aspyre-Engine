@@ -22,16 +22,16 @@ int main(int argc, char *argv[])
         return exitCode;
     }
 
-    QFile main_stylesheet("/main.aspyre-style");
-    main_stylesheet.open(QFile::ReadOnly);
-    QString stylesheet = QLatin1String(main_stylesheet.readAll());
-
     window->resize(1280, 720);
 
     window->setWindowTitle("Aspyre Engine 1.0.0");
     window->setWindowIcon(QIcon("/icon.png"));
 
     window->show();
+
+    QFile main_stylesheet("/main.aspyre-style");
+    main_stylesheet.open(QFile::ReadOnly);
+    QString stylesheet = QLatin1String(main_stylesheet.readAll());
 
     app.setStyleSheet(stylesheet);
 

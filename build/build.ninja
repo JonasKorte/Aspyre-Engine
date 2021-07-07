@@ -69,21 +69,17 @@ build cmake_object_order_depends_target_2dplugin: phony || 2dplugin_autogen
 
 build CMakeFiles/2dplugin.dir/2dplugin_autogen/mocs_compilation.cpp.o: CXX_COMPILER__2dplugin_Debug 2dplugin_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_2dplugin
   DEP_FILE = CMakeFiles/2dplugin.dir/2dplugin_autogen/mocs_compilation.cpp.o.d
-  FLAGS = -g -std=gnu++2a
+  FLAGS = -g -std=gnu++11
   INCLUDES = -I2dplugin_autogen/include -I../core -I../editor
   OBJECT_DIR = CMakeFiles/2dplugin.dir
   OBJECT_FILE_DIR = CMakeFiles/2dplugin.dir/2dplugin_autogen
-  TARGET_COMPILE_PDB = CMakeFiles/2dplugin.dir/2dplugin.pdb
-  TARGET_PDB = lib2dplugin.pdb
 
 build CMakeFiles/2dplugin.dir/core/rendering/graphics/2D/vulkan2d.cxx.o: CXX_COMPILER__2dplugin_Debug ../core/rendering/graphics/2D/vulkan2d.cxx || cmake_object_order_depends_target_2dplugin
   DEP_FILE = CMakeFiles/2dplugin.dir/core/rendering/graphics/2D/vulkan2d.cxx.o.d
-  FLAGS = -g -std=gnu++2a
+  FLAGS = -g -std=gnu++11
   INCLUDES = -I2dplugin_autogen/include -I../core -I../editor
   OBJECT_DIR = CMakeFiles/2dplugin.dir
   OBJECT_FILE_DIR = CMakeFiles/2dplugin.dir/core/rendering/graphics/2D
-  TARGET_COMPILE_PDB = CMakeFiles/2dplugin.dir/2dplugin.pdb
-  TARGET_PDB = lib2dplugin.pdb
 
 
 # =============================================================================
@@ -98,9 +94,8 @@ build lib2dplugin.a: CXX_STATIC_LIBRARY_LINKER__2dplugin_Debug CMakeFiles/2dplug
   OBJECT_DIR = CMakeFiles/2dplugin.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/2dplugin.dir/2dplugin.pdb
   TARGET_FILE = lib2dplugin.a
-  TARGET_PDB = lib2dplugin.pdb
+  TARGET_PDB = 2dplugin.a.dbg
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target 3dplugin
@@ -113,21 +108,17 @@ build cmake_object_order_depends_target_3dplugin: phony || 3dplugin_autogen
 
 build CMakeFiles/3dplugin.dir/3dplugin_autogen/mocs_compilation.cpp.o: CXX_COMPILER__3dplugin_Debug 3dplugin_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_3dplugin
   DEP_FILE = CMakeFiles/3dplugin.dir/3dplugin_autogen/mocs_compilation.cpp.o.d
-  FLAGS = -g -std=gnu++2a
+  FLAGS = -g -std=gnu++11
   INCLUDES = -I3dplugin_autogen/include -I../core -I../editor
   OBJECT_DIR = CMakeFiles/3dplugin.dir
   OBJECT_FILE_DIR = CMakeFiles/3dplugin.dir/3dplugin_autogen
-  TARGET_COMPILE_PDB = CMakeFiles/3dplugin.dir/3dplugin.pdb
-  TARGET_PDB = lib3dplugin.pdb
 
 build CMakeFiles/3dplugin.dir/core/rendering/graphics/3D/vulkan3d.cxx.o: CXX_COMPILER__3dplugin_Debug ../core/rendering/graphics/3D/vulkan3d.cxx || cmake_object_order_depends_target_3dplugin
   DEP_FILE = CMakeFiles/3dplugin.dir/core/rendering/graphics/3D/vulkan3d.cxx.o.d
-  FLAGS = -g -std=gnu++2a
+  FLAGS = -g -std=gnu++11
   INCLUDES = -I3dplugin_autogen/include -I../core -I../editor
   OBJECT_DIR = CMakeFiles/3dplugin.dir
   OBJECT_FILE_DIR = CMakeFiles/3dplugin.dir/core/rendering/graphics/3D
-  TARGET_COMPILE_PDB = CMakeFiles/3dplugin.dir/3dplugin.pdb
-  TARGET_PDB = lib3dplugin.pdb
 
 
 # =============================================================================
@@ -142,9 +133,8 @@ build lib3dplugin.a: CXX_STATIC_LIBRARY_LINKER__3dplugin_Debug CMakeFiles/3dplug
   OBJECT_DIR = CMakeFiles/3dplugin.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/3dplugin.dir/3dplugin.pdb
   TARGET_FILE = lib3dplugin.a
-  TARGET_PDB = lib3dplugin.pdb
+  TARGET_PDB = 3dplugin.a.dbg
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target ecsplugin
@@ -157,30 +147,24 @@ build cmake_object_order_depends_target_ecsplugin: phony || ecsplugin_autogen
 
 build CMakeFiles/ecsplugin.dir/ecsplugin_autogen/mocs_compilation.cpp.o: CXX_COMPILER__ecsplugin_Debug ecsplugin_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_ecsplugin
   DEP_FILE = CMakeFiles/ecsplugin.dir/ecsplugin_autogen/mocs_compilation.cpp.o.d
-  FLAGS = -g -std=gnu++2a
+  FLAGS = -g -std=gnu++11
   INCLUDES = -Iecsplugin_autogen/include -I../core -I../editor
   OBJECT_DIR = CMakeFiles/ecsplugin.dir
   OBJECT_FILE_DIR = CMakeFiles/ecsplugin.dir/ecsplugin_autogen
-  TARGET_COMPILE_PDB = CMakeFiles/ecsplugin.dir/ecsplugin.pdb
-  TARGET_PDB = libecsplugin.pdb
 
 build CMakeFiles/ecsplugin.dir/core/ecs/entity.cxx.o: CXX_COMPILER__ecsplugin_Debug ../core/ecs/entity.cxx || cmake_object_order_depends_target_ecsplugin
   DEP_FILE = CMakeFiles/ecsplugin.dir/core/ecs/entity.cxx.o.d
-  FLAGS = -g -std=gnu++2a
+  FLAGS = -g -std=gnu++11
   INCLUDES = -Iecsplugin_autogen/include -I../core -I../editor
   OBJECT_DIR = CMakeFiles/ecsplugin.dir
   OBJECT_FILE_DIR = CMakeFiles/ecsplugin.dir/core/ecs
-  TARGET_COMPILE_PDB = CMakeFiles/ecsplugin.dir/ecsplugin.pdb
-  TARGET_PDB = libecsplugin.pdb
 
 build CMakeFiles/ecsplugin.dir/core/ecs/guid.cxx.o: CXX_COMPILER__ecsplugin_Debug ../core/ecs/guid.cxx || cmake_object_order_depends_target_ecsplugin
   DEP_FILE = CMakeFiles/ecsplugin.dir/core/ecs/guid.cxx.o.d
-  FLAGS = -g -std=gnu++2a
+  FLAGS = -g -std=gnu++11
   INCLUDES = -Iecsplugin_autogen/include -I../core -I../editor
   OBJECT_DIR = CMakeFiles/ecsplugin.dir
   OBJECT_FILE_DIR = CMakeFiles/ecsplugin.dir/core/ecs
-  TARGET_COMPILE_PDB = CMakeFiles/ecsplugin.dir/ecsplugin.pdb
-  TARGET_PDB = libecsplugin.pdb
 
 
 # =============================================================================
@@ -195,9 +179,8 @@ build libecsplugin.a: CXX_STATIC_LIBRARY_LINKER__ecsplugin_Debug CMakeFiles/ecsp
   OBJECT_DIR = CMakeFiles/ecsplugin.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/ecsplugin.dir/ecsplugin.pdb
   TARGET_FILE = libecsplugin.a
-  TARGET_PDB = libecsplugin.pdb
+  TARGET_PDB = ecsplugin.a.dbg
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target graphicsplugin
@@ -211,32 +194,26 @@ build cmake_object_order_depends_target_graphicsplugin: phony || cmake_object_or
 build CMakeFiles/graphicsplugin.dir/graphicsplugin_autogen/mocs_compilation.cpp.o: CXX_COMPILER__graphicsplugin_Debug graphicsplugin_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_graphicsplugin
   DEFINES = -DQT_CORE_LIB
   DEP_FILE = CMakeFiles/graphicsplugin.dir/graphicsplugin_autogen/mocs_compilation.cpp.o.d
-  FLAGS = -g -fPIC -std=gnu++2a
+  FLAGS = -g -fPIC -std=gnu++11
   INCLUDES = -Igraphicsplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/graphicsplugin.dir
   OBJECT_FILE_DIR = CMakeFiles/graphicsplugin.dir/graphicsplugin_autogen
-  TARGET_COMPILE_PDB = CMakeFiles/graphicsplugin.dir/graphicsplugin.pdb
-  TARGET_PDB = libgraphicsplugin.pdb
 
 build CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.o: CXX_COMPILER__graphicsplugin_Debug ../core/rendering/graphics/vulkanmainrenderer.cxx || cmake_object_order_depends_target_graphicsplugin
   DEFINES = -DQT_CORE_LIB
   DEP_FILE = CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.o.d
-  FLAGS = -g -fPIC -std=gnu++2a
+  FLAGS = -g -fPIC -std=gnu++11
   INCLUDES = -Igraphicsplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/graphicsplugin.dir
   OBJECT_FILE_DIR = CMakeFiles/graphicsplugin.dir/core/rendering/graphics
-  TARGET_COMPILE_PDB = CMakeFiles/graphicsplugin.dir/graphicsplugin.pdb
-  TARGET_PDB = libgraphicsplugin.pdb
 
 build CMakeFiles/graphicsplugin.dir/core/rendering/graphics/shader.cxx.o: CXX_COMPILER__graphicsplugin_Debug ../core/rendering/graphics/shader.cxx || cmake_object_order_depends_target_graphicsplugin
   DEFINES = -DQT_CORE_LIB
   DEP_FILE = CMakeFiles/graphicsplugin.dir/core/rendering/graphics/shader.cxx.o.d
-  FLAGS = -g -fPIC -std=gnu++2a
+  FLAGS = -g -fPIC -std=gnu++11
   INCLUDES = -Igraphicsplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/graphicsplugin.dir
   OBJECT_FILE_DIR = CMakeFiles/graphicsplugin.dir/core/rendering/graphics
-  TARGET_COMPILE_PDB = CMakeFiles/graphicsplugin.dir/graphicsplugin.pdb
-  TARGET_PDB = libgraphicsplugin.pdb
 
 
 # =============================================================================
@@ -251,9 +228,8 @@ build libgraphicsplugin.a: CXX_STATIC_LIBRARY_LINKER__graphicsplugin_Debug CMake
   OBJECT_DIR = CMakeFiles/graphicsplugin.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/graphicsplugin.dir/graphicsplugin.pdb
   TARGET_FILE = libgraphicsplugin.a
-  TARGET_PDB = libgraphicsplugin.pdb
+  TARGET_PDB = graphicsplugin.a.dbg
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target editorplugin
@@ -267,22 +243,18 @@ build cmake_object_order_depends_target_editorplugin: phony || cmake_object_orde
 build CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.o: CXX_COMPILER__editorplugin_Debug editorplugin_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_editorplugin
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/editorplugin.dir/editorplugin_autogen/mocs_compilation.cpp.o.d
-  FLAGS = -g -fPIC -std=gnu++2a
+  FLAGS = -g -fPIC -std=gnu++11
   INCLUDES = -Ieditorplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets
   OBJECT_DIR = CMakeFiles/editorplugin.dir
   OBJECT_FILE_DIR = CMakeFiles/editorplugin.dir/editorplugin_autogen
-  TARGET_COMPILE_PDB = CMakeFiles/editorplugin.dir/editorplugin.pdb
-  TARGET_PDB = libeditorplugin.pdb
 
 build CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o: CXX_COMPILER__editorplugin_Debug ../editor/mainwindow.cxx || cmake_object_order_depends_target_editorplugin
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/editorplugin.dir/editor/mainwindow.cxx.o.d
-  FLAGS = -g -fPIC -std=gnu++2a
+  FLAGS = -g -fPIC -std=gnu++11
   INCLUDES = -Ieditorplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets
   OBJECT_DIR = CMakeFiles/editorplugin.dir
   OBJECT_FILE_DIR = CMakeFiles/editorplugin.dir/editor
-  TARGET_COMPILE_PDB = CMakeFiles/editorplugin.dir/editorplugin.pdb
-  TARGET_PDB = libeditorplugin.pdb
 
 
 # =============================================================================
@@ -297,9 +269,8 @@ build libeditorplugin.a: CXX_STATIC_LIBRARY_LINKER__editorplugin_Debug CMakeFile
   OBJECT_DIR = CMakeFiles/editorplugin.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/editorplugin.dir/editorplugin.pdb
   TARGET_FILE = libeditorplugin.a
-  TARGET_PDB = libeditorplugin.pdb
+  TARGET_PDB = editorplugin.a.dbg
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target sceneplugin
@@ -312,21 +283,17 @@ build cmake_object_order_depends_target_sceneplugin: phony || sceneplugin_autoge
 
 build CMakeFiles/sceneplugin.dir/sceneplugin_autogen/mocs_compilation.cpp.o: CXX_COMPILER__sceneplugin_Debug sceneplugin_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_sceneplugin
   DEP_FILE = CMakeFiles/sceneplugin.dir/sceneplugin_autogen/mocs_compilation.cpp.o.d
-  FLAGS = -g -std=gnu++2a
+  FLAGS = -g -std=gnu++11
   INCLUDES = -Isceneplugin_autogen/include -I../core -I../editor
   OBJECT_DIR = CMakeFiles/sceneplugin.dir
   OBJECT_FILE_DIR = CMakeFiles/sceneplugin.dir/sceneplugin_autogen
-  TARGET_COMPILE_PDB = CMakeFiles/sceneplugin.dir/sceneplugin.pdb
-  TARGET_PDB = libsceneplugin.pdb
 
 build CMakeFiles/sceneplugin.dir/core/scene/scene.cxx.o: CXX_COMPILER__sceneplugin_Debug ../core/scene/scene.cxx || cmake_object_order_depends_target_sceneplugin
   DEP_FILE = CMakeFiles/sceneplugin.dir/core/scene/scene.cxx.o.d
-  FLAGS = -g -std=gnu++2a
+  FLAGS = -g -std=gnu++11
   INCLUDES = -Isceneplugin_autogen/include -I../core -I../editor
   OBJECT_DIR = CMakeFiles/sceneplugin.dir
   OBJECT_FILE_DIR = CMakeFiles/sceneplugin.dir/core/scene
-  TARGET_COMPILE_PDB = CMakeFiles/sceneplugin.dir/sceneplugin.pdb
-  TARGET_PDB = libsceneplugin.pdb
 
 
 # =============================================================================
@@ -341,9 +308,8 @@ build libsceneplugin.a: CXX_STATIC_LIBRARY_LINKER__sceneplugin_Debug CMakeFiles/
   OBJECT_DIR = CMakeFiles/sceneplugin.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/sceneplugin.dir/sceneplugin.pdb
   TARGET_FILE = libsceneplugin.a
-  TARGET_PDB = libsceneplugin.pdb
+  TARGET_PDB = sceneplugin.a.dbg
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target vulkanplugin
@@ -357,42 +323,34 @@ build cmake_object_order_depends_target_vulkanplugin: phony || cmake_object_orde
 build CMakeFiles/vulkanplugin.dir/vulkanplugin_autogen/mocs_compilation.cpp.o: CXX_COMPILER__vulkanplugin_Debug vulkanplugin_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_vulkanplugin
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB
   DEP_FILE = CMakeFiles/vulkanplugin.dir/vulkanplugin_autogen/mocs_compilation.cpp.o.d
-  FLAGS = -g -fPIC -std=gnu++2a
+  FLAGS = -g -fPIC -std=gnu++11
   INCLUDES = -Ivulkanplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/vulkanplugin.dir
   OBJECT_FILE_DIR = CMakeFiles/vulkanplugin.dir/vulkanplugin_autogen
-  TARGET_COMPILE_PDB = CMakeFiles/vulkanplugin.dir/vulkanplugin.pdb
-  TARGET_PDB = libvulkanplugin.pdb
 
 build CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.o: CXX_COMPILER__vulkanplugin_Debug ../core/rendering/vulkaninstance.cxx || cmake_object_order_depends_target_vulkanplugin
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB
   DEP_FILE = CMakeFiles/vulkanplugin.dir/core/rendering/vulkaninstance.cxx.o.d
-  FLAGS = -g -fPIC -std=gnu++2a
+  FLAGS = -g -fPIC -std=gnu++11
   INCLUDES = -Ivulkanplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/vulkanplugin.dir
   OBJECT_FILE_DIR = CMakeFiles/vulkanplugin.dir/core/rendering
-  TARGET_COMPILE_PDB = CMakeFiles/vulkanplugin.dir/vulkanplugin.pdb
-  TARGET_PDB = libvulkanplugin.pdb
 
 build CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.o: CXX_COMPILER__vulkanplugin_Debug ../core/rendering/vulkanwindow.cxx || cmake_object_order_depends_target_vulkanplugin
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB
   DEP_FILE = CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindow.cxx.o.d
-  FLAGS = -g -fPIC -std=gnu++2a
+  FLAGS = -g -fPIC -std=gnu++11
   INCLUDES = -Ivulkanplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/vulkanplugin.dir
   OBJECT_FILE_DIR = CMakeFiles/vulkanplugin.dir/core/rendering
-  TARGET_COMPILE_PDB = CMakeFiles/vulkanplugin.dir/vulkanplugin.pdb
-  TARGET_PDB = libvulkanplugin.pdb
 
 build CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.o: CXX_COMPILER__vulkanplugin_Debug ../core/rendering/vulkanwindowrenderer.cxx || cmake_object_order_depends_target_vulkanplugin
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB
   DEP_FILE = CMakeFiles/vulkanplugin.dir/core/rendering/vulkanwindowrenderer.cxx.o.d
-  FLAGS = -g -fPIC -std=gnu++2a
+  FLAGS = -g -fPIC -std=gnu++11
   INCLUDES = -Ivulkanplugin_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++
   OBJECT_DIR = CMakeFiles/vulkanplugin.dir
   OBJECT_FILE_DIR = CMakeFiles/vulkanplugin.dir/core/rendering
-  TARGET_COMPILE_PDB = CMakeFiles/vulkanplugin.dir/vulkanplugin.pdb
-  TARGET_PDB = libvulkanplugin.pdb
 
 
 # =============================================================================
@@ -407,9 +365,8 @@ build libvulkanplugin.a: CXX_STATIC_LIBRARY_LINKER__vulkanplugin_Debug CMakeFile
   OBJECT_DIR = CMakeFiles/vulkanplugin.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/vulkanplugin.dir/vulkanplugin.pdb
   TARGET_FILE = libvulkanplugin.a
-  TARGET_PDB = libvulkanplugin.pdb
+  TARGET_PDB = vulkanplugin.a.dbg
 
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target coreplugin
@@ -422,12 +379,10 @@ build cmake_object_order_depends_target_coreplugin: phony || coreplugin_autogen
 
 build CMakeFiles/coreplugin.dir/coreplugin_autogen/mocs_compilation.cpp.o: CXX_COMPILER__coreplugin_Debug coreplugin_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_coreplugin
   DEP_FILE = CMakeFiles/coreplugin.dir/coreplugin_autogen/mocs_compilation.cpp.o.d
-  FLAGS = -g -std=gnu++2a
+  FLAGS = -g -std=gnu++11
   INCLUDES = -Icoreplugin_autogen/include -I../core -I../editor
   OBJECT_DIR = CMakeFiles/coreplugin.dir
   OBJECT_FILE_DIR = CMakeFiles/coreplugin.dir/coreplugin_autogen
-  TARGET_COMPILE_PDB = CMakeFiles/coreplugin.dir/coreplugin.pdb
-  TARGET_PDB = libcoreplugin.pdb
 
 
 # =============================================================================
@@ -442,9 +397,8 @@ build libcoreplugin.a: CXX_STATIC_LIBRARY_LINKER__coreplugin_Debug CMakeFiles/co
   OBJECT_DIR = CMakeFiles/coreplugin.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/coreplugin.dir/coreplugin.pdb
   TARGET_FILE = libcoreplugin.a
-  TARGET_PDB = libcoreplugin.pdb
+  TARGET_PDB = coreplugin.a.dbg
 
 
 #############################################
@@ -481,22 +435,18 @@ build cmake_object_order_depends_target_aspyre: phony || aspyre_autogen cmake_ob
 build CMakeFiles/aspyre.dir/aspyre_autogen/mocs_compilation.cpp.o: CXX_COMPILER__aspyre_Debug aspyre_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_aspyre
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/aspyre.dir/aspyre_autogen/mocs_compilation.cpp.o.d
-  FLAGS = -g -fPIC -std=gnu++2a
+  FLAGS = -g -fPIC -std=gnu++11
   INCLUDES = -Iaspyre_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets
   OBJECT_DIR = CMakeFiles/aspyre.dir
   OBJECT_FILE_DIR = CMakeFiles/aspyre.dir/aspyre_autogen
-  TARGET_COMPILE_PDB = CMakeFiles/aspyre.dir/
-  TARGET_PDB = aspyre.pdb
 
 build CMakeFiles/aspyre.dir/main/main.cxx.o: CXX_COMPILER__aspyre_Debug ../main/main.cxx || cmake_object_order_depends_target_aspyre
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/aspyre.dir/main/main.cxx.o.d
-  FLAGS = -g -fPIC -std=gnu++2a
+  FLAGS = -g -fPIC -std=gnu++11
   INCLUDES = -Iaspyre_autogen/include -I../core -I../editor -isystem /home/jonas/Qt/5.12.11/gcc_64/include -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtGui -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtCore -isystem /home/jonas/Qt/5.12.11/gcc_64/./mkspecs/linux-g++ -isystem /home/jonas/Qt/5.12.11/gcc_64/include/QtWidgets
   OBJECT_DIR = CMakeFiles/aspyre.dir
   OBJECT_FILE_DIR = CMakeFiles/aspyre.dir/main
-  TARGET_COMPILE_PDB = CMakeFiles/aspyre.dir/
-  TARGET_PDB = aspyre.pdb
 
 
 # =============================================================================
@@ -512,9 +462,8 @@ build aspyre: CXX_EXECUTABLE_LINKER__aspyre_Debug CMakeFiles/aspyre.dir/aspyre_a
   OBJECT_DIR = CMakeFiles/aspyre.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/aspyre.dir/
   TARGET_FILE = aspyre
-  TARGET_PDB = aspyre.pdb
+  TARGET_PDB = aspyre.dbg
 
 
 #############################################
@@ -705,14 +654,14 @@ build all: phony lib2dplugin.a lib3dplugin.a libecsplugin.a libgraphicsplugin.a 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5Config.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake /usr/share/cmake-3.18/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake-3.18/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.18/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /usr/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.18/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake-3.18/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake-3.18/Modules/CMakeDetermineCompileFeatures.cmake /usr/share/cmake-3.18/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake-3.18/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake-3.18/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake-3.18/Modules/CMakeDetermineSystem.cmake /usr/share/cmake-3.18/Modules/CMakeFindBinUtils.cmake /usr/share/cmake-3.18/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.18/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake-3.18/Modules/CMakeParseArguments.cmake /usr/share/cmake-3.18/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake-3.18/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.18/Modules/CMakeSystem.cmake.in /usr/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.18/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake-3.18/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake-3.18/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.18/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake-3.18/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.18/Modules/Compiler/GNU-FindBinUtils.cmake /usr/share/cmake-3.18/Modules/Compiler/GNU.cmake /usr/share/cmake-3.18/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake-3.18/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.18/Modules/FindPackageMessage.cmake /usr/share/cmake-3.18/Modules/FindVulkan.cmake /usr/share/cmake-3.18/Modules/Internal/CMakeCheckCompilerFlag.cmake /usr/share/cmake-3.18/Modules/Internal/FeatureTesting.cmake /usr/share/cmake-3.18/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake-3.18/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.18/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.18/Modules/Platform/Linux.cmake /usr/share/cmake-3.18/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.18.4/CMakeCXXCompiler.cmake CMakeFiles/3.18.4/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5Config.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake /usr/share/cmake-3.18/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.18/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /usr/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.18/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.18/Modules/CMakeParseArguments.cmake /usr/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.18/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.18/Modules/Compiler/GNU.cmake /usr/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.18/Modules/FindPackageMessage.cmake /usr/share/cmake-3.18/Modules/FindVulkan.cmake /usr/share/cmake-3.18/Modules/Internal/CMakeCheckCompilerFlag.cmake /usr/share/cmake-3.18/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.18/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.18/Modules/Platform/Linux.cmake /usr/share/cmake-3.18/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.18.4/CMakeCXXCompiler.cmake CMakeFiles/3.18.4/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5Config.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake /usr/share/cmake-3.18/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake-3.18/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake-3.18/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.18/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /usr/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.18/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake-3.18/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake-3.18/Modules/CMakeDetermineCompileFeatures.cmake /usr/share/cmake-3.18/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake-3.18/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake-3.18/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake-3.18/Modules/CMakeDetermineSystem.cmake /usr/share/cmake-3.18/Modules/CMakeFindBinUtils.cmake /usr/share/cmake-3.18/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.18/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake-3.18/Modules/CMakeParseArguments.cmake /usr/share/cmake-3.18/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake-3.18/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake-3.18/Modules/CMakeSystem.cmake.in /usr/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.18/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake-3.18/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake-3.18/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.18/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake-3.18/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.18/Modules/Compiler/GNU-FindBinUtils.cmake /usr/share/cmake-3.18/Modules/Compiler/GNU.cmake /usr/share/cmake-3.18/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake-3.18/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.18/Modules/FindPackageMessage.cmake /usr/share/cmake-3.18/Modules/FindVulkan.cmake /usr/share/cmake-3.18/Modules/Internal/CMakeCheckCompilerFlag.cmake /usr/share/cmake-3.18/Modules/Internal/FeatureTesting.cmake /usr/share/cmake-3.18/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake-3.18/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.18/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.18/Modules/Platform/Linux.cmake /usr/share/cmake-3.18/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.18.4/CMakeCXXCompiler.cmake CMakeFiles/3.18.4/CMakeSystem.cmake: phony
+build ../CMakeLists.txt /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5Config.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake /home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake /usr/share/cmake-3.18/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.18/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /usr/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.18/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.18/Modules/CMakeParseArguments.cmake /usr/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.18/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.18/Modules/Compiler/GNU.cmake /usr/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake-3.18/Modules/FindPackageMessage.cmake /usr/share/cmake-3.18/Modules/FindVulkan.cmake /usr/share/cmake-3.18/Modules/Internal/CMakeCheckCompilerFlag.cmake /usr/share/cmake-3.18/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.18/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.18/Modules/Platform/Linux.cmake /usr/share/cmake-3.18/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.18.4/CMakeCXXCompiler.cmake CMakeFiles/3.18.4/CMakeSystem.cmake: phony
 
 
 #############################################
