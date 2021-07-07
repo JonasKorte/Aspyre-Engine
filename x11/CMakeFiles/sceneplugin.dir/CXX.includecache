@@ -6,3 +6,15 @@
 
 #IncludeRegexTransform: 
 
+../core/scene/scene.hxx
+types.hxx
+-
+
+../core/types.hxx
+vector
+-
+
+/home/jonas/Aspyre-Engine/core/scene/scene.cxx
+scene/scene.hxx
+-
+

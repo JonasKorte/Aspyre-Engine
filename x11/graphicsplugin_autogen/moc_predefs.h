@@ -50,6 +50,7 @@
 #define __SHRT_MAX__ 0x7fff
 #define __LDBL_MAX__ 1.18973149535723176502126385303097021e+4932L
 #define __FLT64X_MAX_10_EXP__ 4932
+#define QT_NO_DEBUG 1
 #define __FLT64X_HAS_QUIET_NAN__ 1
 #define __UINT_LEAST8_MAX__ 0xff
 #define __GCC_ATOMIC_BOOL_LOCK_FREE 2
@@ -295,6 +296,7 @@
 #define __ORDER_BIG_ENDIAN__ 4321
 #define __DBL_MANT_DIG__ 53
 #define __cpp_inheriting_constructors 201511L
+#define QT_CORE_LIB 1
 #define __SIZEOF_FLOAT128__ 16
 #define __INT_LEAST64_MAX__ 0x7fffffffffffffffL
 #define __DEC64_MIN__ 1E-383DD

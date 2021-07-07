@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jonas/Aspyre-Engine/x11/ecsplugin_autogen/include -I/home/jonas/Aspyre-Engine/core -I/home/jonas/Aspyre-Engine/editor -I/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src
+CXX_INCLUDES = -I/home/jonas/Aspyre-Engine/x11/ecsplugin_autogen/include -I/home/jonas/Aspyre-Engine/core -I/home/jonas/Aspyre-Engine/editor
 
 CXX_FLAGS = -std=gnu++2a
 

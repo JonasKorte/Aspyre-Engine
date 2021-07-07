@@ -102,19 +102,34 @@ CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonas/Aspyre-Engine/core/rendering/graphics/vulkanmainrenderer.cxx -o CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.s
 
+CMakeFiles/graphicsplugin.dir/core/rendering/graphics/shader.cxx.o: CMakeFiles/graphicsplugin.dir/flags.make
+CMakeFiles/graphicsplugin.dir/core/rendering/graphics/shader.cxx.o: ../core/rendering/graphics/shader.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/graphicsplugin.dir/core/rendering/graphics/shader.cxx.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphicsplugin.dir/core/rendering/graphics/shader.cxx.o -c /home/jonas/Aspyre-Engine/core/rendering/graphics/shader.cxx
+
+CMakeFiles/graphicsplugin.dir/core/rendering/graphics/shader.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphicsplugin.dir/core/rendering/graphics/shader.cxx.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonas/Aspyre-Engine/core/rendering/graphics/shader.cxx > CMakeFiles/graphicsplugin.dir/core/rendering/graphics/shader.cxx.i
+
+CMakeFiles/graphicsplugin.dir/core/rendering/graphics/shader.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphicsplugin.dir/core/rendering/graphics/shader.cxx.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonas/Aspyre-Engine/core/rendering/graphics/shader.cxx -o CMakeFiles/graphicsplugin.dir/core/rendering/graphics/shader.cxx.s
+
 # Object files for target graphicsplugin
 graphicsplugin_OBJECTS = \
 "CMakeFiles/graphicsplugin.dir/graphicsplugin_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.o"
+"CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.o" \
+"CMakeFiles/graphicsplugin.dir/core/rendering/graphics/shader.cxx.o"
 
 # External object files for target graphicsplugin
 graphicsplugin_EXTERNAL_OBJECTS =
 
 libgraphicsplugin.a: CMakeFiles/graphicsplugin.dir/graphicsplugin_autogen/mocs_compilation.cpp.o
 libgraphicsplugin.a: CMakeFiles/graphicsplugin.dir/core/rendering/graphics/vulkanmainrenderer.cxx.o
+libgraphicsplugin.a: CMakeFiles/graphicsplugin.dir/core/rendering/graphics/shader.cxx.o
 libgraphicsplugin.a: CMakeFiles/graphicsplugin.dir/build.make
 libgraphicsplugin.a: CMakeFiles/graphicsplugin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libgraphicsplugin.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jonas/Aspyre-Engine/x11/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libgraphicsplugin.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/graphicsplugin.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/graphicsplugin.dir/link.txt --verbose=$(VERBOSE)
 

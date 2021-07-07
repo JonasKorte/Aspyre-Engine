@@ -16,16 +16,16 @@ AVoid VulkanMainRenderer::draw()
 {
     if (this->m_rendererType == VKR_3D)
     {
-        this->m_renderer3D->draw();
+        this->m_renderer3D->Draw();
     }
     else if (this->m_rendererType == VKR_2D)
     {
-        this->m_renderer2D->draw();
+        this->m_renderer2D->Draw();
     }
     else if (this->m_rendererType == VKR_HYBRID)
     {
-        this->m_renderer3D->draw();
-        this->m_renderer2D->draw();
+        this->m_renderer3D->Draw();
+        this->m_renderer2D->Draw();
     }
 }
 

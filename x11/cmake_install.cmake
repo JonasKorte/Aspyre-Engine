@@ -42,11 +42,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/jonas/Aspyre-Engine/x11/external/Qt-Advanced-Docking-System/cmake_install.cmake")
-endif()
-
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/aspyre" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/aspyre")
@@ -67,7 +62,7 @@ file(INSTALL DESTINATION "/home/jonas/Aspyre-Engine/release/bin/x11" TYPE EXECUT
      NOT IS_SYMLINK "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/aspyre")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/aspyre"
-         OLD_RPATH "/home/jonas/Aspyre-Engine/x11/x64/lib:/home/jonas/Qt/5.12.11/gcc_64/lib:"
+         OLD_RPATH "/home/jonas/Qt/5.12.11/gcc_64/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/jonas/Aspyre-Engine/release/bin/x11/aspyre")

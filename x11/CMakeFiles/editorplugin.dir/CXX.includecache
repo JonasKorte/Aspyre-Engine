@@ -61,6 +61,32 @@ QVulkanWindow
 -
 
 ../core/types.hxx
+vector
+-
+
+../editor/mainwindow.hxx
+logging/log.hxx
+-
+types.hxx
+-
+rendering/vulkaninstance.hxx
+-
+rendering/vulkanwindow.hxx
+-
+rendering/graphics/vulkanmainrenderer.hxx
+-
+QWidget
+-
+QApplication
+-
+QVBoxLayout
+-
+QTabWidget
+-
+
+/home/jonas/Aspyre-Engine/editor/mainwindow.cxx
+mainwindow.hxx
+-
 
 /home/jonas/Aspyre-Engine/editor/mainwindow.hxx
 logging/log.hxx

@@ -14,7 +14,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "3dplugin_autogen/include"
   "../core"
   "../editor"
-  "../external/Qt-Advanced-Docking-System/src"
   )
 
 # Targets to which this target links.

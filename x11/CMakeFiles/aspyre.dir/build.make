@@ -121,13 +121,11 @@ aspyre: lib3dplugin.a
 aspyre: libecsplugin.a
 aspyre: libsceneplugin.a
 aspyre: libcoreplugin.a
+aspyre: /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Widgets.so.5.12.11
 aspyre: libvulkanplugin.a
 aspyre: libecsplugin.a
 aspyre: libsceneplugin.a
 aspyre: libcoreplugin.a
-aspyre: x64/lib/libqtadvanceddocking.so.3.7.1
-aspyre: /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Widgets.so.5.12.11
-aspyre: /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5X11Extras.so.5.12.11
 aspyre: /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Gui.so.5.12.11
 aspyre: /home/jonas/Qt/5.12.11/gcc_64/lib/libQt5Core.so.5.12.11
 aspyre: CMakeFiles/aspyre.dir/link.txt

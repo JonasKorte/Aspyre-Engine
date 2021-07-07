@@ -6,3 +6,25 @@
 
 #IncludeRegexTransform: 
 
+../core/ecs/entity.hxx
+types.hxx
+-
+ecs/guid.hxx
+-
+
+../core/ecs/guid.hxx
+types.hxx
+-
+
+../core/types.hxx
+vector
+-
+
+/home/jonas/Aspyre-Engine/core/ecs/entity.cxx
+ecs/entity.hxx
+-
+
+/home/jonas/Aspyre-Engine/core/ecs/guid.cxx
+ecs/guid.hxx
+-
+

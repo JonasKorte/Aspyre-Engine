@@ -6,3 +6,21 @@
 
 #IncludeRegexTransform: 
 
+../core/logging/log.hxx
+iostream
+-
+
+../core/rendering/graphics/2D/vulkan2d.hxx
+logging/log.hxx
+-
+types.hxx
+-
+
+../core/types.hxx
+vector
+-
+
+/home/jonas/Aspyre-Engine/core/rendering/graphics/2D/vulkan2d.cxx
+rendering/graphics/2D/vulkan2d.hxx
+-
+

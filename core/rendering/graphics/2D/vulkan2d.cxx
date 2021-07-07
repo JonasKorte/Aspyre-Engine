@@ -10,7 +10,7 @@ Vulkan2D::~Vulkan2D()
 
 }
 
-AVoid Vulkan2D::draw()
+AVoid Vulkan2D::Draw()
 {
     
 }

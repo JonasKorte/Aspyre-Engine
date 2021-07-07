@@ -22,7 +22,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "aspyre_autogen/include"
   "../core"
   "../editor"
-  "../external/Qt-Advanced-Docking-System/src"
   "/home/jonas/Qt/5.12.11/gcc_64/include"
   "/home/jonas/Qt/5.12.11/gcc_64/include/QtGui"
   "/home/jonas/Qt/5.12.11/gcc_64/include/QtCore"
@@ -40,7 +39,6 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/jonas/Aspyre-Engine/x11/CMakeFiles/ecsplugin.dir/DependInfo.cmake"
   "/home/jonas/Aspyre-Engine/x11/CMakeFiles/sceneplugin.dir/DependInfo.cmake"
   "/home/jonas/Aspyre-Engine/x11/CMakeFiles/coreplugin.dir/DependInfo.cmake"
-  "/home/jonas/Aspyre-Engine/x11/external/Qt-Advanced-Docking-System/src/CMakeFiles/qtadvanceddocking.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

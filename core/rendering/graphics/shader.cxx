@@ -11,9 +11,10 @@ Shader::~Shader()
     vkDestroyShaderModule(this->m_device, this->m_module, nullptr);
 }
 
-Shader *Shader::load(AString fileName, VkDevice device)
+Shader *Shader::Load(AString fileName, VkDevice device)
 {
-    std::ifstream file(fileName, std::ios::ate || std::ios::binary);
+    std::ifstream file;
+    file.open(fileName, std::ios::ate | std::ios::binary);
 
     if (!file.is_open())
     {

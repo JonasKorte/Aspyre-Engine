@@ -12,7 +12,7 @@ public:
     Shader(AByteArray data, VkDevice device);
     ~Shader();
 
-    static Shader *load(AString path, VkDevice device);
+    static Shader *Load(AString path, VkDevice device);
 
 private:
     AByteArray m_data;

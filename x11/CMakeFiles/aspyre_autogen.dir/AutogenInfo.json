@@ -81,7 +81,15 @@
 		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
 		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
 		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
-		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake"
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/share/cmake-3.18/Modules/FindVulkan.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPackageMessage.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/jonas/Aspyre-Engine",
 	"DEP_FILE" : "",
@@ -102,7 +110,6 @@
 	[
 		"/home/jonas/Aspyre-Engine/core",
 		"/home/jonas/Aspyre-Engine/editor",
-		"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src",
 		"/home/jonas/Qt/5.12.11/gcc_64/include",
 		"/home/jonas/Qt/5.12.11/gcc_64/include/QtGui",
 		"/home/jonas/Qt/5.12.11/gcc_64/include/QtCore",

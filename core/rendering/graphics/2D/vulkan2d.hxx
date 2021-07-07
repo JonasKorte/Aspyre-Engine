@@ -9,5 +9,5 @@ public:
     Vulkan2D();
     ~Vulkan2D();
 
-    AVoid draw();
+    AVoid Draw();
 };

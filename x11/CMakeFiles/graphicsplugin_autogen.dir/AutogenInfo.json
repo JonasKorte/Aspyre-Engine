@@ -81,13 +81,26 @@
 		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
 		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
 		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
-		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake"
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5Config.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/home/jonas/Qt/5.12.11/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/share/cmake-3.18/Modules/FindVulkan.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.18/Modules/FindPackageMessage.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/jonas/Aspyre-Engine",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
+		[
+			"/home/jonas/Aspyre-Engine/core/rendering/graphics/shader.hxx",
+			"MU",
+			"TTQD3CLYMW/moc_shader.cpp"
+		],
 		[
 			"/home/jonas/Aspyre-Engine/core/rendering/graphics/vulkanmainrenderer.hxx",
 			"MU",
@@ -97,7 +110,7 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/jonas/Aspyre-Engine/x11/graphicsplugin_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/jonas/Aspyre-Engine/x11/graphicsplugin_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [],
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_NO_DEBUG" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -109,14 +122,16 @@
 	[
 		"/home/jonas/Aspyre-Engine/core",
 		"/home/jonas/Aspyre-Engine/editor",
-		"/home/jonas/Aspyre-Engine/external/Qt-Advanced-Docking-System/src",
+		"/home/jonas/Qt/5.12.11/gcc_64/include",
+		"/home/jonas/Qt/5.12.11/gcc_64/include/QtCore",
+		"/home/jonas/Qt/5.12.11/gcc_64/mkspecs/linux-g++",
+		"/usr/include",
 		"/usr/include/c++/10",
 		"/usr/include/x86_64-linux-gnu/c++/10",
 		"/usr/include/c++/10/backward",
 		"/usr/lib/gcc/x86_64-linux-gnu/10/include",
 		"/usr/local/include",
-		"/usr/include/x86_64-linux-gnu",
-		"/usr/include"
+		"/usr/include/x86_64-linux-gnu"
 	],
 	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
 	"MOC_OPTIONS" : [],
@@ -147,6 +162,7 @@
 	"SETTINGS_FILE" : "/home/jonas/Aspyre-Engine/x11/CMakeFiles/graphicsplugin_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "/home/jonas/Aspyre-Engine/core/rendering/graphics/shader.cxx", "MU" ],
 		[
 			"/home/jonas/Aspyre-Engine/core/rendering/graphics/vulkanmainrenderer.cxx",
 			"MU"
